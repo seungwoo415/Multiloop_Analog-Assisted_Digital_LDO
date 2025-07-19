@@ -1,0 +1,117 @@
+
+simulator lang=spectre
+
+// This is a generated file.
+// Be careful when editing manually: this file may be overwritten.
+
+global 0
+
+include "/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/models/sky130.lib.spice" section=tt
+
+simulator lang=spice 
+
+.include '/home/aa/users/cs199-apt/Downloads/sky130_fd_sc_hd.spice' 
+.include 'inverter.sp'
+Xinst0 VDD 0 Vin Vin1 inverter 
+Xinst1 VDD 0 Vin1 Vin2 inverter 
+Xinst2 VDD 0 Vin2 Vin3 inverter 
+Xinst6 VDD 0 Vin3 Vin4 inverter
+Xinst7 VDD 0 Vin4 Vin5 inverter
+Xinst8 VDD 0 Vin5 Vin6 inverter 
+Xinst9 VDD 0 Vin6 Vin7 inverter 
+Xinst10 VDD 0 Vin7 Vin8 inverter 
+Xinst11 VDD 0 Vin8 Vin9 inverter
+Xinst12 VDD 0 Vin9 Vin10 inverter
+Xinst13 VDD 0 Vin10 Vin11 inverter 
+Xinst14 VDD 0 Vin11 Vin12 inverter 
+Xinst15 VDD 0 Vin12 Vin13 inverter 
+Xinst16 VDD 0 Vin13 Vin14 inverter
+Xinst17 VDD 0 Vin14 Vin15 inverter
+Xinst18 VDD 0 Vin15 Vin16 inverter 
+Xinst19 VDD 0 Vin16 Vin17 inverter 
+Xinst20 VDD 0 Vin17 Vin18 inverter 
+Xinst21 VDD 0 Vin18 Vin19 inverter
+Xinst22 VDD 0 Vin19 Vin20 inverter
+Xinst23 VDD 0 Vin20 Vin21 inverter 
+Xinst24 VDD 0 Vin21 Vin22 inverter 
+Xinst25 VDD 0 Vin22 Vin23 inverter 
+Xinst26 VDD 0 Vin23 Vin24 inverter
+Xinst27 VDD 0 Vin24 Vin25 inverter
+Xinst28 VDD 0 Vin25 Vin26 inverter 
+Xinst29 VDD 0 Vin26 Vin27 inverter 
+Xinst30 VDD 0 Vin27 Vin28 inverter 
+Xinst31 VDD 0 Vin28 Vin29 inverter
+Xinst32 VDD 0 Vin29 Vin30 inverter
+Xinst33 VDD 0 Vin30 Vin31 inverter
+Xinst34 VDD 0 Vin31 Vin32 inverter 
+Xinst35 VDD 0 Vin32 Vin33 inverter 
+Xinst36 VDD 0 Vin33 Vin34 inverter 
+Xinst37 VDD 0 Vin34 Vin35 inverter
+Xinst38 VDD 0 Vin35 Vin36 inverter
+Xinst39 VDD 0 Vin36 Vin37 inverter 
+Xinst40 VDD 0 Vin37 Vin38 inverter 
+Xinst41 VDD 0 Vin38 Vin39 inverter 
+Xinst42 VDD 0 Vin39 Vin40 inverter
+Xinst43 VDD 0 Vin40 Vin41 inverter
+Xinst44 VDD 0 Vin41 Vin42 inverter 
+Xinst45 VDD 0 Vin42 Vin43 inverter 
+Xinst46 VDD 0 Vin43 Vin44 inverter 
+Xinst47 VDD 0 Vin44 Vin45 inverter 
+Xinst48 VDD 0 Vin45 Vin46 inverter 
+Xinst49 VDD 0 Vin46 Vin47 inverter
+Xinst50 VDD 0 Vin47 Vin48 inverter
+Xinst51 VDD 0 Vin48 Vin49 inverter 
+Xinst52 VDD 0 Vin49 Vin50 inverter 
+Xinst53 VDD 0 Vin50 Vin51 inverter 
+Xinst54 VDD 0 Vin51 Vin52 inverter
+Xinst55 VDD 0 Vin52 Vin53 inverter
+Xinst56 VDD 0 Vin53 Vin54 inverter 
+Xinst57 VDD 0 Vin54 Vin55 inverter 
+Xinst58 VDD 0 Vin55 Vin56 inverter 
+Xinst59 VDD 0 Vin56 Vin57 inverter
+Xinst60 VDD 0 Vin57 Vin58 inverter
+Xinst61 VDD 0 Vin58 Vin59 inverter 
+Xinst62 VDD 0 Vin59 Vin60 inverter 
+Xinst63 VDD 0 Vin60 Vin61 inverter 
+Xinst64 VDD 0 Vin61 Vin62 inverter
+Xinst65 VDD 0 Vin62 Vin63 inverter
+Xinst66 VDD 0 Vin63 Vin64 inverter 
+Xinst67 VDD 0 Vin64 Vin65 inverter 
+Xinst68 VDD 0 Vin65 Vin66 inverter 
+Xinst69 VDD 0 Vin66 Vin67 inverter
+Xinst70 VDD 0 Vin67 Vin68 inverter
+Xinst71 VDD 0 Vin68 Vin69 inverter 
+Xinst72 VDD 0 Vin69 Vin70 inverter 
+Xinst73 VDD 0 Vin70 Vin71 inverter 
+Xinst74 VDD 0 Vin71 Vin72 inverter
+Xinst75 VDD 0 Vin72 Vin73 inverter
+Xinst76 VDD 0 Vin73 Vin74 inverter
+Xinst77 VDD 0 Vin74 Vin75 inverter 
+Xinst78 VDD 0 Vin75 Vin76 inverter 
+Xinst79 VDD 0 Vin76 Vin77 inverter 
+Xinst80 VDD 0 Vin77 Vin78 inverter
+Xinst81 VDD 0 Vin78 Vin79 inverter
+Xinst82 VDD 0 Vin79 Vin80 inverter 
+Xinst83 VDD 0 Vin80 Vin81 inverter 
+Xinst84 VDD 0 Vin81 Vin82 inverter 
+Xinst85 VDD 0 Vin82 Vin83 inverter
+Xinst86 VDD 0 Vin83 Vin84 inverter
+Xinst87 VDD 0 Vin84 Vin inverter 
+
+Xinst3 Vin Vrst 0 0 sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=0.5u
+
+simulator lang=spectre
+
+Xinst4 ( VDD 0 ) vsource dc=1.8 type=dc
+xinst5 ( Vrst 0) vsource type=pwl wave=[
++ 0u 1.8 4.9995u 1.8
++ 5u 0 7u 0
++]
+
+settemp1 options temp=25.0
+save Vin
+
+analysis_0 tran stop=20u errpreset=conservative
+saveopts options save=all
+
+simulator lang=spice

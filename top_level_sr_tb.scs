@@ -1,0 +1,63 @@
+
+simulator lang=spectre
+
+// This is a generated file.
+// Be careful when editing manually: this file may be overwritten.
+
+global 0
+
+include "/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/models/sky130.lib.spice" section=tt
+
+simulator lang=spice 
+
+.include 'top_level_sr.sp'
+
+simulator lang=spectre
+
+parameters Vcm=1.5 Vdiff=0.02 frequency=100K
+
+xinst0 ( ldotop_clk ldotop_rst comp_in vup fine_en coarse_en fine_out_15 fine_out_14 fine_out_13 fine_out_12 fine_out_11 fine_out_10 fine_out_9 fine_out_8 fine_out_7 fine_out_6 fine_out_5 fine_out_4 fine_out_3 fine_out_2 fine_out_1 fine_out_0 coarse_out_15 coarse_out_14 coarse_out_13 coarse_out_12 coarse_out_11 coarse_out_10 coarse_out_9 coarse_out_8 coarse_out_7 coarse_out_6 coarse_out_5 coarse_out_4 coarse_out_3 coarse_out_2 coarse_out_1 coarse_out_0 ldotop_vdd 0 ) top_level_sr 
+xinst1 ( ldotop_vdd 0 ) vsource dc=1.8 type=dc
+xinst2 (ldotop_clk 0) vsource type=pulse val0=0 val1=1.8 period=1u rise=100p fall=100p width=500n delay=0
+xinst3 ( ldotop_rst 0) vsource type=pwl wave=[
++ 0u 1.8 9.995u 1.8
++ 10u 0 150u 0
++]
+xinst4 ( comp_in 0) vsource type=pwl wave=[
++ 0u 1.8 39.995u 1.8
++ 40u 0 150u 0
++] 
+xinst5 ( vup 0) vsource type=pwl wave=[
++ 0u 1.8 19.995u 1.8
++ 20u 0 150u 0
++] 
+xinst6 ( fine_en 0) vsource type=pwl wave=[
++ 0u 0 19.995u 0
++ 20u 1.8 150u 1.8
++] 
+xinst7 ( coarse_en 0) vsource type=pwl wave=[
++ 0u 1.8 19.995u 1.8
++ 20u 0 150u 0
++] 
+
+settemp1 options temp=25.0
+save ldotop_vref
+save ldotop_clk
+save ldotop_rst
+save ldotop_vout
+save ldotop_vdd
+*save xinst0.xinst5
+*save xinst0.xinst7
+*save xinst12
+*save I(xinst2)
+
+
+*precharge_Vcm sweep param=Vcm start=1.3 stop=1.5 step=0.01 {
+*        analysis_0 tran stop=6u errpreset=conservative
+*}
+
+
+analysis_0 tran stop=150u errpreset=conservative
+saveopts options save=all
+
+simulator lang=spice

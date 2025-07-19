@@ -1,0 +1,5 @@
+$ Simulator: spectre (ver. 19.1.0.455.isr11)
+.title ''
+qc sa1 sa2 sa3 sa4 temper alter# 
+-5.13381e-07 failed failed failed failed 25 1 
+
