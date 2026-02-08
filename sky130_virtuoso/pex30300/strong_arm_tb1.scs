@@ -1,0 +1,62 @@
+
+simulator lang=spectre
+
+// This is a generated file.
+// Be careful when editing manually: this file may be overwritten.
+
+global 0
+
+include "/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/models/sky130.lib.spice" section=tt
+
+simulator lang=spice 
+
+.include 'as.post.sp'
+
+.SUBCKT inverter vdd vss din dout
+
+  Xinst0 dout din vss vss nfet_01v8 l=0.150u nf=1 w=1.000u
+  Xinst1 dout din vdd vdd pfet_01v8 l=0.150u nf=1 w=1.600u
+
+.ENDS inverter
+
+
+
+simulator lang=spectre
+
+parameters Vcm=1.45 Vdiff=0.02 frequency=100K
+
+xinst0 ( 0 output_p vinp vinn clk vdd output_n ) strong_arm
+xinst1 ( vinp 0 ) vsource dc=Vcm type=sine ampl=Vdiff freq=frequency
+xinst2 ( vinn 0 ) vsource dc=Vcm type=sine ampl=-Vdiff freq=frequency
+xinst3 ( vdd 0 ) vsource dc=1.8 type=dc
+xinst4 ( clk 0 ) vsource delay=0 fall=100p period=5u rise=100p type=pulse val0=1.8 val1=0 width=2.5u
+xinst5 (vdd 0 output_n output_n1 ) inverter 
+xinst6 (vdd 0 output_p output_p1 ) inverter
+
+settemp1 options temp=25.0
+save output_p
+save vinp
+save output_n
+save vinn
+save clk
+saveopts options save=allpub
+
+
+*precharge_Vcm sweep param=Vcm start=1.3 stop=1.5 step=0.01 {
+*        analysis_0 tran stop=6u errpreset=conservative
+*}
+
+
+analysis_0 tran stop=6u errpreset=conservative
+
+simulator lang=spice
+
+.meas tran maxvn max v(output_n)
+.meas tran minvn min v(output_n)
+.meas tran t1 param ='(maxvn-minvn) *0.5'
+.meas tran clock_to_qn trig v(clk) val='1.8*0.5' rise=1 targ v(output_n) val=t1  fall=1
+.meas tran maxvp max v(output_p)
+.meas tran minvp min v(output_p)
+.meas tran t2 param ='(maxvp-minvp) *0.5'
+.meas tran clock_to_qp trig v(clk) val='1.8*0.5' rise=1 targ v(output_p) val=t1  fall=1
+

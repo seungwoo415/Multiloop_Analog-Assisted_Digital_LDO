@@ -1,0 +1,20 @@
+Device_Table 1000
+0 0 1 Thu Oct 24 23:04:19 2024
+1
+Device Entry 0
+0 0 15 Thu Oct 24 23:04:19 2024
+pfet_01v8_rec
+MOS
+MP
+pfet_01v8
+(null)
+(null)
+4
+G pfet 0
+S pSourceDrain 1
+D pSourceDrain 1
+B nwell 0
+0
+2
+W
+L

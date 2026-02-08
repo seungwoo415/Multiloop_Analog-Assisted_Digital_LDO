@@ -1,0 +1,6 @@
+$ Simulator: spectre (ver. 19.1.0.455.isr11)
+.title ''
+maxvn minvn t1 clock_to_qn maxvp minvp t2 clock_to_qp temper alter# 
+1.99761 -0.00592247 1.00177 1.1183e-09 1.98887 -0.0138643 1.00137 5.00089e-06 
+25 1 
+

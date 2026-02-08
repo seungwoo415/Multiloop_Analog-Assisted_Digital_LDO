@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      cs199-apt
+HostName                       eda-3.EECS.Berkeley.EDU
+ProcessIdentifier              1698975
+ProcessCreationTime_UTC        1751005559
+ProcessCreationTime_Readable   Thu Jun 26 23:25:59 2025 PDT
+AppIdentifier                  Unknown Application
+OSType                         lnx86
+ReasonForPlacingEditLock       lock for simulation monitor log file
+FilePathUsedToEditLock         /home/aa/users/cs199-apt/cadence/sky130_virtuoso/logs_cs199-apt/logs0/Job2.log
+TimeEditLocked                 Thu Jun 26 23:25:59 2025 PDT

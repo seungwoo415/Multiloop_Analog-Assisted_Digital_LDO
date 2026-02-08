@@ -1,0 +1,6 @@
+cUiSelectCellP {pass_transistors}
+cUiSetViewStatus {pass_transistors} {layout} {1}
+cUiSetViewStatus {pass_transistors} {logical} {1}
+cUiSetViewStatus {pass_transistors} {abstract.pin} {3}
+cUiSetViewStatus {pass_transistors} {abstract.ext} {1}
+cUiSetViewStatus {pass_transistors} {abstract} {1}

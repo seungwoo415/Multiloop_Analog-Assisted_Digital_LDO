@@ -1,0 +1,21 @@
+/bin/sh: which: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `which'
+/bin/sh: module: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `module'
+/bin/sh: _module_raw: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `_module_raw'
+/bin/sh: switchml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `switchml'
+/bin/sh: scl: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `scl'
+/bin/sh: ml: line 1: syntax error: unexpected end of file
+/bin/sh: error importing function definition for `ml'
+Pegasus:   ERROR: Unrecognized platform.
+Pegasus:          Make sure that your current host architecture and OS are
+Pegasus:          supported by Cadence for the application: Pegasus.
+Pegasus:          If you contact your Cadence representative, please provide the
+Pegasus:          following information:
+Pegasus:              - cds_plat returned:
+Pegasus:                  /bin/sh: which: line 1: syntax error: unexpected end of file /bin/sh: error importing function definition for `which' /bin/sh: module: line 1: syntax error: unexpected end of file /bin/sh: error importing function definition for `module' /bin/sh: _module_raw: line 1: syntax error: unexpected end of file /bin/sh: error importing function definition for `_module_raw' /bin/sh: switchml: line 1: syntax error: unexpected end of file /bin/sh: error importing function definition for `switchml' /bin/sh: scl: line 1: syntax error: unexpected end of file /bin/sh: error importing function definition for `scl' /bin/sh: ml: line 1: syntax error: unexpected end of file /bin/sh: error importing function definition for `ml' lnx86
+Pegasus:              - on platform: Linux eda-2.EECS.Berkeley.EDU 4.18.0-513.11.1.el8_9.x86_64 #1 SMP Thu Dec 7 03:06:13 EST 2023 x86_64 x86_64 x86_64 GNU/Linux
+

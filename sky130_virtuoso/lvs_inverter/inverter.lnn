@@ -1,0 +1,13 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary inverter
+% L1M1_C_CDNS_736670542250 1
+% M1M2_C_CDNS_736670542251 1
+% nfet_01v8_CDNS_730310354533 3
+% pfet_01v8_CDNS_730310354534 3
+% nwellTap_CDNS_730310354531 1
+% subTap_CDNS_730310354532 1
+% inverter 4
+1 VSS
+2 VDD
+3 dout
+4 din

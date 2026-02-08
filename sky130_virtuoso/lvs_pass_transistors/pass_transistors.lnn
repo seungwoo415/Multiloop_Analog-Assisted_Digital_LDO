@@ -1,0 +1,44 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary pass_transistors
+% polyConn_CDNS_729836244780 1
+% M1M2_C_CDNS_729836244780 1
+% L1M1_C_CDNS_729836244781 1
+% nwellTap_CDNS_729836244781 1
+% nwellTap_CDNS_729836244782 1
+% pfet_01v8_CDNS_729836244783 3
+% MASCO__A1 4
+% pass_transistors 34
+1 Vg_16
+2 Vg_0
+3 Vg_17
+4 Vg_1
+5 Vg_18
+6 Vg_2
+7 Vg_19
+8 Vg_3
+9 Vg_20
+10 Vg_4
+11 Vg_21
+12 Vg_5
+13 Vg_22
+14 Vg_6
+15 Vg_23
+16 Vg_7
+17 Vg_24
+18 Vg_8
+19 Vg_25
+20 Vg_9
+21 Vg_26
+22 Vg_10
+23 Vg_27
+24 Vg_11
+25 Vg_28
+26 Vg_12
+27 Vg_29
+28 Vg_13
+29 Vg_30
+30 Vg_14
+31 Vg_31
+32 Vg_15
+33 VDD
+34 Vout

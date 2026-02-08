@@ -1,0 +1,6 @@
+cUiSelectCellP {nwellTap_CDNS_730310354531}
+cUiSetViewStatus {nwellTap_CDNS_730310354531} {layout} {1}
+cUiSetViewStatus {nwellTap_CDNS_730310354531} {logical} {0}
+cUiSetViewStatus {nwellTap_CDNS_730310354531} {abstract.pin} {3}
+cUiSetViewStatus {nwellTap_CDNS_730310354531} {abstract.ext} {0}
+cUiSetViewStatus {nwellTap_CDNS_730310354531} {abstract} {0}

@@ -1,0 +1,24 @@
+Gds_Map 1000
+Layers:
+0 0 19 Aug  6 22:12:41 2024
+nfet 1 0
+hv_source_drain 2 0
+pfet 4 0
+poly 9 0
+ntap 11 0
+ptap 14 0
+pSourceDrain 15 0
+met2 16 0
+met1 17 0
+nSourceDrain 18 0
+isolated_tap 19 0
+li1 20 0
+nwell 22 0
+licon1 23 0
+mcon 25 0
+via 26 0
+pwell 30 0
+nfet_01v8_rec 31 0
+pfet_01v8_rec 33 0
+END OF RESPONSE
+0 0 0 Aug  6 22:12:41 2024

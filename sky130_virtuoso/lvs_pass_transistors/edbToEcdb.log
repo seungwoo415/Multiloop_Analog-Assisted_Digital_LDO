@@ -1,0 +1,17 @@
+
+/share/instsww/cadence/PEGASUS.22.14.000/tools.lnx86/Pegasus/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : pass_transistors_1851851.db
+ECDB dir        : ./
+Top Cell        : pass_transistors
+CDL netlist     : ./pass_transistors.net
+Layer map file  : ./pass_transistors.ecdbmap
+Text map file   : ./pass_transistors.ports
+Dependency map  : pass_transistors.lmap.perc
+Lvs file        : ./pass_transistors.lvsfile
+Float net file  : .pass_transistors.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : pass_transistors_1851851

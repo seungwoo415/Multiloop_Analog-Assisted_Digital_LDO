@@ -1,0 +1,39 @@
+Exported variables from results directory:  ./netlist.raw/
+
+date               :  3:55:23 PM, Wed Jul 17, 2024
+design             :  // Substrate Spectre library
+simulator          :  spectre
+version            :  19.1.0.455.isr11
+
+
+Swept Measurements :
+Measurement Name   :  transient1-meas_foreach
+Analysis Type      :  tran
+clocktoq           Vcm        @ 0.35         =  NaN     
+clocktoq           Vcm        @ 0.4          =  NaN     
+clocktoq           Vcm        @ 0.45         =  NaN     
+clocktoq           Vcm        @ 0.5          =  NaN     
+clocktoq           Vcm        @ 0.55         =  NaN     
+clocktoq           Vcm        @ 0.6          =  NaN     
+clocktoq           Vcm        @ 0.65         =  NaN     
+clocktoq           Vcm        @ 0.7          =  NaN     
+clocktoq           Vcm        @ 0.75         =  NaN     
+clocktoq           Vcm        @ 0.8          =  NaN     
+maxv               Vcm        @ 0.35         =  0.102703     
+maxv               Vcm        @ 0.4          =  0.0956447     
+maxv               Vcm        @ 0.45         =  0.0879499     
+maxv               Vcm        @ 0.5          =  0.0798479     
+maxv               Vcm        @ 0.55         =  0.071583     
+maxv               Vcm        @ 0.6          =  0.0633356     
+maxv               Vcm        @ 0.65         =  0.0552325     
+maxv               Vcm        @ 0.7          =  0.0473753     
+maxv               Vcm        @ 0.75         =  0.0398555     
+maxv               Vcm        @ 0.8          =  0.0327616     
+
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+cUiSetViewStatus {nmos_tile_w1000_l150_nf2} {layout} {1}
+cUiSetViewStatus {nmos_tile_w1000_l150_nf2} {logical} {0}
+cUiSetViewStatus {nmos_tile_w1000_l150_nf2} {abstract.pin} {0}
+cUiSetViewStatus {nmos_tile_w1000_l150_nf2} {abstract.ext} {0}
+cUiSetViewStatus {nmos_tile_w1000_l150_nf2} {abstract} {0}

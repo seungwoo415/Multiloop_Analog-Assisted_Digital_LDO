@@ -1,0 +1,38 @@
+# Placement Hierarchy File (sph)
+# 
+# 
+# 
+% pmos_tile_w420_l150_nf2 5
+Minst0 MP 4
+Minst1 MP 4
+% pmos_tile_w10500_l150_nf2 5
+Minst0 MP 4
+Minst1 MP 4
+% nmos_tile_w1000_l150_nf2 5
+Minst0 MN 4
+Minst1 MN 4
+% nmos_tile_w6500_l150_nf2 5
+Minst0 MN 4
+Minst1 MN 4
+% strong_arm_half 10
+Xinst0 nmos_tile_w6500_l150_nf2 5
+Xinst1 nmos_tile_w6500_l150_nf2 5
+Xinst2 nmos_tile_w6500_l150_nf2 5
+Xinst3 nmos_tile_w1000_l150_nf2 5
+Xinst4 nmos_tile_w1000_l150_nf2 5
+Xinst5 nmos_tile_w1000_l150_nf2 5
+Xinst6 nmos_tile_w1000_l150_nf2 5
+Xinst7 nmos_tile_w1000_l150_nf2 5
+Xinst8 nmos_tile_w1000_l150_nf2 5
+Xinst9 pmos_tile_w10500_l150_nf2 5
+Xinst10 pmos_tile_w10500_l150_nf2 5
+Xinst11 pmos_tile_w10500_l150_nf2 5
+Xinst12 pmos_tile_w420_l150_nf2 5
+Xinst13 pmos_tile_w420_l150_nf2 5
+Xinst14 pmos_tile_w420_l150_nf2 5
+Xinst15 pmos_tile_w420_l150_nf2 5
+Xinst16 pmos_tile_w420_l150_nf2 5
+Xinst17 pmos_tile_w420_l150_nf2 5
+% strong_arm 7
+Xinst0 strong_arm_half 10
+Xinst1 strong_arm_half 10

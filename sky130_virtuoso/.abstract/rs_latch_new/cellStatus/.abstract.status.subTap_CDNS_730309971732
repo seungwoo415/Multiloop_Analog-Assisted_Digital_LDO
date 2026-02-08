@@ -1,0 +1,5 @@
+cUiSetViewStatus {subTap_CDNS_730309971732} {layout} {1}
+cUiSetViewStatus {subTap_CDNS_730309971732} {logical} {0}
+cUiSetViewStatus {subTap_CDNS_730309971732} {abstract.pin} {0}
+cUiSetViewStatus {subTap_CDNS_730309971732} {abstract.ext} {0}
+cUiSetViewStatus {subTap_CDNS_730309971732} {abstract} {0}

@@ -1,0 +1,28 @@
+DEFINE sky130_fd_pr_main /home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/libs/sky130_fd_pr_main
+#Removed by ddDeleteObj: DEFINE sky130_fd_sc_hd /scratch/eecs251b/chipyard/vlsi/lab4/virtuoso/sky130_fd_sc_hd
+DEFINE sky130_fd_sc_hd /scratch/eecs251b/chipyard/vlsi/lab4/virtuoso/sky130_fd_sc_hd
+DEFINE sky130_fd_sc_hd /home/ff/eecs251b/sky130_virtuoso/sky130_fd_sc_hd
+DEFINE custom_lib /home/ff/eecs251b/sky130_virtuoso/custom_lib
+DEFINE dis_lib /home/ff/eecs251b/sky130_virtuoso/dis_lib
+DEFINE avTech /share/instsww/cadence/ASSURA41-618/tools.lnx86/assura/etc/avtech/avTech
+#Removed by ddDeleteObj: DEFINE strongarm /home/aa/users/cs199-apt/cadence/sky130_virtuoso/strongarm
+#Removed by ddDeleteObj: DEFINE strongarm1 /home/aa/users/cs199-apt/cadence/sky130_virtuoso/strongarm1
+#Removed by ddDeleteObj: DEFINE 360tail /home/aa/users/cs199-apt/cadence/sky130_virtuoso/360tail
+DEFINE 360tail /home/aa/users/cs199-apt/cadence/sky130_virtuoso/360tail
+#Removed by ddDeleteObj: DEFINE rs_latch /home/aa/users/cs199-apt/cadence/sky130_virtuoso/rs_latch
+DEFINE rs_latch /home/aa/users/cs199-apt/cadence/sky130_virtuoso/rs_latch
+DEFINE tutorial_layout /home/aa/users/cs199-apt/cadence/sky130_virtuoso/tutorial_layout
+DEFINE digital_ldo_core /home/aa/users/cs199-apt/cadence/sky130_virtuoso/digital_ldo_core
+#Removed by ddDeleteObj: DEFINE strong_arm /home/aa/users/cs199-apt/cadence/sky130_virtuoso/strong_arm
+DEFINE pass_transistors /home/aa/users/cs199-apt/cadence/sky130_virtuoso/pass_transistors
+DEFINE rs_latch_new /home/aa/users/cs199-apt/cadence/sky130_virtuoso/rs_latch_new
+DEFINE inverter /home/aa/users/cs199-apt/cadence/sky130_virtuoso/inverter
+DEFINE strong_arm /home/aa/users/cs199-apt/cadence/sky130_virtuoso/strong_arm
+DEFINE DigitalLDOLogic /home/aa/users/cs199-apt/cadence/sky130_virtuoso/DigitalLDOLogic
+DEFINE DigitalLDOLogic /home/aa/users/cs199-apt/cadence/sky130_virtuoso/DigitalLDOLogic
+DEFINE strong_arm2 /home/aa/users/cs199-apt/cadence/sky130_virtuoso/strong_arm2
+DEFINE digitallogic /home/aa/users/cs199-apt/cadence/sky130_virtuoso/digitallogic
+DEFINE design /home/aa/users/cs199-apt/cadence/sky130_virtuoso/design
+DEFINE ADC /home/aa/users/cs199-apt/cadence/sky130_virtuoso/ADC
+           DEFINE analogLib $(inst_root_with:tools/dfII/bin/virtuoso)/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE basic $(inst_root_with:tools/dfII/bin/virtuoso)/tools/dfII/etc/cdslib/basic

@@ -1,0 +1,5 @@
+cUiSetViewStatus {two_finger_mos_tile_2} {layout} {1}
+cUiSetViewStatus {two_finger_mos_tile_2} {logical} {0}
+cUiSetViewStatus {two_finger_mos_tile_2} {abstract.pin} {0}
+cUiSetViewStatus {two_finger_mos_tile_2} {abstract.ext} {0}
+cUiSetViewStatus {two_finger_mos_tile_2} {abstract} {0}

@@ -1,0 +1,16 @@
+* Net aliases by cell for run: strong_arm.lvsrpt
+* THIS FILE IS GENERATED. DO NOT EDIT.
+* ==== Bound cells ==============
+* ==== Unbound cells ==============
+nmos_tile_w1000_l150_nf2 { 
+  sd_2 ( sd_0 )
+}
+nmos_tile_w16600_l150_nf2 { 
+  sd_2 ( sd_0 )
+}
+pmos_tile_w1000_l150_nf2 { 
+  sd_2 ( b sd_0 )
+}
+pmos_tile_w420_l150_nf2 { 
+  sd_2 ( b sd_0 )
+}

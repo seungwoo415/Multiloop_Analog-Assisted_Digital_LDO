@@ -1,0 +1,104 @@
+********************************************************************************
+db2gds 22.14-s007 64 bit (Tue Jan 31 16:35:56 PST 2023)
+Build Ref No.: 031 Release Candidate (01-31-2023) [2214_pgs]
+
+Copyright 2023 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+Build O/S:       Linux x86_64 3.10.0-693.el7.x86_64
+Executed on:     c111-12.EECS.Berkeley.EDU (Linux x86_64 4.18.0-553.8.1.el8_10.x86_64)
+Process Id:      1710006
+Starting Time:   Tue Aug  6 22:12:42 2024 (Wed Aug  7 05:12:42 2024 GMT)
+With parameters: strong_arm_1708142 ./strong_arm.agf strong_arm -lmap lmap83Th6D -netmap ./strong_arm.lnn -property_nqrc -gds_scale 1000 -vircolon 
+********************************************************************************
+
+Library name: strong_arm_1708142
+GDSII file name: ./strong_arm.agf
+Cells to be written out: strong_arm
+Source Library: strong_arm_1708142
+Layer mapping file(GDS <- DMC): lmap83Th6D
+    9 (dt:0 tt:0) <- 9
+    23 (dt:0 tt:0) <- 23
+    25 (dt:0 tt:0) <- 25
+    26 (dt:0 tt:0) <- 26
+    27 (dt:0 tt:0) <- 27
+    28 (dt:0 tt:0) <- 28
+    29 (dt:0 tt:0) <- 29
+    8 (dt:0 tt:0) <- 8
+    10 (dt:0 tt:0) <- 10
+    13 (dt:0 tt:0) <- 13
+    16 (dt:0 tt:0) <- 16
+    17 (dt:0 tt:0) <- 17
+    20 (dt:0 tt:0) <- 20
+    22 (dt:0 tt:0) <- 22
+    30 (dt:0 tt:0) <- 30
+    1 (dt:0 tt:0) <- 1
+    4 (dt:0 tt:0) <- 4
+    11 (dt:0 tt:0) <- 11
+    14 (dt:0 tt:0) <- 14
+    15 (dt:0 tt:0) <- 15
+    18 (dt:0 tt:0) <- 18
+    19 (dt:0 tt:0) <- 19
+    35 (dt:0 tt:0) <- 35
+    2 (dt:0 tt:0) <- 2
+    31 (dt:0 tt:0) <- 31
+    32 (dt:0 tt:0) <- 32
+    33 (dt:0 tt:0) <- 33
+    34 (dt:0 tt:0) <- 34
+Cell name case: PRESERVE
+Option: output object property for new qrc flow
+
+
+                Object Statistics of Cells                            
+Cell Name         Box  Polygon     Path   Label Instance Array    Total
+----------------------------------------------------------------------
+strong_arm         25        5        0       0     2      0        32
+strong_arm_half       86       12        0       0    20      0       118
+ptap_tile          26        0        0       0     0      0        26
+ntap_tile          26        0        0       0     0      0        26
+two_finger_mos_tile       28        1        0       0     0      0        29
+two_finger_mos_tile_1      163        1        0       0     0      0       164
+two_finger_mos_tile_2       28        1        0       0     0      0        29
+two_finger_mos_tile_3       22        1        0       0     0      0        23
+----------------------------------------------------------------------
+
+Object Statistics of Layers
+Layer   Objects
+----------------
+   1           4
+   2          12
+   4           4
+   9           4
+  11           1
+  14           1
+  15           6
+  16           5
+  17          31
+  18           6
+  19           2
+  20          73
+  22           3
+  23         213
+  25          31
+  26          14
+  30           7
+  31           4
+  33           4
+----------------
+
+Object Summary
+------------------
+     Box       404
+ Polygon        21
+    Path         0
+   Label         0
+Instance        22
+   Array         0
+------------------
+   Total       447
+
+
+Output property: 447
+Total CPU Time          : 0(s)
+Total Real Time         : 0(s)
+Peak Memory Used        : 7(M)

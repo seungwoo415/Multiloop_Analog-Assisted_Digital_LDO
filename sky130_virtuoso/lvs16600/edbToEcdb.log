@@ -1,0 +1,17 @@
+
+/share/instsww/cadence/PEGASUS.22.14.000/tools.lnx86/Pegasus/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : strong_arm_1708142.db
+ECDB dir        : ./
+Top Cell        : strong_arm
+CDL netlist     : ./strong_arm.net
+Layer map file  : ./strong_arm.ecdbmap
+Text map file   : ./strong_arm.ports
+Dependency map  : strong_arm.lmap.perc
+Lvs file        : ./strong_arm.lvsfile
+Float net file  : .strong_arm.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : strong_arm_1708142

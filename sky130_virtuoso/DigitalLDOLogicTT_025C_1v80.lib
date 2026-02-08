@@ -1,0 +1,336 @@
+library (DigitalLDOLogicTT_025C_1v80) {
+  /* Models written by Liberate 19.1.2.294 from Cadence Design Systems, Inc. on Tue Jan 28 22:10:47 PST 2025 */
+  comment : "";
+  date : "$Date: Tue Jan 28 22:08:59 2025 $";
+  revision : "1.0";
+  delay_model : table_lookup;
+  capacitive_load_unit (1,pf);
+  current_unit : "1mA";
+  leakage_power_unit : "1nW";
+  pulling_resistance_unit : "1kohm";
+  time_unit : "1ns";
+  voltage_unit : "1V";
+  voltage_map (VDD, 1.8);
+  voltage_map (VSS, 0);
+  voltage_map (VPWR, 1.8);
+  voltage_map (VPB, 1.8);
+  voltage_map (VNB, 0);
+  voltage_map (GND, 0);
+  voltage_map (VGND, 0);
+  default_cell_leakage_power : 0;
+  default_fanout_load : 1;
+  default_max_transition : 2;
+  default_output_pin_cap : 0;
+  in_place_swap_mode : match_footprint;
+  input_threshold_pct_fall : 50;
+  input_threshold_pct_rise : 50;
+  nom_process : 1;
+  nom_temperature : 25;
+  nom_voltage : 1.8;
+  output_threshold_pct_fall : 50;
+  output_threshold_pct_rise : 50;
+  slew_derate_from_library : 1;
+  slew_lower_threshold_pct_fall : 10;
+  slew_lower_threshold_pct_rise : 10;
+  slew_upper_threshold_pct_fall : 90;
+  slew_upper_threshold_pct_rise : 90;
+  operating_conditions (PVT_1P8V_25C) {
+    process : 1;
+    temperature : 25;
+    voltage : 1.8;
+  }
+  default_operating_conditions : PVT_1P8V_25C;
+  lu_table_template (constraint_template_7x7) {
+    variable_1 : constrained_pin_transition;
+    variable_2 : related_pin_transition;
+    index_1 ("0.01, 0.025, 0.05, 0.1, 0.3, 0.8, 1.4");
+    index_2 ("0.01, 0.025, 0.05, 0.1, 0.3, 0.8, 1.4");
+  }
+  lu_table_template (delay_template_7x7) {
+    variable_1 : input_net_transition;
+    variable_2 : total_output_net_capacitance;
+    index_1 ("0.005, 0.01, 0.04, 0.08, 0.2, 0.65, 1.4");
+    index_2 ("0.001, 0.003, 0.0085, 0.015, 0.04, 0.1, 0.2");
+  }
+  lu_table_template (mpw_constraint_template_7x7) {
+    variable_1 : constrained_pin_transition;
+    index_1 ("0.01, 0.025, 0.05, 0.1, 0.3, 0.8, 1.4");
+  }
+  power_lut_template (passive_power_template_7x1) {
+    variable_1 : input_transition_time;
+    index_1 ("0.005, 0.01, 0.04, 0.08, 0.2, 0.65, 1.4");
+  }
+  power_lut_template (power_template_7x7) {
+    variable_1 : input_transition_time;
+    variable_2 : total_output_net_capacitance;
+    index_1 ("0.005, 0.01, 0.04, 0.08, 0.2, 0.65, 1.4");
+    index_2 ("0.001, 0.003, 0.0085, 0.015, 0.04, 0.1, 0.2");
+  }
+  cell (DigitalLDOLogic) {
+    area : 0;
+    cell_leakage_power : 0;
+    pg_pin (VDD) {
+      pg_type : primary_power;
+      voltage_name : "VDD";
+    }
+    pg_pin (VSS) {
+      pg_type : primary_ground;
+      voltage_name : "VSS";
+    }
+    pin (out[0]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[1]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[2]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[3]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[4]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[5]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[6]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[7]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[8]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[9]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[10]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[11]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[12]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[13]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[14]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[15]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[16]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[17]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[18]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[19]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[20]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[21]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[22]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[23]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[24]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[25]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[26]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[27]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[28]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[29]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[30]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (out[31]) {
+      direction : output;
+      power_down_function : "(!VDD) + (VSS)";
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (clk) {
+      clock : true;
+      direction : input;
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      capacitance : 0.0069753;
+      rise_capacitance : 0.006964;
+      rise_capacitance_range (0.006964, 0.006964);
+      fall_capacitance : 0.0069753;
+      fall_capacitance_range (0.0069753, 0.0069753);
+    }
+    pin (comp_in) {
+      direction : input;
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      capacitance : 0.00813392;
+      rise_capacitance : 0.00813392;
+      rise_capacitance_range (0.00813392, 0.00813392);
+      fall_capacitance : 0.00802909;
+      fall_capacitance_range (0.00802909, 0.00802909);
+    }
+    pin (rst) {
+      direction : input;
+      related_ground_pin : VSS;
+      related_power_pin : VDD;
+      capacitance : 0.0040208;
+      rise_capacitance : 0.0040208;
+      rise_capacitance_range (0.0040208, 0.0040208);
+      fall_capacitance : 0.00325326;
+      fall_capacitance_range (0.00325326, 0.00325326);
+    }
+  }
+}

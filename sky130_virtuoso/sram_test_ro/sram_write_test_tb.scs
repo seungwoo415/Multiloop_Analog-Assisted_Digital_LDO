@@ -1,0 +1,70 @@
+
+simulator lang=spectre
+
+// This is a generated file.
+// Be careful when editing manually: this file may be overwritten.
+
+global 0
+
+*include "/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.3/models/sky130.lib.spice" section=tt
+
+
+simulator lang=spice 
+.lib '/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/models/sky130.lib.spice' tt 
+.include 'sky130_fd_sc_hd.spice'
+.include 'sram_write_test_core.sp' 
+
+simulator lang=spectre
+
+parameters vctr=0.4 Vdiff=0.02 frequency=100K
+
+xinst0 ( VDD 0 en_bar WL vctr Vcell ) sram_write_test_core 
+xinst2 ( VDD 0 ) vsource dc=1.8 type=dc 
+xinst3 ( WL 0 ) vsource type=pwl wave=[
++0u 0 49.99995u 0
++50u 1.8V 200u 1.8V
++]
+xinst4 ( en_bar 0 ) vsource type=pwl wave=[
++0u 1.8 49.99995u 1.8
++50u 0 200u 0
++]
+xinst5 ( Vcell 0 ) vsource type=pwl wave=[
++0u 0 49.99995u 0
++50u 1.5V 200u 1.5V
++]
+*xinst1 ldotop_vout v1 0 0 sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=0.6u
+*xinst7 ldotop_vout vsqu 0 0 sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=0.6u
+*xinst2 ( vinp 0 ) vsource dc=Vcm type=sine ampl=Vdiff freq=frequency
+*xinst4 ( ldotop_vref 0 ) vsource dc=Vcm type=sine ampl=-Vdiff freq=frequency
+*xinst3 ( ldotop_vdd 0 ) vsource dc=1.8 type=dc
+*xinst9 ( v1 0 ) vsource dc=1.5 type=dc
+*xinst4 ( ldotop_vref 0 ) vsource dc=1.5 type=dc
+*xinst5 ( ldotop_clk 0 ) vsource delay=0 fall=100p period=5u rise=100p type=pulse val0=1.8 val1=0 width=2.5u
+*xinst5 (ldotop_clk 0) vsource type=pulse val0=0 val1=1.8 period=2.5u rise=100p fall=100p width=1.25u delay=0  
+*xinst5 (ldotop_clk 0) vsource type=pulse val0=0 val1=1.8 period=1u rise=100p fall=100p width=500n delay=0
+*xinst6 ( ldotop_rst 0) vsource type=pwl wave=[
+*+ 0u 1.8 9.995u 1.8
+*+ 10u 0 100u 0
+*+]
+
+settemp1 options temp=25.0
+save vctr
+save en_bar
+save WL
+save Vcell
+save xinst0.X3.X2.out_n3
+*save I(xinst2)
+saveopts options save=allpub
+
+
+Vctr sweep param=Vcm start=0.4 stop=0.9 step=0.01 {
+        analysis_0 tran stop=100u errpreset=conservative
+}
+
+
+*analysis_0 tran stop=100u errpreset=conservative
+
+simulator lang=spice
+
+.probe v(xinst0)
+.probe i(xinst0)

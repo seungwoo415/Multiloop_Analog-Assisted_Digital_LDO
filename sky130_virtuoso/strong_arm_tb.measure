@@ -1,0 +1,187 @@
+Exported variables from results directory:  ./strong_arm_tb.raw/
+
+date               :  10:26:40 PM, Tue Aug 6, 2024
+design             :  
+simulator          :  spectre
+version            :  19.1.0.455.isr11
+
+
+Swept Measurements :
+Measurement Name   :  transient1-meas_foreach
+Analysis Type      :  tran
+clock_to_qn        Vcm        @ 1.3          =  2.12314e-10     
+clock_to_qn        Vcm        @ 1.31         =  2.11066e-10     
+clock_to_qn        Vcm        @ 1.32         =  2.09944e-10     
+clock_to_qn        Vcm        @ 1.33         =  2.08965e-10     
+clock_to_qn        Vcm        @ 1.34         =  2.08071e-10     
+clock_to_qn        Vcm        @ 1.35         =  2.07305e-10     
+clock_to_qn        Vcm        @ 1.36         =  2.06628e-10     
+clock_to_qn        Vcm        @ 1.37         =  2.05995e-10     
+clock_to_qn        Vcm        @ 1.38         =  2.05483e-10     
+clock_to_qn        Vcm        @ 1.39         =  2.0503e-10     
+clock_to_qn        Vcm        @ 1.4          =  2.04626e-10     
+clock_to_qn        Vcm        @ 1.41         =  2.04213e-10     
+clock_to_qn        Vcm        @ 1.42         =  2.04076e-10     
+clock_to_qn        Vcm        @ 1.43         =  2.03915e-10     
+clock_to_qn        Vcm        @ 1.44         =  2.03832e-10     
+clock_to_qn        Vcm        @ 1.45         =  2.03745e-10     
+clock_to_qn        Vcm        @ 1.46         =  2.03729e-10     
+clock_to_qn        Vcm        @ 1.47         =  2.0373e-10     
+clock_to_qn        Vcm        @ 1.48         =  2.03781e-10     
+clock_to_qn        Vcm        @ 1.49         =  2.03854e-10     
+clock_to_qn        Vcm        @ 1.5          =  2.04114e-10     
+clock_to_qp        Vcm        @ 1.3          =  NaN     
+clock_to_qp        Vcm        @ 1.31         =  NaN     
+clock_to_qp        Vcm        @ 1.32         =  NaN     
+clock_to_qp        Vcm        @ 1.33         =  NaN     
+clock_to_qp        Vcm        @ 1.34         =  NaN     
+clock_to_qp        Vcm        @ 1.35         =  NaN     
+clock_to_qp        Vcm        @ 1.36         =  NaN     
+clock_to_qp        Vcm        @ 1.37         =  NaN     
+clock_to_qp        Vcm        @ 1.38         =  NaN     
+clock_to_qp        Vcm        @ 1.39         =  NaN     
+clock_to_qp        Vcm        @ 1.4          =  NaN     
+clock_to_qp        Vcm        @ 1.41         =  NaN     
+clock_to_qp        Vcm        @ 1.42         =  NaN     
+clock_to_qp        Vcm        @ 1.43         =  NaN     
+clock_to_qp        Vcm        @ 1.44         =  NaN     
+clock_to_qp        Vcm        @ 1.45         =  NaN     
+clock_to_qp        Vcm        @ 1.46         =  NaN     
+clock_to_qp        Vcm        @ 1.47         =  NaN     
+clock_to_qp        Vcm        @ 1.48         =  NaN     
+clock_to_qp        Vcm        @ 1.49         =  NaN     
+clock_to_qp        Vcm        @ 1.5          =  NaN     
+maxvn              Vcm        @ 1.3          =  1.82842     
+maxvn              Vcm        @ 1.31         =  1.82842     
+maxvn              Vcm        @ 1.32         =  1.82842     
+maxvn              Vcm        @ 1.33         =  1.82842     
+maxvn              Vcm        @ 1.34         =  1.82842     
+maxvn              Vcm        @ 1.35         =  1.82842     
+maxvn              Vcm        @ 1.36         =  1.82842     
+maxvn              Vcm        @ 1.37         =  1.82842     
+maxvn              Vcm        @ 1.38         =  1.82842     
+maxvn              Vcm        @ 1.39         =  1.82842     
+maxvn              Vcm        @ 1.4          =  1.82842     
+maxvn              Vcm        @ 1.41         =  1.82842     
+maxvn              Vcm        @ 1.42         =  1.82842     
+maxvn              Vcm        @ 1.43         =  1.82842     
+maxvn              Vcm        @ 1.44         =  1.82842     
+maxvn              Vcm        @ 1.45         =  1.82842     
+maxvn              Vcm        @ 1.46         =  1.82842     
+maxvn              Vcm        @ 1.47         =  1.82842     
+maxvn              Vcm        @ 1.48         =  1.82842     
+maxvn              Vcm        @ 1.49         =  1.82842     
+maxvn              Vcm        @ 1.5          =  1.82842     
+maxvp              Vcm        @ 1.3          =  1.87938     
+maxvp              Vcm        @ 1.31         =  1.87943     
+maxvp              Vcm        @ 1.32         =  1.87945     
+maxvp              Vcm        @ 1.33         =  1.87938     
+maxvp              Vcm        @ 1.34         =  1.87944     
+maxvp              Vcm        @ 1.35         =  1.87944     
+maxvp              Vcm        @ 1.36         =  1.87937     
+maxvp              Vcm        @ 1.37         =  1.87938     
+maxvp              Vcm        @ 1.38         =  1.87945     
+maxvp              Vcm        @ 1.39         =  1.87943     
+maxvp              Vcm        @ 1.4          =  1.87938     
+maxvp              Vcm        @ 1.41         =  1.87945     
+maxvp              Vcm        @ 1.42         =  1.87944     
+maxvp              Vcm        @ 1.43         =  1.87945     
+maxvp              Vcm        @ 1.44         =  1.87944     
+maxvp              Vcm        @ 1.45         =  1.87945     
+maxvp              Vcm        @ 1.46         =  1.87945     
+maxvp              Vcm        @ 1.47         =  1.87938     
+maxvp              Vcm        @ 1.48         =  1.87937     
+maxvp              Vcm        @ 1.49         =  1.87945     
+maxvp              Vcm        @ 1.5          =  1.87927     
+minvn              Vcm        @ 1.3          =  -0.0228728     
+minvn              Vcm        @ 1.31         =  -0.0229391     
+minvn              Vcm        @ 1.32         =  -0.0230044     
+minvn              Vcm        @ 1.33         =  -0.0230673     
+minvn              Vcm        @ 1.34         =  -0.0231289     
+minvn              Vcm        @ 1.35         =  -0.0231827     
+minvn              Vcm        @ 1.36         =  -0.0232528     
+minvn              Vcm        @ 1.37         =  -0.0233119     
+minvn              Vcm        @ 1.38         =  -0.0233698     
+minvn              Vcm        @ 1.39         =  -0.0234267     
+minvn              Vcm        @ 1.4          =  -0.0234783     
+minvn              Vcm        @ 1.41         =  -0.0235323     
+minvn              Vcm        @ 1.42         =  -0.0235854     
+minvn              Vcm        @ 1.43         =  -0.0236352     
+minvn              Vcm        @ 1.44         =  -0.0236838     
+minvn              Vcm        @ 1.45         =  -0.0237315     
+minvn              Vcm        @ 1.46         =  -0.0237844     
+minvn              Vcm        @ 1.47         =  -0.0238368     
+minvn              Vcm        @ 1.48         =  -0.0238877     
+minvn              Vcm        @ 1.49         =  -0.0239384     
+minvn              Vcm        @ 1.5          =  -0.0239778     
+minvp              Vcm        @ 1.3          =  0.99926     
+minvp              Vcm        @ 1.31         =  0.998932     
+minvp              Vcm        @ 1.32         =  0.998617     
+minvp              Vcm        @ 1.33         =  0.998313     
+minvp              Vcm        @ 1.34         =  0.998019     
+minvp              Vcm        @ 1.35         =  0.997737     
+minvp              Vcm        @ 1.36         =  0.997464     
+minvp              Vcm        @ 1.37         =  0.9972     
+minvp              Vcm        @ 1.38         =  0.996946     
+minvp              Vcm        @ 1.39         =  0.996699     
+minvp              Vcm        @ 1.4          =  0.996461     
+minvp              Vcm        @ 1.41         =  0.99623     
+minvp              Vcm        @ 1.42         =  0.996007     
+minvp              Vcm        @ 1.43         =  0.99579     
+minvp              Vcm        @ 1.44         =  0.995581     
+minvp              Vcm        @ 1.45         =  0.995377     
+minvp              Vcm        @ 1.46         =  0.99518     
+minvp              Vcm        @ 1.47         =  0.994988     
+minvp              Vcm        @ 1.48         =  0.994802     
+minvp              Vcm        @ 1.49         =  0.994621     
+minvp              Vcm        @ 1.5          =  0.994446     
+t1                 Vcm        @ 1.3          =  0.925645     
+t1                 Vcm        @ 1.31         =  0.925678     
+t1                 Vcm        @ 1.32         =  0.925711     
+t1                 Vcm        @ 1.33         =  0.925743     
+t1                 Vcm        @ 1.34         =  0.925773     
+t1                 Vcm        @ 1.35         =  0.9258     
+t1                 Vcm        @ 1.36         =  0.925835     
+t1                 Vcm        @ 1.37         =  0.925865     
+t1                 Vcm        @ 1.38         =  0.925894     
+t1                 Vcm        @ 1.39         =  0.925922     
+t1                 Vcm        @ 1.4          =  0.925948     
+t1                 Vcm        @ 1.41         =  0.925975     
+t1                 Vcm        @ 1.42         =  0.926002     
+t1                 Vcm        @ 1.43         =  0.926027     
+t1                 Vcm        @ 1.44         =  0.926051     
+t1                 Vcm        @ 1.45         =  0.926075     
+t1                 Vcm        @ 1.46         =  0.926101     
+t1                 Vcm        @ 1.47         =  0.926127     
+t1                 Vcm        @ 1.48         =  0.926153     
+t1                 Vcm        @ 1.49         =  0.926178     
+t1                 Vcm        @ 1.5          =  0.926198     
+t2                 Vcm        @ 1.3          =  0.440059     
+t2                 Vcm        @ 1.31         =  0.440247     
+t2                 Vcm        @ 1.32         =  0.440416     
+t2                 Vcm        @ 1.33         =  0.440532     
+t2                 Vcm        @ 1.34         =  0.440712     
+t2                 Vcm        @ 1.35         =  0.440853     
+t2                 Vcm        @ 1.36         =  0.440951     
+t2                 Vcm        @ 1.37         =  0.441089     
+t2                 Vcm        @ 1.38         =  0.441251     
+t2                 Vcm        @ 1.39         =  0.441363     
+t2                 Vcm        @ 1.4          =  0.441459     
+t2                 Vcm        @ 1.41         =  0.441608     
+t2                 Vcm        @ 1.42         =  0.441719     
+t2                 Vcm        @ 1.43         =  0.44183     
+t2                 Vcm        @ 1.44         =  0.441932     
+t2                 Vcm        @ 1.45         =  0.442037     
+t2                 Vcm        @ 1.46         =  0.442135     
+t2                 Vcm        @ 1.47         =  0.442195     
+t2                 Vcm        @ 1.48         =  0.442284     
+t2                 Vcm        @ 1.49         =  0.442415     
+t2                 Vcm        @ 1.5          =  0.442414     
+
+
+
+
+
+
+
+

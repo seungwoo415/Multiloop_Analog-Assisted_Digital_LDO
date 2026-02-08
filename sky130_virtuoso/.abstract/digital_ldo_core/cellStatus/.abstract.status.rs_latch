@@ -1,0 +1,5 @@
+cUiSetViewStatus {rs_latch} {layout} {1}
+cUiSetViewStatus {rs_latch} {logical} {0}
+cUiSetViewStatus {rs_latch} {abstract.pin} {0}
+cUiSetViewStatus {rs_latch} {abstract.ext} {0}
+cUiSetViewStatus {rs_latch} {abstract} {0}

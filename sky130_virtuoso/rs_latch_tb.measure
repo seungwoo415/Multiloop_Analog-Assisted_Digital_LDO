@@ -1,0 +1,20 @@
+Exported variables from results directory:  ./rs_latch_tb.raw/
+
+date               :  9:24:47 PM, Tue Sep 10, 2024
+design             :  
+simulator          :  spectre
+version            :  19.1.0.455.isr11
+
+
+Measurement Name   :  analysis_0
+Analysis Type      :  tran
+clock_to_qn           =  NaN 
+clock_to_qp           =  NaN 
+maxvn                 =  NaN 
+maxvp                 =  NaN 
+minvn                 =  NaN 
+minvp                 =  NaN 
+t1                    =  NaN 
+t2                    =  NaN 
+
+

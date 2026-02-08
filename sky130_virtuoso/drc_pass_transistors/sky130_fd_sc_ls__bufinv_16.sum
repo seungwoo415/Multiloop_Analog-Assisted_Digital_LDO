@@ -1,0 +1,238 @@
+********************************************************************************
+*** Pegasus DRC SUMMARY
+***
+Execute on Date/Time    : Thu Oct 24 20:23:24 2024
+Pegasus VERSION         : 22.14-s007 Tue Jan 31 16:35:56 PST 2023
+Rule Deck Path          : /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+Rule Deck Title         :
+Layout System           : GDSII
+Layout Path             : /home/aa/users/cs199-apt/cadence/sky130_virtuoso/pass_transistors.gds
+Current Directory       : /home/aa/users/cs199-apt/cadence/sky130_virtuoso/pass_transistors_drc
+User Name               : cs199-ap
+Maximum Results         : 1000
+Maximum Result Vertices : 4096
+Layout Depth            : ALL
+Text Depth              : 0
+Summary File            : /home/aa/users/cs199-apt/cadence/sky130_virtuoso/pass_transistors_drc/sky130_fd_sc_ls__bufinv_16.sum
+Geometry Flagging       : ACUTE = NO  ANGLED = NO  SKEW = NO  OFFGRID = NO
+                          NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Keep Empty Checks       : YES
+Excluded Cells          : 
+Layout Primary Cell     : pass_transistors
+ASCII DRC Error Report  : ./sky130_fd_sc_ls__bufinv_16.drc_errors.ascii
+DRC Results Database    :
+--------------------------------------------------------------------------------
+--- RUNNING TIME WARNINGS
+---
+--------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER diff ................................. Total Original Geometry:          3 (       630)
+LAYER tap .................................. Total Original Geometry:          2 (         8)
+LAYER nwell ................................ Total Original Geometry:         11 (       226)
+LAYER dnwell ............................... Total Original Geometry:          0 (         0)
+LAYER hvtp ................................. Total Original Geometry:          0 (         0)
+LAYER hvi .................................. Total Original Geometry:          0 (         0)
+LAYER lvtn ................................. Total Original Geometry:          0 (         0)
+LAYER poly ................................. Total Original Geometry:         38 (      1115)
+LAYER nsdm ................................. Total Original Geometry:          2 (         8)
+LAYER psdm ................................. Total Original Geometry:          1 (       210)
+LAYER npc .................................. Total Original Geometry:          1 (        33)
+LAYER licon1 ............................... Total Original Geometry:         11 (      1309)
+LAYER li1 .................................. Total Original Geometry:        100 (       649)
+LAYER mcon ................................. Total Original Geometry:          6 (       143)
+LAYER met1 ................................. Total Original Geometry:        139 (       273)
+LAYER via .................................. Total Original Geometry:          2 (         8)
+LAYER met2 ................................. Total Original Geometry:          3 (         6)
+LAYER via2 ................................. Total Original Geometry:          0 (         0)
+LAYER met3 ................................. Total Original Geometry:          0 (         0)
+LAYER via3 ................................. Total Original Geometry:          0 (         0)
+LAYER met4 ................................. Total Original Geometry:          0 (         0)
+LAYER via4 ................................. Total Original Geometry:          0 (         0)
+LAYER met5 ................................. Total Original Geometry:          0 (         0)
+LAYER pad .................................. Total Original Geometry:          0 (         0)
+LAYER uhvi ................................. Total Original Geometry:          0 (         0)
+LAYER pnp .................................. Total Original Geometry:          0 (         0)
+LAYER areaid.ce ............................ Total Original Geometry:          0 (         0)
+LAYER areaid.sc ............................ Total Original Geometry:          0 (         0)
+LAYER areaid.mt ............................ Total Original Geometry:          0 (         0)
+LAYER areaid.st ............................ Total Original Geometry:          0 (         0)
+LAYER diff_res ............................. Total Original Geometry:          0 (         0)
+--------------------------------------------------------------------------------
+--- WARNINGS FROM FLAG STATEMENT
+---
+Cell name parameter "*_tech_CD_top" for inside_cell [-not] operation not located.
+
+Cell name parameter "s8rf2_xcmvpp_hd5_*" for inside_cell [-not] operation not located.
+
+Cell name parameter "s8cell_ee_plus_sseln_a" for inside_cell [-not] operation not located.
+
+Cell name parameter "s8cell_ee_plus_sseln_b" for inside_cell [-not] operation not located.
+
+Cell name parameter "s8cell_ee_plus_sselp_a" for inside_cell [-not] operation not located.
+
+Cell name parameter "s8cell_ee_plus_sselp_b" for inside_cell [-not] operation not located.
+
+Cell name parameter "s8fpls_pl8" for inside_cell [-not] operation not located.
+
+Cell name parameter "s8fs_cmux4_fm" for inside_cell [-not] operation not located.
+
+--------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK ct.1 ......................................... Total Result          0 (         0)
+RULECHECK ct.2 ......................................... Total Result          0 (         0)
+RULECHECK difftap.1 .................................... Total Result          0 (         0)
+RULECHECK difftap.10 ................................... Total Result          0 (         0)
+RULECHECK difftap.11 ................................... Total Result          0 (         0)
+RULECHECK difftap.2 .................................... Total Result          0 (         0)
+RULECHECK difftap.2b ................................... Total Result          0 (         0)
+RULECHECK difftap.3 .................................... Total Result          0 (         0)
+RULECHECK difftap.4 .................................... Total Result          0 (         0)
+RULECHECK difftap.5 .................................... Total Result          0 (         0)
+RULECHECK difftap.6 .................................... Total Result          0 (         0)
+RULECHECK difftap.7 .................................... Total Result          0 (         0)
+RULECHECK difftap.8 .................................... Total Result          0 (         0)
+RULECHECK difftap.9 .................................... Total Result          0 (         0)
+RULECHECK dnwell.2 ..................................... Total Result          0 (         0)
+RULECHECK dnwell.3 ..................................... Total Result          0 (         0)
+RULECHECK dnwell.4 ..................................... Total Result          0 (         0)
+RULECHECK dnwell.5 ..................................... Total Result          0 (         0)
+RULECHECK dnwell.7 ..................................... Total Result          0 (         0)
+RULECHECK hvtp.1 ....................................... Total Result          0 (         0)
+RULECHECK hvtp.2 ....................................... Total Result          0 (         0)
+RULECHECK hvtp.3 ....................................... Total Result          0 (         0)
+RULECHECK hvtp.4 ....................................... Total Result          0 (         0)
+RULECHECK hvtp.5 ....................................... Total Result          0 (         0)
+RULECHECK hvtp.6 ....................................... Total Result          0 (         0)
+RULECHECK li.1 ......................................... Total Result          0 (         0)
+RULECHECK li.1a ........................................ Total Result          0 (         0)
+RULECHECK li.3 ......................................... Total Result          0 (         0)
+RULECHECK li.3a ........................................ Total Result          0 (         0)
+RULECHECK li.5 ......................................... Total Result          0 (         0)
+RULECHECK li.6 ......................................... Total Result          0 (         0)
+RULECHECK licon.1 ...................................... Total Result          0 (         0)
+RULECHECK licon.11 ..................................... Total Result          0 (         0)
+RULECHECK licon.11a .................................... Total Result          0 (         0)
+RULECHECK licon.12 ..................................... Total Result          0 (         0)
+RULECHECK licon.13 ..................................... Total Result          0 (         0)
+RULECHECK licon.14 ..................................... Total Result          0 (         0)
+RULECHECK licon.15 ..................................... Total Result          0 (         0)
+RULECHECK licon.16 ..................................... Total Result          0 (         0)
+RULECHECK licon.17 ..................................... Total Result          0 (         0)
+RULECHECK licon.18 ..................................... Total Result          0 (         0)
+RULECHECK licon.2 ...................................... Total Result          0 (         0)
+RULECHECK licon.4 ...................................... Total Result          0 (         0)
+RULECHECK licon.5a ..................................... Total Result          0 (         0)
+RULECHECK licon.5b ..................................... Total Result          0 (         0)
+RULECHECK licon.5c ..................................... Total Result          0 (         0)
+RULECHECK licon.6 ...................................... Total Result          0 (         0)
+RULECHECK licon.7 ...................................... Total Result          0 (         0)
+RULECHECK licon.8 ...................................... Total Result          0 (         0)
+RULECHECK licon.8a ..................................... Total Result          0 (         0)
+RULECHECK licon.9 ...................................... Total Result          0 (         0)
+RULECHECK lvtn.10 ...................................... Total Result          0 (         0)
+RULECHECK lvtn.12 ...................................... Total Result          0 (         0)
+RULECHECK lvtn.13 ...................................... Total Result          0 (         0)
+RULECHECK lvtn.14 ...................................... Total Result          0 (         0)
+RULECHECK lvtn.1a ...................................... Total Result          0 (         0)
+RULECHECK lvtn.2 ....................................... Total Result          0 (         0)
+RULECHECK lvtn.3a ...................................... Total Result          0 (         0)
+RULECHECK lvtn.3b ...................................... Total Result          0 (         0)
+RULECHECK lvtn.4b ...................................... Total Result          0 (         0)
+RULECHECK lvtn.9 ....................................... Total Result          0 (         0)
+RULECHECK m1.1 ......................................... Total Result          0 (         0)
+RULECHECK m1.2 ......................................... Total Result          0 (         0)
+RULECHECK m1.3b ........................................ Total Result          0 (         0)
+RULECHECK m1.4 ......................................... Total Result          0 (         0)
+RULECHECK m1.4a ........................................ Total Result          0 (         0)
+RULECHECK m1.5 ......................................... Total Result          0 (         0)
+RULECHECK m1.6 ......................................... Total Result          0 (         0)
+RULECHECK m1.7 ......................................... Total Result          0 (         0)
+RULECHECK m2.1 ......................................... Total Result          0 (         0)
+RULECHECK m2.2 ......................................... Total Result          0 (         0)
+RULECHECK m2.3b ........................................ Total Result          0 (         0)
+RULECHECK m2.4 ......................................... Total Result          0 (         0)
+RULECHECK m2.5 ......................................... Total Result          0 (         0)
+RULECHECK m2.6 ......................................... Total Result          0 (         0)
+RULECHECK m2.7 ......................................... Total Result          0 (         0)
+RULECHECK m3.1 ......................................... Total Result          0 (         0)
+RULECHECK m3.2 ......................................... Total Result          0 (         0)
+RULECHECK m3.3d ........................................ Total Result          0 (         0)
+RULECHECK m3.4 ......................................... Total Result          0 (         0)
+RULECHECK m3.6 ......................................... Total Result          0 (         0)
+RULECHECK m4.1 ......................................... Total Result          0 (         0)
+RULECHECK m4.2 ......................................... Total Result          0 (         0)
+RULECHECK m4.3 ......................................... Total Result          0 (         0)
+RULECHECK m4.4a ........................................ Total Result          0 (         0)
+RULECHECK m4.5b ........................................ Total Result          0 (         0)
+RULECHECK m5.1 ......................................... Total Result          0 (         0)
+RULECHECK m5.2 ......................................... Total Result          0 (         0)
+RULECHECK m5.3 ......................................... Total Result          0 (         0)
+RULECHECK m5.4 ......................................... Total Result          0 (         0)
+RULECHECK npc.1 ........................................ Total Result          0 (         0)
+RULECHECK npc.2 ........................................ Total Result          0 (         0)
+RULECHECK npc.4 ........................................ Total Result          0 (         0)
+RULECHECK nwell.1 ...................................... Total Result          0 (         0)
+RULECHECK nwell.2ab .................................... Total Result          0 (         0)
+RULECHECK nwell.4 ...................................... Total Result          0 (         0)
+RULECHECK nwell.5 ...................................... Total Result          0 (         0)
+RULECHECK nwell.6 ...................................... Total Result          0 (         0)
+RULECHECK pad.2 ........................................ Total Result          0 (         0)
+RULECHECK pad.3 ........................................ Total Result          0 (         0)
+RULECHECK poly.10 ...................................... Total Result          0 (         0)
+RULECHECK poly.11 ...................................... Total Result          0 (         0)
+RULECHECK poly.12 ...................................... Total Result          0 (         0)
+RULECHECK poly.15 ...................................... Total Result          0 (         0)
+RULECHECK poly.1a ...................................... Total Result          0 (         0)
+RULECHECK poly.1b ...................................... Total Result          0 (         0)
+RULECHECK poly.2 ....................................... Total Result          0 (         0)
+RULECHECK poly.4 ....................................... Total Result          0 (         0)
+RULECHECK poly.5 ....................................... Total Result          0 (         0)
+RULECHECK poly.6 ....................................... Total Result          0 (         0)
+RULECHECK poly.7 ....................................... Total Result          0 (         0)
+RULECHECK poly.8 ....................................... Total Result          0 (         0)
+RULECHECK psd.1 ........................................ Total Result          0 (         0)
+RULECHECK psd.10a ...................................... Total Result          0 (         0)
+RULECHECK psd.10b ...................................... Total Result          0 (         0)
+RULECHECK psd.11 ....................................... Total Result          0 (         0)
+RULECHECK psd.2 ........................................ Total Result          0 (         0)
+RULECHECK psd.5a ....................................... Total Result          0 (         0)
+RULECHECK psd.5b ....................................... Total Result          0 (         0)
+RULECHECK psd.6 ........................................ Total Result          0 (         0)
+RULECHECK psd.7 ........................................ Total Result          0 (         0)
+RULECHECK psd.9 ........................................ Total Result          0 (         0)
+RULECHECK via.1a ....................................... Total Result          0 (         0)
+RULECHECK via.1b ....................................... Total Result          0 (         0)
+RULECHECK via.2 ........................................ Total Result          0 (         0)
+RULECHECK via.4a ....................................... Total Result          0 (         0)
+RULECHECK via.4b ....................................... Total Result          0 (         0)
+RULECHECK via.4c ....................................... Total Result          0 (         0)
+RULECHECK via.5a ....................................... Total Result          0 (         0)
+RULECHECK via.5b ....................................... Total Result          0 (         0)
+RULECHECK via.5c ....................................... Total Result          0 (         0)
+RULECHECK via2.1a ...................................... Total Result          0 (         0)
+RULECHECK via2.1b ...................................... Total Result          0 (         0)
+RULECHECK via2.1c ...................................... Total Result          0 (         0)
+RULECHECK via2.1d ...................................... Total Result          0 (         0)
+RULECHECK via2.1e ...................................... Total Result          0 (         0)
+RULECHECK via2.1f ...................................... Total Result          0 (         0)
+RULECHECK via2.2 ....................................... Total Result          0 (         0)
+RULECHECK via2.4 ....................................... Total Result          0 (         0)
+RULECHECK via2.4a ...................................... Total Result          0 (         0)
+RULECHECK via2.5 ....................................... Total Result          0 (         0)
+RULECHECK via3.1 ....................................... Total Result          0 (         0)
+RULECHECK via3.1a ...................................... Total Result          0 (         0)
+RULECHECK via3.2 ....................................... Total Result          0 (         0)
+RULECHECK via3.4 ....................................... Total Result          0 (         0)
+RULECHECK via3.5 ....................................... Total Result          0 (         0)
+RULECHECK via4.1 ....................................... Total Result          0 (         0)
+RULECHECK via4.2 ....................................... Total Result          0 (         0)
+--------------------------------------------------------------------------------
+--- SUMMARY
+---
+Total CPU Time                    : 2 + 2(s)
+Total Real Time (Init + Exec)     : 7(0 + 7)(s)
+Total Original Geometry           : 319 (4618)
+Total DRC RuleChecks              : 148
+Total DRC Results                 : 0 (0)

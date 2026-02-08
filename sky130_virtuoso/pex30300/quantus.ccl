@@ -1,0 +1,10 @@
+extract -selection "all" -type "rc_decoupled"
+input_db -type pegasus \
+  -directory_name ../lvs30300 \
+  -run_name "strong_arm"
+output_setup \
+  -file_name "as.post.sp" \
+  -net_name_space "LAYOUT" \
+  -temporary_directory_name "strong_arm"
+process_technology \
+  -technology_directory "/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/quantus/extraction/typical"

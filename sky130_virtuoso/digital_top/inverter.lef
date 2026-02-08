@@ -1,0 +1,72 @@
+VERSION 5.8 ;
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+
+MACRO inverter
+  CLASS CORE ;
+  ORIGIN -1.045 0.2 ;
+  FOREIGN inverter 1.045 -0.2 ;
+  SIZE 4.155 BY 7.85 ;
+  SYMMETRY X Y ;
+  SITE unithd ;
+  PIN VDD
+    DIRECTION INOUT ;
+    USE POWER ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER li1 ;
+        RECT 2.655 7.1 3.185 7.43 ;
+        RECT 2.58 4.555 2.75 6.855 ;
+      LAYER met1 ;
+        RECT 1.46 7.1 5.2 7.65 ;
+        RECT 2.55 6.545 2.78 7.65 ;
+      LAYER mcon ;
+        RECT 2.58 6.605 2.75 6.775 ;
+        RECT 2.655 7.18 2.825 7.35 ;
+        RECT 3.015 7.18 3.185 7.35 ;
+    END
+  END VDD
+  PIN VSS
+    DIRECTION INOUT ;
+    USE GROUND ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER li1 ;
+        RECT 2.47 -0.035 3 0.295 ;
+        RECT 2.58 0.615 2.75 2.285 ;
+      LAYER met1 ;
+        RECT 1.045 -0.2 5.085 0.39 ;
+        RECT 2.55 -0.2 2.78 0.925 ;
+      LAYER mcon ;
+        RECT 2.47 0.045 2.64 0.215 ;
+        RECT 2.58 0.695 2.75 0.865 ;
+        RECT 2.83 0.045 3 0.215 ;
+    END
+  END VSS
+  PIN din
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 2.185 3.395 2.355 3.725 ;
+      LAYER met1 ;
+        RECT 1.735 3.415 2.385 3.705 ;
+      LAYER mcon ;
+        RECT 2.185 3.475 2.355 3.645 ;
+    END
+  END din
+  PIN dout
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 3.01 1.285 3.18 6.155 ;
+      LAYER met1 ;
+        RECT 2.98 2.685 3.735 2.975 ;
+      LAYER mcon ;
+        RECT 3.01 2.745 3.18 2.915 ;
+    END
+  END dout
+END inverter
+
+END LIBRARY

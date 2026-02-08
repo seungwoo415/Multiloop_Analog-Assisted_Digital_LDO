@@ -1,0 +1,16 @@
+*
+.lib '/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/models/sky130.lib.spice' tt
+
+vvd vdd 0 1.8
+vpwl a 0 PWL(0 0 50p 0 150p 1.8 1000p 1.8 1100p 0)
+
+x0 0 a y 0 sky130_fd_pr__nfet_01v8 w=0.65u l=0.15u
+x1 vdd a y vdd sky130_fd_pr__pfet_01v8_hvt w=1u l=0.15u
+
+c0 y 0 5E-16
+
+.temp 25
+.tran 1p 2000p
+.probe v(a) v(y)
+.meas tran trise trig v(y) val='1.8*0.1' rise=1 targ v(y) val='1.8*0.9' rise=1
+.plot tran v(a) v(y)

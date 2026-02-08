@@ -1,0 +1,17 @@
+# This Pegasus GUI File Index Registry was created automatically
+# Do not attempt to modify this file as any change may lead
+# to Pegasus GUI Tools malfunction.
+# 
+"Layout GDSII" input none /home/aa/users/cs199-apt/cadence/sky130_virtuoso/rs_latch_new.gds
+"Pegasus Job Mode" internal none drc
+"Rule File" input text /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"DRC Summary" output text /home/aa/users/cs199-apt/cadence/sky130_virtuoso/drc_rs_latch/sky130_fd_sc_ls__bufinv_16.sum
+"ASCII DRC Report Database" output rdb /home/aa/users/cs199-apt/cadence/sky130_virtuoso/drc_rs_latch/./sky130_fd_sc_ls__bufinv_16.drc_errors.ascii
+"Run Directory" internal none /home/aa/users/cs199-apt/cadence/sky130_virtuoso/drc_rs_latch/
+"UI Data" internal none ENABLED
+"Pegasus Mode Info" internal none FOAENOPLLEEBPJBADGEEMEPMPEBMGCAK
+"Report MaxResults" internal none 1000
+"Pegasus Version" internal none 22.14-s007
+"Binary Name" internal none Pegasus
+"Pegasus Build Date" internal none "Tue Jan 31 16:35:56 PST 2023"
+"Pegasus Job Time" internal none 1736669090

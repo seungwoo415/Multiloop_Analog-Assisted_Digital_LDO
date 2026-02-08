@@ -1,0 +1,2770 @@
+
+########################################################################
+Get environment info ...
+########################################################################
+ENV VAR: TCL_LIBRARY = /share/instsww/cadence/PEGASUS.22.14.000/share/lib/tcltk/08.64/tcl8.6
+ENV VAR: TCLX_LIBRARY = /share/instsww/cadence/PEGASUS.22.14.000/share/lib/tclx/08.40
+ENV VAR: TCLLIBPATH = /share/instsww/cadence/PEGASUS.22.14.000/share/lib/itcl/3.4.1 /share/instsww/cadence/PEGASUS.22.14.000/share/lib/tclxml/3.2 /share/instsww/cadence/PEGASUS.22.14.000/share/lib/tcllib/1.18 /share/instsww/cadence/PEGASUS.22.14.000/tools.lnx86/pegasus/bin/64bit/../../../../share/lib/itcl/3.4.1 /share/instsww/cadence/PEGASUS.22.14.000/tools.lnx86/pegasus/bin/64bit/../../../../share/lib/tclxml/3.2 /share/instsww/cadence/PEGASUS.22.14.000/tools.lnx86/pegasus/bin/64bit/../../../../share/lib/tcllib/1.18
+ENV VAR: PEGASUS_PVL_LIBRARY = /share/instsww/cadence/PEGASUS.22.14.000/tools.lnx86/pegasus/bin/64bit/../../../Pegasus/bin/64bit/etc/pvl/tcl
+ENV VAR: PEGASUS_TVL_LIBRARY = /share/instsww/cadence/PEGASUS.22.14.000/tools.lnx86/pegasus/bin/64bit/../../../Pegasus/bin/64bit/etc/preproc/tcl
+ENV VAR: PEGASUS_LVS_DEVICE_DFM_LIBRARY = /share/instsww/cadence/PEGASUS.22.14.000/tools.lnx86/pegasus/bin/64bit/../../../Pegasus/bin/64bit/etc/lvs_device_dfm/tcl
+
+[WARN] The option -license_dp_continue is not available in this product.
+Available Resource: 24 processors
+
+########################################################################
+Parsing Rule File /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl ...
+########################################################################
+LAYOUT_FORMAT gdsii;
+LAYOUT_PATH "./sky130_fd_sc_ls__bufinv_16.gds";
+[WARN] Cmd-line override: LAYOUT_PATH "/home/aa/users/cs199-apt/cadence/sky130_virtuoso/rs_latch_new.gds";
+LAYOUT_PRIMARY "sky130_fd_sc_ls__bufinv_16";
+[WARN] Cmd-line override: LAYOUT_PRIMARY "rs_latch_new";
+REPORT_SUMMARY -drc "sky130_fd_sc_ls__bufinv_16.sum" -replace;
+RESULTS_DB -drc "./sky130_fd_sc_ls__bufinv_16.drc_errors.ascii" -ascii;
+MAX_RESULTS -drc 1000;
+MAX_VERTEX -drc 4096;
+ABORT_ON_LAYOUT_ERROR no;
+TEXT_DEPTH -primary;
+LAYER_DEF diff 1001;
+LAYER_MAP 65 -datatype 20 1001;
+LAYER_DEF diff_txt 1002;
+LAYER_MAP 65 -texttype 20 1002;
+LAYER_DEF tap 1003;
+LAYER_MAP 65 -datatype 44 1003;
+LAYER_DEF nwell 1004;
+LAYER_MAP 64 -datatype 20 1004;
+LAYER_DEF dnwell 1005;
+LAYER_MAP 64 -datatype 18 1005;
+LAYER_DEF pwbm 1006;
+LAYER_MAP 19 -datatype 44 1006;
+LAYER_DEF pwde 1007;
+LAYER_MAP 124 -datatype 20 1007;
+LAYER_DEF hvtr 1008;
+LAYER_MAP 18 -datatype 20 1008;
+LAYER_DEF hvtp 1009;
+LAYER_MAP 78 -datatype 44 1009;
+LAYER_DEF ldntm 1010;
+LAYER_MAP 11 -datatype 44 1010;
+LAYER_DEF hvi 1011;
+LAYER_MAP 75 -datatype 20 1011;
+LAYER_DEF tunm 1012;
+LAYER_MAP 80 -datatype 20 1012;
+LAYER_DEF lvtn 1013;
+LAYER_MAP 125 -datatype 44 1013;
+LAYER_DEF poly 1014;
+LAYER_MAP 66 -datatype 20 1014;
+LAYER_DEF poly_txt 1015;
+LAYER_MAP 66 -texttype 20 1015;
+LAYER_DEF hvntm 1016;
+LAYER_MAP 125 -datatype 20 1016;
+LAYER_DEF nsdm 1017;
+LAYER_MAP 93 -datatype 44 1017;
+LAYER_DEF psdm 1018;
+LAYER_MAP 94 -datatype 20 1018;
+LAYER_DEF rpm 1019;
+LAYER_MAP 86 -datatype 20 1019;
+LAYER_DEF urpm 1020;
+LAYER_MAP 79 -datatype 20 1020;
+LAYER_DEF npc 1021;
+LAYER_MAP 95 -datatype 20 1021;
+LAYER_DEF licon1 1022;
+LAYER_MAP 66 -datatype 44 1022;
+LAYER_DEF li1 1023;
+LAYER_MAP 67 -datatype 20 1023;
+LAYER_DEF li1_text 1024;
+LAYER_MAP 67 -texttype 20 1024;
+LAYER_DEF mcon 1025;
+LAYER_MAP 67 -datatype 44 1025;
+LAYER_DEF met1 1026;
+LAYER_MAP 68 -datatype 20 1026;
+LAYER_DEF met1_text 1027;
+LAYER_MAP 68 -texttype 20 1027;
+LAYER_DEF via 1028;
+LAYER_MAP 68 -datatype 44 1028;
+LAYER_DEF met2 1029;
+LAYER_MAP 69 -datatype 20 1029;
+LAYER_DEF met2_text 1030;
+LAYER_MAP 69 -texttype 20 1030;
+LAYER_DEF via2 1031;
+LAYER_MAP 69 -datatype 44 1031;
+LAYER_DEF met3 1032;
+LAYER_MAP 70 -datatype 20 1032;
+LAYER_DEF met3_text 1033;
+LAYER_MAP 70 -texttype 20 1033;
+LAYER_DEF via3 1034;
+LAYER_MAP 70 -datatype 44 1034;
+LAYER_DEF met4 1035;
+LAYER_MAP 71 -datatype 20 1035;
+LAYER_DEF met4_text 1036;
+LAYER_MAP 71 -texttype 20 1036;
+LAYER_DEF via4 1037;
+LAYER_MAP 71 -datatype 44 1037;
+LAYER_DEF met5 1038;
+LAYER_MAP 72 -datatype 20 1038;
+LAYER_DEF met5_text 1039;
+LAYER_MAP 72 -texttype 20 1039;
+LAYER_DEF pad 1040;
+LAYER_MAP 76 -datatype 20 1040;
+LAYER_DEF pad_text 1041;
+LAYER_MAP 76 -texttype 20 1041;
+LAYER_DEF nsm 1042;
+LAYER_MAP 61 -datatype 20 1042;
+LAYER_DEF capm 1043;
+LAYER_MAP 89 -datatype 44 1043;
+LAYER_DEF cap2m 1044;
+LAYER_MAP 97 -datatype 44 1044;
+LAYER_DEF vhvi 1045;
+LAYER_MAP 74 -datatype 21 1045;
+LAYER_DEF uhvi 1046;
+LAYER_MAP 74 -datatype 22 1046;
+LAYER_DEF npn 1047;
+LAYER_MAP 82 -datatype 20 1047;
+LAYER_DEF inductor 1048;
+LAYER_MAP 82 -datatype 24 1048;
+LAYER_DEF capacitor_in 1049;
+LAYER_MAP 82 -datatype 64 1049;
+LAYER_DEF pnp 1050;
+LAYER_MAP 82 -datatype 44 1050;
+LAYER_DEF LVS_prune 1051;
+LAYER_MAP 84 -datatype 44 1051;
+LAYER_DEF ncm 1052;
+LAYER_MAP 92 -datatype 44 1052;
+LAYER_DEF padCenter 1053;
+LAYER_MAP 81 -datatype 20 1053;
+LAYER_DEF target 1054;
+LAYER_MAP 76 -datatype 44 1054;
+LAYER_DEF areaid.sl 1055;
+LAYER_MAP 81 -datatype 1 1055;
+LAYER_MAP 81 -datatype 7 1055;
+LAYER_DEF areaid.ce 1056;
+LAYER_MAP 81 -datatype 2 1056;
+LAYER_DEF areaid.fe 1057;
+LAYER_MAP 81 -datatype 3 1057;
+LAYER_DEF areaid.sc 1058;
+LAYER_MAP 81 -datatype 4 1058;
+LAYER_DEF areaid.sf 1059;
+LAYER_MAP 81 -datatype 6 1059;
+LAYER_DEF areaid.sr 1061;
+LAYER_MAP 81 -datatype 8 1061;
+LAYER_DEF areaid.mt 1062;
+LAYER_MAP 81 -datatype 10 1062;
+LAYER_DEF areaid.dt 1063;
+LAYER_MAP 81 -datatype 11 1063;
+LAYER_DEF areaid.ft 1064;
+LAYER_MAP 81 -datatype 12 1064;
+LAYER_DEF areaid.ww 1065;
+LAYER_MAP 81 -datatype 13 1065;
+LAYER_DEF areaid.ld 1066;
+LAYER_MAP 81 -datatype 14 1066;
+LAYER_DEF areaid.ns 1067;
+LAYER_MAP 81 -datatype 15 1067;
+LAYER_DEF areaid.ij 1068;
+LAYER_MAP 81 -datatype 17 1068;
+LAYER_DEF areaid.zr 1069;
+LAYER_MAP 81 -datatype 18 1069;
+LAYER_DEF areaid.ed 1070;
+LAYER_MAP 81 -datatype 19 1070;
+LAYER_DEF areaid.de 1071;
+LAYER_MAP 81 -datatype 23 1071;
+LAYER_DEF areaid.rd 1072;
+LAYER_MAP 81 -datatype 24 1072;
+LAYER_DEF areaid.dn 1073;
+LAYER_MAP 81 -datatype 50 1073;
+LAYER_DEF areaid.cr 1074;
+LAYER_MAP 81 -datatype 51 1074;
+LAYER_DEF areaid.cd 1075;
+LAYER_MAP 81 -datatype 52 1075;
+LAYER_DEF areaid.st 1076;
+LAYER_MAP 81 -datatype 53 1076;
+LAYER_DEF areaid.op 1077;
+LAYER_MAP 81 -datatype 54 1077;
+LAYER_DEF areaid.en 1078;
+LAYER_MAP 81 -datatype 57 1078;
+LAYER_DEF areaid.en20 1079;
+LAYER_MAP 81 -datatype 58 1079;
+LAYER_DEF areaid.le 1080;
+LAYER_MAP 81 -datatype 60 1080;
+LAYER_DEF areaid.hl 1081;
+LAYER_MAP 81 -datatype 63 1081;
+LAYER_DEF areaid.sd 1082;
+LAYER_MAP 81 -datatype 70 1082;
+LAYER_DEF areaid.po 1083;
+LAYER_MAP 81 -datatype 81 1083;
+LAYER_DEF areaid.it 1084;
+LAYER_MAP 81 -datatype 84 1084;
+LAYER_DEF areaid.et 1085;
+LAYER_MAP 81 -datatype 101 1085;
+LAYER_DEF areaid.lvt 1086;
+LAYER_MAP 81 -datatype 108 1086;
+LAYER_DEF areaid.re 1087;
+LAYER_MAP 81 -datatype 125 1087;
+LAYER_DEF fom 1088;
+LAYER_MAP 22 -datatype 23 1088;
+LAYER_DEF poly_gate 1089;
+LAYER_MAP 66 -datatype 9 1089;
+LAYER_DEF poly_model 1090;
+LAYER_MAP 66 -texttype 83 1090;
+LAYER_DEF poly_res 1091;
+LAYER_MAP 66 -datatype 13 1091;
+LAYER_DEF diff_res 1092;
+LAYER_MAP 65 -datatype 13 1092;
+LAYER_DEF pwell_res 1093;
+LAYER_MAP 64 -datatype 13 1093;
+LAYER_DEF li1_res 1094;
+LAYER_MAP 67 -datatype 13 1094;
+LAYER_DEF diff_hv 1095;
+LAYER_MAP 65 -datatype 8 1095;
+LAYER_DEF met4_fuse 1096;
+LAYER_MAP 71 -datatype 17 1096;
+LAYER_DEF inductor_trm1 1097;
+LAYER_MAP 82 -datatype 26 1097;
+LAYER_DEF inductor_trm2 1098;
+LAYER_MAP 82 -datatype 27 1098;
+LAYER_DEF inductor_trm3 1099;
+LAYER_MAP 82 -datatype 28 1099;
+LAYER_DEF li1_block 1100;
+LAYER_MAP 67 -datatype 10 1100;
+LAYER_DEF met1_block 1101;
+LAYER_MAP 68 -datatype 10 1101;
+LAYER_DEF met2_block 1102;
+LAYER_MAP 69 -datatype 10 1102;
+LAYER_DEF met3_block 1103;
+LAYER_MAP 70 -datatype 10 1103;
+LAYER_DEF met4_block 1104;
+LAYER_MAP 71 -datatype 10 1104;
+LAYER_DEF met5_block 1105;
+LAYER_MAP 72 -datatype 10 1105;
+LAYER_DEF prBndry 1106;
+LAYER_MAP 235 -datatype 4 1106;
+LAYER_DEF diff_bnd 1107;
+LAYER_MAP 65 -datatype 4 1107;
+LAYER_DEF tap_bnd 1108;
+LAYER_MAP 65 -datatype 60 1108;
+LAYER_DEF mcon_bnd 1109;
+LAYER_MAP 67 -datatype 60 1109;
+LAYER_DEF poly_bnd 1110;
+LAYER_MAP 66 -datatype 4 1110;
+LAYER_DEF via_bnd 1111;
+LAYER_MAP 68 -datatype 60 1111;
+LAYER_DEF via2_bnd 1112;
+LAYER_MAP 69 -datatype 60 1112;
+LAYER_DEF via3_bnd 1113;
+LAYER_MAP 70 -datatype 60 1113;
+LAYER_DEF via4_bnd 1114;
+LAYER_MAP 71 -datatype 60 1114;
+LAYER_DEF li1_label 1115;
+LAYER_MAP 67 -texttype 5 1115;
+LAYER_DEF met1_label 1116;
+LAYER_MAP 68 -texttype 5 1116;
+LAYER_DEF met2_label 1117;
+LAYER_MAP 69 -texttype 5 1117;
+LAYER_DEF met3_label 1118;
+LAYER_MAP 70 -texttype 5 1118;
+LAYER_DEF met4_label 1119;
+LAYER_MAP 71 -texttype 5 1119;
+LAYER_DEF met5_label 1120;
+LAYER_MAP 72 -texttype 5 1120;
+LAYER_DEF poly_label 1121;
+LAYER_MAP 66 -texttype 5 1121;
+LAYER_DEF diff_label 1122;
+LAYER_MAP 65 -texttype 6 1122;
+LAYER_DEF pwell_in 1123;
+LAYER_MAP 64 -datatype 59 1123;
+LAYER_DEF pwell_label 1124;
+LAYER_MAP 64 -texttype 59 1124;
+LAYER_DEF pwelliso_label 1125;
+LAYER_MAP 44 -datatype 5 1125;
+LAYER_DEF pad_label 1126;
+LAYER_MAP 76 -texttype 5 1126;
+LAYER_DEF tap_label 1127;
+LAYER_MAP 65 -texttype 5 1127;
+LAYER_DEF nwell_label 1128;
+LAYER_MAP 64 -texttype 5 1128;
+LAYER_DEF inductor_label 1129;
+LAYER_MAP 82 -texttype 25 1129;
+LAYER_DEF text 1130;
+LAYER_MAP 83 -texttype 44 1130;
+LAYER_DEF li1_net 1131;
+LAYER_MAP 67 -texttype 23 1131;
+LAYER_DEF met1_net 1132;
+LAYER_MAP 68 -texttype 23 1132;
+LAYER_DEF met2_net 1133;
+LAYER_MAP 69 -texttype 23 1133;
+LAYER_DEF met3_net 1134;
+LAYER_MAP 70 -texttype 23 1134;
+LAYER_DEF met4_net 1135;
+LAYER_MAP 71 -texttype 23 1135;
+LAYER_DEF met5_net 1136;
+LAYER_MAP 72 -texttype 23 1136;
+LAYER_DEF poly_net 1137;
+LAYER_MAP 66 -texttype 23 1137;
+LAYER_DEF diff_net 1138;
+LAYER_MAP 65 -texttype 23 1138;
+LAYER_DEF li1_pin 1139;
+LAYER_MAP 67 -texttype 0 1139;
+LAYER_MAP 67 -datatype 16 1139;
+LAYER_MAP 67 -texttype 16 1139;
+LAYER_DEF met1_pin 1141;
+LAYER_MAP 68 -texttype 0 1141;
+LAYER_MAP 68 -datatype 16 1141;
+LAYER_MAP 68 -texttype 16 1141;
+LAYER_DEF met2_pin 1143;
+LAYER_MAP 69 -texttype 0 1143;
+LAYER_MAP 69 -datatype 16 1143;
+LAYER_MAP 69 -texttype 16 1143;
+LAYER_DEF met3_pin 1145;
+LAYER_MAP 70 -texttype 0 1145;
+LAYER_MAP 70 -datatype 16 1145;
+LAYER_MAP 70 -texttype 16 1145;
+LAYER_DEF met4_pin 1147;
+LAYER_MAP 71 -texttype 0 1147;
+LAYER_MAP 71 -datatype 16 1147;
+LAYER_MAP 71 -texttype 16 1147;
+LAYER_DEF met5_pin 1149;
+LAYER_MAP 72 -texttype 0 1149;
+LAYER_MAP 72 -datatype 16 1149;
+LAYER_MAP 72 -texttype 16 1149;
+LAYER_DEF poly_pin 1152;
+LAYER_MAP 66 -texttype 0 1152;
+LAYER_MAP 66 -texttype 16 1152;
+LAYER_DEF diff_pin 1153;
+LAYER_MAP 65 -texttype 16 1153;
+LAYER_DEF nwell_pin 1154;
+LAYER_MAP 64 -datatype 16 1154;
+LAYER_MAP 64 -texttype 0 1154;
+LAYER_DEF pad_pin 1155;
+LAYER_MAP 76 -texttype 0 1155;
+LAYER_MAP 76 -datatype 16 1155;
+LAYER_MAP 76 -texttype 16 1155;
+LAYER_DEF pwell_pin 1157;
+LAYER_MAP 122 -datatype 16 1157;
+LAYER_MAP 122 -texttype 16 1157;
+LAYER_MAP 122 -texttype 0 1157;
+LAYER_DEF pwelliso 1159;
+LAYER_MAP 44 -datatype 16 1159;
+LAYER_MAP 44 -texttype 16 1159;
+LAYER_DEF diff_cut 1171;
+LAYER_MAP 65 -datatype 14 1171;
+LAYER_DEF poly_cut 1172;
+LAYER_MAP 66 -datatype 14 1172;
+LAYER_DEF li1_cut 1173;
+LAYER_MAP 67 -datatype 14 1173;
+LAYER_DEF met1_cut 1174;
+LAYER_MAP 68 -datatype 14 1174;
+LAYER_DEF met2_cut 1175;
+LAYER_MAP 69 -datatype 14 1175;
+LAYER_DEF met3_cut 1176;
+LAYER_MAP 70 -datatype 14 1176;
+LAYER_DEF met4_cut 1177;
+LAYER_MAP 71 -datatype 14 1177;
+LAYER_DEF met5_cut 1178;
+LAYER_MAP 72 -datatype 14 1178;
+LAYER_DEF pwell_cut 1179;
+LAYER_MAP 64 -datatype 14 1179;
+LAYER_DEF met5_probe 1180;
+LAYER_MAP 72 -datatype 25 1180;
+LAYER_DEF met4_probe 1181;
+LAYER_MAP 71 -datatype 25 1181;
+LAYER_DEF met3_probe 1182;
+LAYER_MAP 70 -datatype 25 1182;
+LAYER_DEF met2_probe 1183;
+LAYER_MAP 69 -datatype 25 1183;
+LAYER_DEF met1_probe 1184;
+LAYER_MAP 68 -datatype 25 1184;
+LAYER_DEF li1_probe 1185;
+LAYER_MAP 67 -datatype 25 1185;
+LAYER_DEF poly_probe 1186;
+LAYER_MAP 66 -datatype 25 1186;
+LAYER_DEF poly_short 1187;
+LAYER_MAP 66 -datatype 15 1187;
+LAYER_DEF li1_short 1188;
+LAYER_MAP 67 -datatype 15 1188;
+LAYER_DEF met1_short 1189;
+LAYER_MAP 68 -datatype 15 1189;
+LAYER_DEF met2_short 1190;
+LAYER_MAP 69 -datatype 15 1190;
+LAYER_DEF met3_short 1191;
+LAYER_MAP 70 -datatype 15 1191;
+LAYER_DEF met4_short 1192;
+LAYER_MAP 71 -datatype 15 1192;
+LAYER_DEF met5_short 1193;
+LAYER_MAP 72 -datatype 15 1193;
+LAYER_DEF cncm_mk 1194;
+LAYER_MAP 17 -datatype 0 1194;
+LAYER_DEF crpm_mk 1195;
+LAYER_MAP 96 -datatype 0 1195;
+LAYER_DEF cpdm_mk 1196;
+LAYER_MAP 37 -datatype 0 1196;
+LAYER_DEF cnsm_mk 1197;
+LAYER_MAP 22 -datatype 0 1197;
+LAYER_DEF cmm5_mk 1198;
+LAYER_MAP 59 -datatype 0 1198;
+LAYER_DEF cviam4_mk 1199;
+LAYER_MAP 58 -datatype 0 1199;
+LAYER_DEF cmm4_mk 1200;
+LAYER_MAP 51 -datatype 0 1200;
+LAYER_DEF cviam3_mk 1201;
+LAYER_MAP 50 -datatype 0 1201;
+LAYER_DEF cmm3_mk 1202;
+LAYER_MAP 34 -datatype 0 1202;
+LAYER_DEF cviam2_mk 1203;
+LAYER_MAP 44 -datatype 0 1203;
+LAYER_DEF cmm2_mk 1204;
+LAYER_MAP 41 -datatype 0 1204;
+LAYER_DEF cviam_mk 1205;
+LAYER_MAP 40 -datatype 0 1205;
+LAYER_DEF cmm1_mk 1206;
+LAYER_MAP 36 -datatype 0 1206;
+LAYER_DEF ctm1_mk 1207;
+LAYER_MAP 35 -datatype 0 1207;
+LAYER_DEF cli1m_mk 1208;
+LAYER_MAP 56 -datatype 0 1208;
+LAYER_DEF clicm1_mk 1209;
+LAYER_MAP 43 -datatype 0 1209;
+LAYER_DEF cpsdm_mk 1210;
+LAYER_MAP 32 -datatype 0 1210;
+LAYER_DEF cnsdm_mk 1211;
+LAYER_MAP 30 -datatype 0 1211;
+LAYER_DEF cldntm_mk 1212;
+LAYER_MAP 11 -datatype 0 1212;
+LAYER_DEF cnpc_mk 1213;
+LAYER_MAP 49 -datatype 0 1213;
+LAYER_DEF chvntm_mk 1214;
+LAYER_MAP 39 -datatype 0 1214;
+LAYER_DEF cntm_mk 1215;
+LAYER_MAP 27 -datatype 0 1215;
+LAYER_DEF cp1m_mk 1216;
+LAYER_MAP 28 -datatype 0 1216;
+LAYER_DEF clvom_mk 1217;
+LAYER_MAP 46 -datatype 0 1217;
+LAYER_DEF conom_mk 1218;
+LAYER_MAP 88 -datatype 0 1218;
+LAYER_DEF ctunm_mk 1219;
+LAYER_MAP 20 -datatype 0 1219;
+LAYER_DEF chvtrm_mk 1220;
+LAYER_MAP 98 -datatype 0 1220;
+LAYER_DEF chvtpm_mk 1221;
+LAYER_MAP 97 -datatype 0 1221;
+LAYER_DEF clvtnm_mk 1222;
+LAYER_MAP 25 -datatype 0 1222;
+LAYER_DEF cnwm_mk 1223;
+LAYER_MAP 21 -datatype 0 1223;
+LAYER_DEF cdnm_mk 1224;
+LAYER_MAP 48 -datatype 0 1224;
+LAYER_DEF cfom_mk 1225;
+LAYER_MAP 23 -datatype 0 1225;
+LAYER_DEF cfom 1226;
+LAYER_MAP 22 -datatype 20 1226;
+LAYER_DEF clvtnm 1227;
+LAYER_MAP 25 -datatype 44 1227;
+LAYER_DEF chvtpm 1228;
+LAYER_MAP 88 -datatype 44 1228;
+LAYER_DEF conom 1229;
+LAYER_MAP 87 -datatype 44 1229;
+LAYER_DEF clvom 1230;
+LAYER_MAP 45 -datatype 20 1230;
+LAYER_DEF cntm 1231;
+LAYER_MAP 26 -datatype 20 1231;
+LAYER_DEF chvntm 1232;
+LAYER_MAP 38 -datatype 20 1232;
+LAYER_DEF cnpc 1233;
+LAYER_MAP 44 -datatype 20 1233;
+LAYER_DEF cnsdm 1234;
+LAYER_MAP 29 -datatype 20 1234;
+LAYER_DEF cpsdm 1235;
+LAYER_MAP 31 -datatype 20 1235;
+LAYER_DEF cli1m 1236;
+LAYER_MAP 115 -datatype 44 1236;
+LAYER_DEF cviam3 1237;
+LAYER_MAP 112 -datatype 20 1237;
+LAYER_DEF cviam4 1238;
+LAYER_MAP 117 -datatype 20 1238;
+LAYER_DEF cncm 1239;
+LAYER_MAP 96 -datatype 44 1239;
+LAYER_DEF cntm_mk_add 1240;
+LAYER_MAP 26 -datatype 21 1240;
+LAYER_DEF clvtnm_mk_add 1241;
+LAYER_MAP 25 -datatype 43 1241;
+LAYER_DEF chvtpm_mk_add 1242;
+LAYER_MAP 97 -datatype 43 1242;
+LAYER_DEF cli1m_mk_add 1243;
+LAYER_MAP 115 -datatype 43 1243;
+LAYER_DEF clicm1_mk_add 1244;
+LAYER_MAP 106 -datatype 43 1244;
+LAYER_DEF cpsdm_mk_add 1245;
+LAYER_MAP 31 -datatype 21 1245;
+LAYER_DEF cnsdm_mk_add 1246;
+LAYER_MAP 29 -datatype 21 1246;
+LAYER_DEF cp1m_mk_add 1247;
+LAYER_MAP 33 -datatype 43 1247;
+LAYER_DEF cfom_mk_add 1248;
+LAYER_MAP 22 -datatype 21 1248;
+LAYER_DEF cntm_mk_drop 1249;
+LAYER_MAP 26 -datatype 22 1249;
+LAYER_DEF clvtnm_mk_drop 1250;
+LAYER_MAP 25 -datatype 42 1250;
+LAYER_DEF chvtpm_mk_drop 1251;
+LAYER_MAP 97 -datatype 42 1251;
+LAYER_DEF cli1m_mk_drop 1252;
+LAYER_MAP 115 -datatype 42 1252;
+LAYER_DEF clicm1_mk_drop 1253;
+LAYER_MAP 106 -datatype 42 1253;
+LAYER_DEF cpsdm_mk_drop 1254;
+LAYER_MAP 31 -datatype 22 1254;
+LAYER_DEF cnsdm_mk_drop 1255;
+LAYER_MAP 29 -datatype 22 1255;
+LAYER_DEF cp1m_mk_drop 1256;
+LAYER_MAP 33 -datatype 42 1256;
+LAYER_DEF cfom_mk_drop 1257;
+LAYER_MAP 22 -datatype 22 1257;
+LAYER_DEF cmm4_waffle_drop 1258;
+LAYER_MAP 112 -datatype 4 1258;
+LAYER_DEF cmm3_waffle_drop 1259;
+LAYER_MAP 107 -datatype 24 1259;
+LAYER_DEF cmm2_waffle_drop 1260;
+LAYER_MAP 105 -datatype 52 1260;
+LAYER_DEF cmm1_waffle_drop 1261;
+LAYER_MAP 62 -datatype 24 1261;
+LAYER_DEF cp1m_waffle_drop 1262;
+LAYER_MAP 33 -datatype 24 1262;
+LAYER_DEF cfom_waffle_drop 1263;
+LAYER_MAP 22 -datatype 24 1263;
+LAYER_DEF cmm5_waffle_drop 1264;
+LAYER_MAP 117 -datatype 4 1264;
+SELECT -outside pad areaid.ft -outputlayer bondPad;
+AND capm met2 -outputlayer bottom_plate_pvsTmp1;
+SIZE bottom_plate_pvsTmp1 -by 3 -outputlayer bottom_plate;
+SELECT -enclose capm via2 -gt 1 -outputlayer capacitor;
+SELECT -cut -not capm via2 -outputlayer dummy_capacitor;
+SELECT -label "poly" -textname "dummy_poly" -textlayer text -outputlayer dummy_poly;
+HOLES areaid.sl -outputlayer Chip_extent_pvsTmp1;
+OR Chip_extent_pvsTmp1 areaid.sl -outputlayer Chip_extent;
+OR cfom cp1m_mk cmm1_mk cmm2_mk -outputlayer Diecut_pmm_pvsTmp1;
+NOT areaid.dt Diecut_pmm_pvsTmp1 -outputlayer Diecut_pmm;
+WITH_WIDTH met1 -gt 3 -outputlayer huge_met1;
+WITH_WIDTH met2 -gt 3 -outputlayer huge_met2;
+WITH_WIDTH met3 -gt 3 -outputlayer huge_met3;
+WITH_WIDTH met4 -gt 3 -outputlayer huge_met4;
+WITH_WIDTH met5 -gt 3 -outputlayer huge_met5;
+WITH_WIDTH pad -gt 100 -outputlayer hugePad;
+NOT Chip_extent nwell -outputlayer pwell;
+AND pwell dnwell -outputlayer iso_pwell;
+AND poly diff -outputlayer gate;
+NOT gate nwell -outputlayer nfet;
+AND gate nwell -outputlayer pfet;
+SELECT -inside gate lvtn -outputlayer LVTN_Gate;
+NOT diff nwell -outputlayer ndiff;
+AND diff nwell -outputlayer pdiff;
+AND tap nwell -outputlayer ntap;
+NOT tap nwell -outputlayer ptap;
+OR diff tap -outputlayer poly_licon1_pvsTmp1;
+NOT poly_licon1_pvsTmp1 poly -outputlayer poly_licon1_pvsTmp2;
+SELECT -cut -not licon1 poly_licon1_pvsTmp2 -outputlayer poly_licon1;
+AND tap licon1 -outputlayer tap_licon;
+NOT tap poly -outputlayer tap_notPoly;
+SELECT -inside tap nwell -outputlayer tap_nwell;
+NOT nwell hvi -outputlayer Var_channel_pvsTmp1;
+AND poly tap -outputlayer Var_channel_pvsTmp2;
+AND Var_channel_pvsTmp2 Var_channel_pvsTmp1 -outputlayer Var_channel_pvsTmp3;
+NOT Var_channel_pvsTmp3 areaid.ce -outputlayer Var_channel;
+
+RULE dnwell.2 {
+    CAPTION "Min width of deep nwell >= 3.000 um";
+    INTE dnwell -lt 3 ; // -outputlayer _EPTMPL262180
+}
+
+RULE dnwell.3 {
+    CAPTION "Min spacing between deep nwells. Rule exempt inside UHVI. >= 6.300 um";
+    NOT dnwell uhvi -outputlayer dnwell.3_a;
+    EXTE dnwell.3_a -lt 6.3 -single_point ; // -outputlayer _EPTMPL262182
+}
+
+RULE dnwell.4 {
+    CAPTION "Dnwell can not overlap pnp";
+    AND dnwell pnp ; // -outputlayer _EPTMPL262183
+}
+
+RULE dnwell.5 {
+    CAPTION P+ Diff can not straddle dnwell";
+    SELECT -cut psdm dnwell ; // -outputlayer _EPTMPL262184
+}
+
+RULE dnwell.7 {
+    CAPTION "Dnwell can not straddle areaid:substratecut";
+    SELECT -cut dnwell areaid.st ; // -outputlayer _EPTMPL262185
+}
+
+RULE nwell.1 {
+    CAPTION "Width of nwell >= 0.840 um";
+    INTE nwell -lt 0.84 ; // -outputlayer _EPTMPL262186
+}
+
+RULE nwell.2ab {
+    CAPTION "2a - Spacing between two n-wells >= 1.270 um";
+    CAPTION "2b - Manual merge wells if less than minimum";
+    EXTE nwell -lt 1.27 -notch also -single_point ; // -outputlayer _EPTMPL262187
+}
+
+RULE nwell.4 {
+    CAPTION "All n-wells will contain metal-contacted tap";
+    CAPTION "(rule checks only for licon1 on tap).";
+    CAPTION "Rule exempted from high voltage cells inside UHVI";
+    SELECT -enclose -not nwell tap_licon ; // -outputlayer _EPTMPL262188
+}
+
+RULE nwell.5 {
+    CAPTION "Deep nwell must be enclosed by nwell by atleast >= 0.400 um";
+    CAPTION "Exempted inside UHVI or areaid.lw";
+    CAPTION "Nwells can merge over deep nwell if spacing too small (as in rule nwell.2)";
+    CAPTION "areaid.lw exemption not coded, areaid.lw not in drm";
+    INSIDE_CELL -not "nwell" "*_tech_CD_top" -outputlayer "nwell.5_a";
+    NOT uhvi dnwell -outputlayer nwell.5_b;
+    ENC nwell.5_b nwell -lt 0.4 ; // -outputlayer _EPTMPL262191
+}
+
+RULE nwell.6 {
+    CAPTION "Min enclosure of nwell hole by deep nwell outside UHVI >= 1.030 um";
+    CAPTION "shapes in cell "*_tech_CD_top" exempted";
+    INSIDE_CELL -not "nwell" "*_tech_CD_top" -outputlayer "nwell.6_a";
+    SELECT -outside nwell.6_a uhvi -outputlayer nwell.6_b;
+    HOLES nwell.6_b -outputlayer nwell.6_c;
+    ENC nwell.6_c dnwell -lt 1.03 ; // -outputlayer _EPTMPL262195
+}
+
+RULE hvtp.1 {
+    CAPTION "Min width of hvtp >= 0.380 um";
+    INTE hvtp -lt 0.38 -single_point ; // -outputlayer _EPTMPL262196
+}
+
+RULE hvtp.2 {
+    CAPTION "Min space between hvtp to hvtp >= 0.380 um";
+    EXTE hvtp -lt 0.38 -single_point ; // -outputlayer _EPTMPL262197
+}
+
+RULE hvtp.3 {
+    CAPTION "Min enclosure of pfet by hvtp >= 0.180 um";
+    ENC pfet hvtp -lt 0.18 ; // -outputlayer _EPTMPL262198
+}
+
+RULE hvtp.4 {
+    CAPTION "Min spacing between pfet and hvtp >= 0.180 um";
+    EXTE pfet hvtp -lt 0.18 -single_point ; // -outputlayer _EPTMPL262199
+}
+
+RULE hvtp.5 {
+    CAPTION "Min area of hvtp >= 0.265 sq um";
+    AREA hvtp -lt 0.265 ; // -outputlayer _EPTMPL262200
+}
+
+RULE hvtp.6 {
+    CAPTION _Min area of hvtp Holes >= 0.265";
+    HOLES hvtp -outputlayer hvtp.6_a;
+    AREA hvtp.6_a -lt 0.265 ; // -outputlayer _EPTMPL262202
+}
+
+RULE lvtn.1a {
+    CAPTION "Min width of lvtm >= 0.380 um";
+    INTE lvtn -lt 0.38 -single_point ; // -outputlayer _EPTMPL262203
+}
+
+RULE lvtn.2 {
+    CAPTION "Min space lvtm to lvtm >= 0.380 um";
+    EXTE lvtn -lt 0.38 -single_point ; // -outputlayer _EPTMPL262204
+}
+
+RULE lvtn.3a {
+    CAPTION "Mim spacing of lvtn to gate. Rule exempted inside UHVI >= 0.180 um";
+    NOT lvtn uhvi -outputlayer lvtn.3a_exempt;
+    EXTE lvtn.3a_exempt -lt 0.18 -single_point ; // -outputlayer _EPTMPL262206
+}
+
+RULE lvtn.3b {
+    CAPTION "Min spacing of lvtn to pfet along the S/D direction >= 0.235 um";
+    EDGE_BOOLEAN -coincident_only -outside gate pdiff -outputlayer lvtn.3b_a;
+    EXTE lvtn lvtn.3b_a -lt 0.235 -single_point ; // -outputlayer _EPTMPL262208
+}
+
+RULE lvtn.4b {
+    CAPTION "Min enclosure of gate by lvtn. Rule exempted inside UHVI >= 0.180 um";
+    NOT lvtn uhvi -outputlayer lvtn.3a_exempt;
+    ENC gate lvtn -lt 0.18 -abut -lt 90 ; // -outputlayer _EPTMPL262210
+}
+
+RULE lvtn.9 {
+    CAPTION "Min spacing, no overlap, between lvtn and hvtp >= 0.380 um";
+    EXTE lvtn hvtp -lt 0.38 -overlap -single_point ; // -outputlayer _EPTMPL262211
+}
+
+RULE lvtn.10 {
+    CAPTION "Min enclosure of lvtn by (nwell not overlapping Var_channel) (exclude coincident edges) >= 0.380 um";
+    SELECT -cut -not nwell Var_channel -outputlayer lvtn.10_a;
+    ENC lvtn lvtn.10_a -lt 0.38 ; // -outputlayer _EPTMPL262213
+}
+
+RULE lvtn.12 {
+    CAPTION "Min spacing between lvtn and (nwell inside areaid.ce) >= 0.380 um";
+    SELECT -inside nwell areaid.ce -outputlayer lvtn.12_a;
+    EXTE lvtn lvtn.12_a -lt 0.38 -single_point ; // -outputlayer _EPTMPL262215
+}
+
+RULE lvtn.13 {
+    CAPTION "Min area of lvtn >= 0.265 sq um";
+    AREA lvtn -lt 0.265 ; // -outputlayer _EPTMPL262216
+}
+
+RULE lvtn.14 {
+    CAPTION "Min area of lvtn Holes >= 0.265 sq um";
+    HOLES lvtn -outputlayer lvtn.14_a;
+    AREA lvtn.14_a -lt 0.265 ; // -outputlayer _EPTMPL262218
+}
+
+RULE difftap.1 {
+    CAPTION "Width of diff or tap >= 0.150 um";
+    INTE diff -lt 0.15 ; // -outputlayer _EPTMPL262219
+    INTE tap -lt 0.15 ; // -outputlayer _EPTMPL262220
+}
+
+RULE difftap.2 {
+    CAPTION "Minimum channel width (Diff And Poly) except for FETs inside areaid.sc: >= 0.420 um";
+    CAPTION "Rule exempted in the SP8* flows only, for the cells listed in rule difftap.2a";
+    CAPTION "Exemption TBA";
+    NOT gate areaid.sc -outputlayer difftap.2_a;
+    NOT diff difftap.2_a -outputlayer difftap.2_b;
+    EDGE_BOOLEAN -not -coincident_only difftap.2_a difftap.2_b -outputlayer difftap.2_c;
+    INTE difftap.2_c -lt 0.42 ; // -outputlayer _EPTMPL262224
+}
+
+RULE difftap.2b {
+    CAPTION "Minimum channel width (Diff And Poly) for FETs inside areaid.sc >= 0.360";
+    AND gate areaid.sc -outputlayer difftap.2b_a;
+    NOT diff difftap.2b_a -outputlayer difftap.2b_b;
+    EDGE_BOOLEAN -not -coincident_only difftap.2b_a difftap.2b_b -outputlayer difftap.2b_c;
+    INTE difftap.2b_c -lt 0.36 ; // -outputlayer _EPTMPL262228
+}
+
+RULE difftap.3 {
+    CAPTION "Spacing of diff to diff, tap to tap, or non-abutting diff to tap 0.270 um";
+    EXTE diff -lt 0.27 -notch also ; // -outputlayer _EPTMPL262229
+    EXTE tap -lt 0.27 -notch also ; // -outputlayer _EPTMPL262230
+    EXTE diff tap -ltgt 0 0.27 ; // -outputlayer _EPTMPL262231
+}
+
+RULE difftap.4 {
+    CAPTION "Min tap bound by one diffusion 0.290 um";
+    SELECT -touch tap diff -eq 1 -outputlayer difftap.4_a;
+    INTE difftap.4_a -lt 0.29 ; // -outputlayer _EPTMPL262233
+}
+
+RULE difftap.5 {
+    CAPTION "Min tap bound by two diffusions 0.400 um";
+    SELECT -touch tap diff -eq 2 -outputlayer difftap.5_a;
+    INTE difftap.5_a -lt 0.4 ; // -outputlayer _EPTMPL262235
+}
+
+RULE difftap.6 {
+    CAPTION "Diff and tap are not allowed to extend beyond their abutting edge";
+    EDGE_BOOLEAN -coincident_only diff tap -outputlayer difftap.6_a;
+    EDGE_SELECT -coincident_only diff tap -outputlayer difftap.6_b;
+    EDGE_BOOLEAN -coincident_only -not difftap.6_a difftap.6_b ; // -outputlayer _EPTMPL262238
+}
+
+RULE difftap.7 {
+    CAPTION "Spacing of diff/tap abutting edge to a non-conciding diff or tap edge >= 0.130 um";
+    EDGE_BOOLEAN -coincident_only diff tap -outputlayer difftap.7_a;
+    EXTE difftap.7_a tap -ltgt 0 0.13 -measure all ; // -outputlayer _EPTMPL262240
+    EDGE_BOOLEAN -coincident_only tap diff -outputlayer difftap.7_b;
+    EXTE difftap.7_b diff -ltgt 0 0.13 -measure all ; // -outputlayer _EPTMPL262242
+}
+
+RULE difftap.8 {
+    CAPTION "Enclosure of (p+) diffusion by N-well. Rule exempted inside UHVI. >= 0.180 um";
+    NOT pdiff UHVI -outputlayer difftap.8_a;
+    ENC difftap.8_a nwell -lt 0.18 ; // -outputlayer _EPTMPL262244
+}
+
+RULE difftap.9 {
+    CAPTION "Spacing of (n+) diffusion to N-well outside UHVI >= 0.340 um";
+    NOT ndiff UHVI -outputlayer difftap.9_a;
+    EXTE difftap.9_a nwell -lt 0.34 ; // -outputlayer _EPTMPL262246
+}
+
+RULE difftap.10 {
+    CAPTION "Enclosure of (n+) tap by N-well. Rule exempted inside UHVI. >= 0.180 um";
+    NOT ntap UHVI -outputlayer difftap.10_a;
+    ENC difftap.10_a nwell -lt 0.18 ; // -outputlayer _EPTMPL262248
+}
+
+RULE difftap.11 {
+    CAPTION "Spacing of (p+) tap to N-well. Rule exempted inside UHVI >= 0.130 um";
+    NOT ptap UHVI -outputlayer difftap.11_a;
+    EXTE difftap.11_a nwell -lt 0.13 ; // -outputlayer _EPTMPL262250
+}
+
+RULE poly.1a {
+    CAPTION "Width of poly >= 0.150 um";
+    INTE poly -lt 0.15 ; // -outputlayer _EPTMPL262251
+}
+
+RULE poly.1b {
+    CAPTION "Min channel length (poly width) for pfet overlapping lvtn >= 0.350 um";
+    CAPTION "(exempt rule for dummy_poly in cells listed on Table H3)";
+    SELECT -cut pfet lvtn -outputlayer poly.1b_a;
+    INTE poly.1b_a -lt 0.35 ; // -outputlayer _EPTMPL262253
+}
+
+RULE poly.2 {
+    CAPTION "Spacing of poly to poly except for poly.c2 and poly.c3 >= 0.210 um";
+    CAPTION "Exempt cell: sr_bltd_eq where it is same as poly.c2";
+    EXTE poly -lt 0.21 -single_point ; // -outputlayer _EPTMPL262254
+}
+
+RULE poly.4 {
+    CAPTION "Spacing of poly on field to diff (parallel edges only) >= 0.075 um";
+    NOT poly diff -outputlayer poly.4_a;
+    EXTE poly.4_a diff -lt 0.075 -para only ; // -outputlayer _EPTMPL262256
+}
+
+RULE poly.5 {
+    CAPTION "Spacing of poly on field to tap >= 0.055 um";
+    NOT poly diff -outputlayer poly.5_a;
+    EXTE poly.5_a tap -lt 0.055 -single_point ; // -outputlayer _EPTMPL262258
+}
+
+RULE poly.6 {
+    CAPTION "Spacing of poly on diff to abutting tap (min source) >= 0.300 um";
+    SELECT -touch tap diff -outputlayer poly.6_a;
+    EXTE gate poly.6_a -lt 0.3 ; // -outputlayer _EPTMPL262260
+}
+
+RULE poly.7 {
+    CAPTION "Extension of diff beyond poly (min drain) >= 0.250 um";
+    ENC gate diff -lt 0.25 -outputlayer poly.7_a;
+    NOT diff gate -outputlayer poly.7_b;
+    SELECT -touch poly.7_b tap -outputlayer poly.7_c;
+    NOT poly.7_b poly.7_c -outputlayer poly.7_d;
+    EDGE_BOOLEAN -coincident_only poly.7_a poly.7_d ; // -outputlayer _EPTMPL262265
+}
+
+RULE poly.8 {
+    CAPTION "Extension of poly beyond diffusion (endcap) >= 0.130 um";
+    ENC gate poly -lt 0.13 ; // -outputlayer _EPTMPL262266
+}
+
+RULE poly.10 {
+    CAPTION "Poly can’t overlap inner corners of diff";
+    EXTE diff -lt 0.002 -abut lt 90 -output region -outputlayer poly.10_a;
+    AND poly poly.10_a ; // -outputlayer _EPTMPL262268
+}
+
+RULE poly.11 {
+    CAPTION "No 90 deg turns of poly on diff";
+    RECT_CHK gate -orthogonal_only -not ; // -outputlayer _EPTMPL262269
+}
+
+RULE poly.12 {
+    CAPTION "(Poly NOT (nwell NOT hvi)) may not overlap tap";
+    CAPTION "Rule exempted for cell name s8fgvr_n_fg2 and gated_npn and inside UHVI.";
+    NOT nwell hvi -outputlayer poly.12_a;
+    NOT poly poly.12_a -outputlayer poly.12_b;
+    AND poly.12_b tap ; // -outputlayer _EPTMPL262272
+}
+
+RULE poly.15 {
+    CAPTION "Poly must not overlap diff";
+    AND poly diff_res ; // -outputlayer _EPTMPL262273
+}
+
+RULE npc.1 {
+    CAPTION "Min width of NPC >= 0.270 um";
+    INTE npc -lt 0.27 ; // -outputlayer _EPTMPL262274
+}
+
+RULE npc.2 {
+    CAPTION "Min spacing of NPC to NPC > 0.270 um";
+    CAPTION "Rule npc.3 Manual merge if less than minimum";
+    EXTE npc -lt 0.27 -single_point ; // -outputlayer _EPTMPL262275
+}
+
+RULE npc.4 {
+    CAPTION "Spacing (no overlap) of NPC to Gate >= 0.090 um";
+    EXTE npc gate -lt 0.09 -single_point -overlap ; // -outputlayer _EPTMPL262276
+}
+
+RULE psd.1 {
+    CAPTION "width of nsdm(psdm) >= 0.380 um";
+    INTE nsdm -lt 0.38 ; // -outputlayer _EPTMPL262277
+    INTE psdm -lt 0.38 ; // -outputlayer _EPTMPL262278
+}
+
+RULE psd.2 {
+    CAPTION "Spacing of nsdm(psdm) to nsdm(psdm) >= 0.380 um";
+    CAPTION "psd.3 - Manual merge if less than minimum";
+    EXTE nsdm -lt 0.38 -single_point ; // -outputlayer _EPTMPL262279
+    EXTE psdm -lt 0.38 -single_point ; // -outputlayer _EPTMPL262280
+}
+
+RULE psd.5a {
+    CAPTION "Enclosure of diff by nsdm(psdm), except for butting edge >= 0.125 um";
+    OR nsdm psdm -outputlayer psd.5a_a;
+    ENC diff psd.5a_a -lt 0.125 ; // -outputlayer _EPTMPL262282
+}
+
+RULE psd.5b {
+    CAPTION "Enclosure of tap by nsdm(psdm), except for butting edge >= 0.125 um";
+    OR nsdm psdm -outputlayer psd.5b_a;
+    ENC tap psd.5b_a -lt 0.125 ; // -outputlayer _EPTMPL262284
+}
+
+RULE psd.6 {
+    CAPTION "Enclosure of diff/tap butting edge by nsdm (psdm) == 0.000 um";
+    EDGE_BOOLEAN -coincident_only diff tap -outputlayer psd.6_a;
+    EDGE_BOOLEAN -coincident_only nsdm psdm -outputlayer psd.6_b;
+    EDGE_SELECT -coincident_only -not psd.6_a psd.6_b ; // -outputlayer _EPTMPL262287
+}
+
+RULE psd.7 {
+    CAPTION "Spacing of NSDM/PSDM to opposite implant diff or tap -lt 0.130";
+    CAPTION "(for non-abutting diff/tap edges)";
+    EXTE nsdm pdiff -ltgt 0 0.13 -overlap ; // -outputlayer _EPTMPL262288
+    EXTE nsdm ntap -ltgt 0 0.13 -overlap ; // -outputlayer _EPTMPL262289
+    EXTE psdm ndiff -ltgt 0 0.13 -overlap ; // -outputlayer _EPTMPL262290
+    EXTE psdm pdiff -ltgt 0 0.13 -overlap ; // -outputlayer _EPTMPL262291
+}
+
+RULE psd.9 {
+    CAPTION "Diff and tap must be enclosed by their corresponding implant layers.";
+    CAPTION "Rule exempted for";
+    CAPTION "diff inside “advSeal_6um* OR cuPillarAdvSeal_6um*” pcell for";
+    CAPTION "SKY130P*/SP8P*/SKY130DI-5R-CSMC flows";
+    CAPTION "diff rings around the die at min total L>1000 um and W=0.3 um";
+    CAPTION "gated_npm areaid.zer.";
+    OR nsdm psdm -outputlayer psd.9_a;
+    NOT diff psd.9_a ; // -outputlayer _EPTMPL262293
+    NOT tap psd.9_a ; // -outputlayer _EPTMPL262294
+}
+
+RULE psd.10a {
+    CAPTION "Min area of Nsdm >= 0.265 sq um";
+    AREA nsdm -lt 0.265 ; // -outputlayer _EPTMPL262295
+}
+
+RULE psd.10b {
+    CAPTION "Min area of Psdm >- 0.255 sq um";
+    AREA psdm -lt 0.255 ; // -outputlayer _EPTMPL262296
+}
+
+RULE psd.11 {
+    CAPTION "Min area od n/psdm Holes >= 0.265 sq um";
+    HOLES nsdm -outputlayer psd.11_a;
+    AREA psd.11_a -lt 0.265 ; // -outputlayer _EPTMPL262298
+    HOLES psdm -outputlayer psd.11_b;
+    AREA psd.11_b -lt 0.265 ; // -outputlayer _EPTMPL262300
+}
+
+RULE licon.1 {
+    CAPTION "Min and max L and W of licon1 (exempt licons inside prec_resistor) == 0.170 um";
+    CAPTION "Filter for prec_resistor TBA";
+    RECT_CHK licon1 -ne 0.17 -orthogonal_only ; // -outputlayer _EPTMPL262301
+}
+
+RULE licon.2 {
+    CAPTION "Spacing of licon1 to licon1 >= 0.170 um";
+    EXTE licon1 -lt 0.17 -single_point ; // -outputlayer _EPTMPL262302
+}
+
+RULE licon.4 {
+    CAPTION "Licon1 must overlap li1 and (poly or diff or tap)";
+    OR poly diff tap -outputlayer licon.4_a;
+    SELECT -interact -not licon1 licon.4_a ; // -outputlayer _EPTMPL262304
+}
+
+RULE licon.5a {
+    CAPTION "Enclosure of licon by diff >= 0.040 um";
+    ENC licon1 diff -lt 0.04 ; // -outputlayer _EPTMPL262305
+}
+
+RULE licon.5b {
+    CAPTION "Min space between tap_licon and diff-abutting tap edge >= 0.060 um";
+    AND tap licon1 -outputlayer licon.5b;
+    EXTE licon.5b diff -lt 0.06 ; // -outputlayer _EPTMPL262307
+}
+
+RULE licon.5c {
+    CAPTION "Enclosure of licon by diff on one of two adjacent sides >= 0.060 um";
+    RECT_ENC licon1 diff -good 0.06 0 0.06 0 ; // -outputlayer _EPTMPL262308
+}
+
+RULE licon.6 {
+    CAPTION "licon cannot straddle tap";
+    SELECT -cut licon1 tap ; // -outputlayer _EPTMPL262309
+}
+
+RULE licon.7 {
+    CAPTION "Enclosure of licon by one of two adjacent edges of isolated tap >= 0.120 um";
+    RECT_ENC licon1 tap -good 0.12 0 0.12 0 ; // -outputlayer _EPTMPL262310
+}
+
+RULE licon.8 {
+    CAPTION "Enclosure of poly_licon by poly >= 0.050 um";
+    AND poly licon1 -outputlayer licon.8_a;
+    ENC licon.8_a poly -lt 0.05 ; // -outputlayer _EPTMPL262312
+}
+
+RULE licon.8a {
+    CAPTION "Enclosure of poly_licon by poly on one of two adjacent sides >= 0.080 um";
+    AND poly licon1 -outputlayer licon.8a_a;
+    RECT_ENC licon.8a_a poly -good 0.08 0 0.08 0 ; // -outputlayer _EPTMPL262314
+}
+
+RULE licon.9 {
+    CAPTION "Spacing, no overlap, between poly_licon and psdm >= 0.110 um";
+    CAPTION "In SKY130DIA/SKY130TMA/SKY130PIR-10 flows, the rule is checked only";
+    CAPTION "between (poly_licon outside rpm) and psdm";
+    CAPTION " Limitation TBA ";
+    AND poly licon1 -outputlayer licon.9_a;
+    EXTE licon.9_a psdm -lt 0.11 -overlap ; // -outputlayer _EPTMPL262316
+}
+
+RULE licon.11 {
+    CAPTION "Spacing of licon on diff or tap to poly on diff >= 0.055 um";
+    CAPTION "(except for all FETs inside areaid.sc";
+    CAPTION "and except s8spf-10r flow for 0.5um phv inside cell names s8fs_gwdlvx4,";
+    CAPTION "s8fs_gwdlvx8, s8fs_hvrsw_x4, s8fs_hvrsw8, s8fs_hvrsw264,";
+    CAPTION "and s8fs_hvrsw520 and for 0.15um nshort inside cell names s8fs_rdecdrv,";
+    CAPTION "s8fs_rdec8, s8fs_rdec32, s8fs_rdec264, s8fs_rdec520)";
+    CAPTION "Exceptions TPA  "A;
+    NOT gate areaid.sc -outputlayer licon.11_a;
+    OR diff tap -outputlayer licon.11_b;
+    AND licon1 licon.11_b -outputlayer licon.11_c;
+    EXTE licon.11_a licon.11_c -lt 0.055 ; // -outputlayer _EPTMPL262320
+}
+
+RULE licon.11a {
+    CAPTION "Spacing of licon on diff or tap to poly on diff >= 0.050 um";
+    CAPTION "(for all FETs inside areaid.sc except 0.15um phighvt)";
+    CAPTION " phighvt Exception  TBA ";
+    AND gate areaid.sc -outputlayer licon.11a_a;
+    OR diff tap -outputlayer licon.11a_b;
+    AND licon1 licon.11a_b -outputlayer licon.11a_c;
+    AND licon.11a_a diff -outputlayer licon.11a_d;
+    EXTE licon.11a_c licon.11a_d -lt 0.05 ; // -outputlayer _EPTMPL262325
+}
+
+RULE licon.12 {
+    CAPTION "Max SD width without licon <= 5.700 um";
+    OR ndiff pdiff -outputlayer licon.12_a;
+    SIZE licon1 -by 5.7 -inside_of licon.12_a -step 0.04 -outputlayer licon.12_b;
+    NOT licon.12_a licon.12_b ; // -outputlayer _EPTMPL262328
+}
+
+RULE licon.13 {
+    CAPTION "Spacing (no overlap) of NPC to licon on diff or tap >= 0.090 um";
+    OR diff tap -outputlayer licon.13_a;
+    AND licon1 licon.13_a -outputlayer licon.13_b;
+    EXTE npc licon.13_b -lt 0.09 -overlap ; // -outputlayer _EPTMPL262331
+}
+
+RULE licon.14 {
+    CAPTION "Spacing of poly_licon to diff or tap >= 0.190 um";
+    AND poly licon1 -outputlayer licon.14_a;
+    OR diff tap -outputlayer licon.14_b;
+    EXTE licon.14_a licon.14_b -lt 0.19 ; // -outputlayer _EPTMPL262334
+}
+
+RULE licon.15 {
+    CAPTION "poly_licon must be enclosed by npc by >= 0.100 um";
+    AND poly licon1 -outputlayer licon.14_a;
+    ENC licon.14_a npc -lt 0.1 ; // -outputlayer _EPTMPL262336
+}
+
+RULE licon.16 {
+    CAPTION "Every source_diff and every tap must enclose at least one licon1,";
+    CAPTION "including the diff/tap straddling areaid:ce. Rule exempted inside UHVI";
+    SELECT -touch ndiff tap -outputlayer licon.16_a;
+    NOT ndiff licon.16_a -outputlayer licon.16_b;
+    SELECT -enclose -not licon.16_b licon1 -gt 0 -outputlayer poss_err1;
+    SELECT -touch pdiff tap -outputlayer licon.16_c;
+    NOT pdiff licon.16_c -outputlayer licon.16_d;
+    SELECT -enclose -not licon.16_d licon1 -gt 0 -outputlayer poss_err2;
+    SELECT -enclose -not tap licon1 -gt 0 -outputlayer poss_err3;
+    OR poss_err1 poss_err2 poss_err3 -outputlayer poss_err;
+    NOT poss_err uhvi ; // -outputlayer _EPTMPL262345
+}
+
+RULE licon.17 {
+    CAPTION "Licons may not overlap both poly and (diff or tap)";
+    SELECT -cut licon1 poly -outputlayer licon.17_a;
+    OR diff tap -outputlayer licon.17_b;
+    SELECT -cut licon.17_a licon.17_b ; // -outputlayer _EPTMPL262348
+}
+
+RULE licon.18 {
+    CAPTION "Npc must enclose poly_licon";
+    AND poly licon1 -outputlayer licon.18_a;
+    NOT licon.18_a npc ; // -outputlayer _EPTMPL262350
+}
+
+RULE li.1 {
+    CAPTION "Width of LI (except for li.1a) >= 0.170 um";
+    INSIDE_CELL -not "li1" "s8rf2_xcmvpp_hd5_*" -outputlayer "li.1_a";
+    INTE li.1_a -lt 0.17 ; // -outputlayer _EPTMPL262352
+}
+
+RULE li.1a {
+    CAPTION "Width of LI inside of cells with name s8rf2_xcmvpp_hd5_* >= 0.140 um";
+    INSIDE_CELL li1 "s8rf2_xcmvpp_hd5_*" -outputlayer "li.1a_a";
+    INTE li.1a_a -lt 0.14 ; // -outputlayer _EPTMPL262354
+}
+
+RULE li.3 {
+    CAPTION "Spacing of LI to LI (except for li.3a) >= 0.170 um";
+    INSIDE_CELL -not "li1" "s8rf2_xcmvpp_hd5_*" -outputlayer "li.3_a";
+    EXTE li.3_a -lt 0.17 -single_point ; // -outputlayer _EPTMPL262356
+}
+
+RULE li.3a {
+    CAPTION "Spacing of LI to LI inside cells with names s8rf2_xcmvpp_hd5_* >= 0.140 um";
+    INSIDE_CELL li1 "s8rf2_xcmvpp_hd5_*" -outputlayer "li.3a_a";
+    EXTE li.3a_a -lt 0.14 -single_point ; // -outputlayer _EPTMPL262358
+}
+
+RULE li.5 {
+    CAPTION "Enclosure of licon by one of two adjacent LI sides >= 0.080 um";
+    RECT_ENC licon1 li1 -good 0.08 0 0.08 0 ; // -outputlayer _EPTMPL262359
+}
+
+RULE li.6 {
+    CAPTION "Min area of Li >= 0.056 sq um";
+    AREA li1 -lt 0.056 ; // -outputlayer _EPTMPL262360
+}
+
+RULE ct.1 {
+    CAPTION "Min and max L and W of mcon >= 0.170 um";
+    RECT_CHK mcon -ne 0.17 -orthogonal_only ; // -outputlayer _EPTMPL262361
+}
+
+RULE ct.2 {
+    CAPTION "Spacing of mcon to mcon >= 0.190 um";
+    EXTE mcon -lt 0.19 -single_point ; // -outputlayer _EPTMPL262362
+}
+
+RULE m1.1 {
+    CAPTION "Width of metal1 >= 0.140 um";
+    INTE met1 -lt 0.14 ; // -outputlayer _EPTMPL262363
+}
+
+RULE m1.2 {
+    CAPTION "Spacing of metal1 to metal1 >= 0.140 um";
+    EXTE met1 -lt 0.14 -single_point ; // -outputlayer _EPTMPL262364
+}
+
+RULE m1.3b {
+    CAPTION "Min. spacing of huge_met1 to metal1 excluding features checked by m1.3a >= 0.280 um";
+    EXTE huge_met1 met1 -lt 0.28 -single_point ; // -outputlayer _EPTMPL262365
+}
+
+RULE m1.4 {
+    CAPTION "Mcon must be enclosed by Met1 by at least >= 0.030 um";
+    CAPTION "(Rule exempted for cell names documented in rule m1.4a)";
+    INSIDE_CELL -not "mcon" "s8cell_ee_plus_sseln_a" "s8cell_ee_plus_sseln_b" "s8cell_ee_plus_sselp_a" "s8cell_ee_plus_sselp_b" "s8fpls_pl8" "s8fs_cmux4_fm" -outputlayer "m1.4_a";
+    ENC m1.4_a met1 -lt 0.03 ; // -outputlayer _EPTMPL262367
+}
+
+RULE m1.4a {
+    CAPTION "Mcon must be enclosed by Met1 by at least >= 0.005";
+    CAPTION “(for cell names s8cell_ee_plus_sseln_a, s8cell_ee_plus_sseln_b, s8cell_ee_plus_sselp_a,";
+    CAPTION “s8cell_ee_plus_sselp_b, s8fpls_pl8, and s8fs_cmux4_fm)";
+    INSIDE_CELL mcon "s8cell_ee_plus_sseln_a" "s8cell_ee_plus_sseln_b" "s8cell_ee_plus_sselp_a" "s8cell_ee_plus_sselp_b" "s8fpls_pl8" "s8fs_cmux4_fm" -outputlayer "m1.4a_a";
+    ENC m1.4a_a met1 -lt 0.005 ; // -outputlayer _EPTMPL262369
+}
+
+RULE m1.5 {
+    CAPTION "AL Flow - Mcon must be enclosed by Met1 on one of two adjacent sides by at least >= 0.060 um" ;
+    RECT_ENC mcon met1 -good 0.06 0 0.06 0 ; // -outputlayer _EPTMPL262370
+}
+
+RULE m1.6 {
+    CAPTION "Min metal 1 area >= 0.083 sq um";
+    AREA met1 -lt 0.083 ; // -outputlayer _EPTMPL262371
+}
+
+RULE m1.7 {
+    CAPTION "Min area of metal1 holes >= 0.140 sq um";
+    HOLES met1 -outputlayer m1.7_a;
+    AREA m1.7_a -lt 0.14 ; // -outputlayer _EPTMPL262373
+}
+
+RULE via.1a {
+    CAPTION "Al FLow - Min and max L and W of via outside areaid.mt == 0.150 um";
+    NOT via areaid.mt -outputlayer via.1a_a;
+    RECT_CHK -not via.1a_a -eq 0.15 -orthogonal_only ; // -outputlayer _EPTMPL262375
+}
+
+RULE via.1b {
+    CAPTION "AL Flow - Three sizes of square Vias allowed inside areaid.mt: 0.150um, 0.230um and 0.280um";
+    SELECT -inside via areaid.mt -outputlayer via.1b_a;
+    RECT_CHK -not via.1b_a -eq 0.15 -orthogonal_only -outputlayer via.1b_b;
+    RECT_CHK -not via.1b_b -eq 0.23 -orthogonal_only -outputlayer via.1b_c;
+    RECT_CHK -not via.1b_c -eq 0.28 -orthogonal_only ; // -outputlayer _EPTMPL262379
+}
+
+RULE via.2 {
+    CAPTION "AL Flow - Spacing of via to via >= 0.170 um";
+    EXTE via -lt 0.17 -single_point ; // -outputlayer _EPTMPL262380
+}
+
+RULE via.4a {
+    CAPTION "AL Flow - 0.150 μm Via must be enclosed by Met1 by at least >= 0.055 um";
+    RECT_CHK via -eq 0.15 -orthogonal_only -outputlayer via.4a_a;
+    ENC via.4a_a met1 -lt 0.055 -outside_also ; // -outputlayer _EPTMPL262382
+}
+
+RULE via.4b {
+    CAPTION "AL Flow - Inside areaid.mt, 0.230 μm Via must be enclosed by met1 by at least >= 0.030 um";
+    RECT_CHK via -eq 0.23 -orthogonal_only -outputlayer via.4b_a;
+    ENC via.4b_a met1 -lt 0.03 -outside_also ; // -outputlayer _EPTMPL262384
+}
+
+RULE via.4c {
+    CAPTION "AL Flow - Inside areaid.mt, 0.280 μm Via must be enclosed by met1 by at least >= 0.000 um";
+    RECT_CHK via -eq 0.28 -orthogonal_only -outputlayer via.4c_a;
+    ENC via.4c_a met1 -lt 0 -outside_also ; // -outputlayer _EPTMPL262386
+}
+
+RULE via.5a {
+    CAPTION "AL Flow - 0.150 μm Via must be enclosed by Met1 on one of two adjacent sides by at least >= 0.085 um";
+    RECT_CHK via -eq 0.15 -orthogonal_only -outputlayer via.5a_a;
+    RECT_ENC via.5a_a met1 -good 0.085 0 0.085 0 ; // -outputlayer _EPTMPL262388
+}
+
+RULE via.5b {
+    CAPTION "AL Flow - Inside areaid.mt, 0.230 μm Via must be enclosed by met1 on one of two adjacent sides by at least >= 0.060 um";
+    RECT_CHK via -eq 0.23 -orthogonal_only -outputlayer via.5b_a;
+    RECT_ENC via.5b_a met1 -good 0.06 0 0.06 0 ; // -outputlayer _EPTMPL262390
+}
+
+RULE via.5c {
+    CAPTION "AL Flow - Inside areaid.mt, 0.280 μm Via must be enclosed by met1 on one of two adjacent sides by at least >= 0.000 um";
+    RECT_CHK via -eq 0.28 -orthogonal_only -outputlayer via.5c_a;
+    RECT_ENC via.5c_a met1 -good 0 0 0 0 ; // -outputlayer _EPTMPL262392
+}
+
+RULE m2.1 {
+    CAPTION "Width of metal2 >= 0.140 um";
+    INTE met2 -lt 0.14 ; // -outputlayer _EPTMPL262393
+}
+
+RULE m2.2 {
+    CAPTION "Spacing of metal2 to metal2 >= 0.140 um";
+    EXTE met2 -lt 0.14 -single_point ; // -outputlayer _EPTMPL262394
+}
+
+RULE m2.3b {
+    CAPTION "Min. spacing of huge_met2 to metal2 excluding features checked by m2.3a >= 0.280 um";
+    EXTE huge_met2 met2 -lt 0.28 -single_point ; // -outputlayer _EPTMPL262395
+}
+
+RULE m2.4 {
+    CAPTION "AL Flow via must be enclosed by Met2 by at least >= 0.055 um";
+    ENC via met2 -lt 0.055 ; // -outputlayer _EPTMPL262396
+}
+
+RULE m2.5 {
+    CAPTION "AL Flow - via must be enclosed by Met2 on one of two adjacent sides by at least >= 0.085 um" ;
+    RECT_ENC via met2 -good 0.085 0 0.085 0 ; // -outputlayer _EPTMPL262397
+}
+
+RULE m2.6 {
+    CAPTION "Min metal 2 area >= 0.067 sq um";
+    AREA met2 -lt 0.067 ; // -outputlayer _EPTMPL262398
+}
+
+RULE m2.7 {
+    CAPTION "Min area of metal2 holes >= 0.140 sq um";
+    HOLES met2 -outputlayer m2.7_a;
+    AREA m2.7_a -lt 0.14 ; // -outputlayer _EPTMPL262400
+}
+
+RULE via2.1a {
+    CAPTION "Al FLow - Min and max L and W of via2 outside areaid.mt == 0.200 um";
+    NOT via2 areaid.mt -outputlayer via2.1a_a;
+    RECT_CHK -not via2.1a_a -eq 0.2 -orthogonal_only ; // -outputlayer _EPTMPL262402
+}
+
+RULE via2.1b {
+    CAPTION "AL Flow - Three sizes of square Via2s allowed inside areaid.mt: 0.280, 1.200um and 1.500um";
+    SELECT -inside via2 areaid.mt -outputlayer via2.1b_a;
+    RECT_CHK -not via2.1b_a -eq 0.28 -orthogonal_only -outputlayer via2.1b_b;
+    RECT_CHK -not via2.1b_b -eq 1.2 -orthogonal_only -outputlayer via2.1b_c;
+    RECT_CHK -not via2.1b_c -eq 1.5 -orthogonal_only ; // -outputlayer _EPTMPL262406
+}
+
+RULE via2.1c {
+    CAPTION "AL Flow - Two sizes of square Via2s allowed inside areaid.mt: 1.200um and 1.500um";
+    SELECT -inside via2 areaid.mt -outputlayer via2.1c_a;
+    RECT_CHK -not via2.1c_a -eq 1.2 -orthogonal_only -outputlayer via2.1c_b;
+    RECT_CHK -not via2.1c_b -eq 1.5 -orthogonal_only ; // -outputlayer _EPTMPL262409
+}
+
+RULE via2.1d {
+    CAPTION "AL Flow - Four sizes of square Via2s allowed inside areaid.mt: 0.200um, 0.280um, 1.200um and 1.500um";
+    SELECT -inside via2 areaid.mt -outputlayer via2.1d_a;
+    RECT_CHK -not via2.1d_a -eq 0.2 -orthogonal_only -outputlayer via2.1d_b;
+    RECT_CHK -not via2.1d_b -eq 0.28 -orthogonal_only -outputlayer via2.1d_c;
+    RECT_CHK -not via2.1d_c -eq 1.299 -orthogonal_only -outputlayer via2.1d_d;
+    RECT_CHK -not via2.1d_d -eq 1.5 -orthogonal_only ; // -outputlayer _EPTMPL262414
+}
+
+RULE via2.1e {
+    CAPTION "AL Flow - Three sizes of square Via2s allowed inside areaid.mt: 0.800um, 1.200um and 1.500um";
+    SELECT -inside via2 areaid.mt -outputlayer via2.1e_a;
+    RECT_CHK -not via2.1e_a -eq 0.8 -orthogonal_only -outputlayer via2.1e_b;
+    RECT_CHK -not via2.1e_b -eq 1.2 -orthogonal_only -outputlayer via2.1e_c;
+    RECT_CHK -not via2.1e_c -eq 1.5 -orthogonal_only ; // -outputlayer _EPTMPL262418
+}
+
+RULE via2.1f {
+    CAPTION "AL Flow - Two sizes of square Via2s allowed inside areaid.mt: 0.800um and 1.200um";
+    SELECT -inside via2 areaid.mt -outputlayer via2.1f_a;
+    RECT_CHK -not via2.1f_a -eq 0.8 -orthogonal_only -outputlayer via2.1f_b;
+    RECT_CHK -not via2.1f_b -eq 1.2 -orthogonal_only ; // -outputlayer _EPTMPL262421
+}
+
+RULE via2.2 {
+    CAPTION "AL Flow - Spacing of via2 to via2 >= 0.200 um";
+    EXTE via2 -lt 0.2 -single_point ; // -outputlayer _EPTMPL262422
+}
+
+RULE via2.4 {
+    CAPTION "AL Flow - Via2 must be enclosed by Met2 by at least >= 0.040 um";
+    ENC via2 met2 -lt 0.04 -outside_also ; // -outputlayer _EPTMPL262423
+}
+
+RULE via2.4a {
+    CAPTION "AL Flow - Inside areaid.mt, 1.500 μm Via2 must be enclosed by met2 by at least >= 0.140 um";
+    RECT_CHK via2 -eq 1.5 -orthogonal_only -outputlayer via2.4b_a;
+    ENC via2.4b_a met2 -lt 0.14 -outside_also ; // -outputlayer _EPTMPL262425
+}
+
+RULE via2.5 {
+    CAPTION "AL Flow - Via2 must be enclosed by Met2 on one of two adjacent sides by at least >= 0.085 um";
+    RECT_ENC via2 met2 -good 0.085 0 0.085 0 ; // -outputlayer _EPTMPL262426
+}
+
+RULE m3.1 {
+    CAPTION "Width of metal3 >= 0.300 um";
+    INTE met3 -lt 0.3 ; // -outputlayer _EPTMPL262427
+}
+
+RULE m3.2 {
+    CAPTION "Spacing of metal3 to metal3 >= 0.300 um";
+    EXTE met3 -lt 0.3 -single_point ; // -outputlayer _EPTMPL262428
+}
+
+RULE m3.3d {
+    CAPTION "Min. spacing of huge_met3 to metal3 excluding features checked by m3.3c >= 0.400 um";
+    EXTE huge_met3 met3 -lt 0.4 -single_point ; // -outputlayer _EPTMPL262429
+}
+
+RULE m3.4 {
+    CAPTION "AL Flow via2 must be enclosed by Met3 by at least >= 0.065 um";
+    ENC via2 met3 -lt 0.065 ; // -outputlayer _EPTMPL262430
+}
+
+RULE m3.6 {
+    CAPTION "Min metal 3 area >= 0.240 sq um";
+    AREA met3 -lt 0.24 ; // -outputlayer _EPTMPL262431
+}
+
+RULE via3.1 {
+    CAPTION "Min and max L and W of via3 (except for rule via3.1a) == 0.200 um";
+    SELECT -inside via3 areaid.mt -outputlayer via3.1_a;
+    RECT_CHK -not via3.1_a -eq 0.2 ; // -outputlayer _EPTMPL262433
+}
+
+RULE via3.1a {
+    CAPTION "Al FLow - Two sized of square via3 allowed inside areaid.mt: 0.200um and 0.800um";
+    SELECT -inside via3 areaid.mt -outputlayer via3.1a_a;
+    RECT_CHK -not via3.1a_a -eq 0.2 -orthogonal_only -outputlayer via3.1a_b;
+    RECT_CHK -not via3.1a_b -eq 0.8 -orthogonal_only ; // -outputlayer _EPTMPL262436
+}
+
+RULE via3.2 {
+    CAPTION "AL Flow - Spacing of via3 to via3 >= 0.200 um";
+    EXTE via3 -lt 0.2 -single_point ; // -outputlayer _EPTMPL262437
+}
+
+RULE via3.4 {
+    CAPTION "AL Flow - Via3 must be enclosed by Met3 by at least >= 0.060 um";
+    ENC via3 met3 -lt 0.06 -outside_also ; // -outputlayer _EPTMPL262438
+}
+
+RULE via3.5 {
+    CAPTION "AL Flow - Via3 must be enclosed by Met3 on one of two adjacent sides by at least >= 0.090 um";
+    RECT_ENC via3 met3 -good 0.09 0 0.09 0 ; // -outputlayer _EPTMPL262439
+}
+
+RULE m4.1 {
+    CAPTION "Width of metal4 >= 0.300 um";
+    INTE met4 -lt 0.3 ; // -outputlayer _EPTMPL262440
+}
+
+RULE m4.2 {
+    CAPTION "Spacing of metal4 to metal4 >= 0.300 um";
+    EXTE met4 -lt 0.3 -single_point ; // -outputlayer _EPTMPL262441
+}
+
+RULE m4.3 {
+    CAPTION "AL Flow via3 must be enclosed by Met4 by at least >= 0.065 um";
+    ENC via3 met4 -lt 0.065 ; // -outputlayer _EPTMPL262442
+}
+
+RULE m4.4a {
+    CAPTION "Min metal 4 area >= 0.240 sq um";
+    AREA met4 -lt 0.24 ; // -outputlayer _EPTMPL262443
+}
+
+RULE m4.5b {
+    CAPTION "Min. spacing of huge_met4 to metal4 excluding features checked by m4.3c >= 0.400 um";
+    CAPTION "Exclusion TBA";
+    EXTE huge_met4 met4 -lt 0.4 -single_point ; // -outputlayer _EPTMPL262444
+}
+
+RULE via4.1 {
+    CAPTION "Min and max L and W of via4 == 0.800 um";
+    RECT_CHK -not via4 -eq 0.8 ; // -outputlayer _EPTMPL262445
+}
+
+RULE via4.2 {
+    CAPTION "Spacing of via4 to via4 >= 0.800 um";
+    EXTE via4 -lt 0.8 -single_point ; // -outputlayer _EPTMPL262446
+}
+
+RULE m5.1 {
+    CAPTION "Width of metal5 >= 1.600 um";
+    INTE met5 -lt 1.6 ; // -outputlayer _EPTMPL262447
+}
+
+RULE m5.2 {
+    CAPTION "Spacing of metal5 to metal5 >= 1.600 um";
+    EXTE met5 -lt 1.6 -single_point ; // -outputlayer _EPTMPL262448
+}
+
+RULE m5.3 {
+    CAPTION "AL Flow via4 must be enclosed by Met5 by at least >= 0.310 um";
+    ENC via4 met5 -lt 0.31 ; // -outputlayer _EPTMPL262449
+}
+
+RULE m5.4 {
+    CAPTION "Min area of met5 >= 4.000 sq um";
+    CAPTION "(rule exempted for probe pads which are exactly 1.42um by 1.42um)";
+    CAPTION " NOT CODED with exception as it no longer applies";
+    AREA met5 -lt 4 ; // -outputlayer _EPTMPL262450
+}
+
+RULE pad.2 {
+    CAPTION "Spacing of pad to pad >= 1.270 um";
+    EXTE pad -lt 1.27 -single_point ; // -outputlayer _EPTMPL262451
+}
+
+RULE pad.3 {
+    CAPTION "Min area of hugePad NOT top_metal >= 30000 sq um";
+    CAPTION " Adjust top_metal based on final process type";
+    NOT hugePad met5 -outputlayer pad.3a;
+    AREA pad.3a -lt 30000 ; // -outputlayer _EPTMPL262453
+}
+Operation 'SELECT -outside' at line 573 in file /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl is not selected for executing, remove it.
+Operation 'AND' at line 575 in file /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl is not selected for executing, remove it.
+Operation 'SIZE' at line 576 in file /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl is not selected for executing, remove it.
+Operation 'SELECT -enclose' at line 578 in file /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl is not selected for executing, remove it.
+Operation 'SELECT -cut' at line 579 in file /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl is not selected for executing, remove it.
+Operation 'SELECT -label' at line 581 in file /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl is not selected for executing, remove it.
+Operation 'HOLES' at line 583 in file /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl is not selected for executing, remove it.
+Operation 'OR' at line 584 in file /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl is not selected for executing, remove it.
+Operation 'OR' at line 586 in file /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl is not selected for executing, remove it.
+Operation 'NOT' at line 587 in file /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl is not selected for executing, remove it.
+Operation 'WITH_WIDTH' at line 593 in file /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl is not selected for executing, remove it.
+Operation 'NOT' at line 597 in file /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl is not selected for executing, remove it.
+Operation 'AND' at line 599 in file /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl is not selected for executing, remove it.
+Operation 'NOT' at line 602 in file /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl is not selected for executing, remove it.
+Operation 'SELECT -inside' at line 605 in file /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl is not selected for executing, remove it.
+Operation 'NOT' at line 613 in file /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl is not selected for executing, remove it.
+Operation 'SELECT -cut' at line 614 in file /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl is not selected for executing, remove it.
+Operation 'NOT' at line 617 in file /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl is not selected for executing, remove it.
+Operation 'SELECT -inside' at line 618 in file /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl is not selected for executing, remove it.
+
+
+operation group: 1/253
+    dnwell.2:L262180 = INTE dnwell -lt 3
+========================================================================
+
+
+operation group: 2/253
+    dnwell.3:dnwell.3_a = NOT dnwell uhvi
+========================================================================
+
+
+operation group: 3/253
+    dnwell.3:L262182 = EXTE dnwell.3:dnwell.3_a -lt 6.3 -single_point
+========================================================================
+
+
+operation group: 4/253
+    dnwell.4:L262183 = AND dnwell pnp
+========================================================================
+
+
+operation group: 5/253
+    dnwell.5:L262184 = SELECT -cut psdm dnwell
+========================================================================
+
+
+operation group: 6/253
+    dnwell.7:L262185 = SELECT -cut dnwell areaid.st
+========================================================================
+
+
+operation group: 7/253
+    nwell.1:L262186 = INTE nwell -lt 0.84
+========================================================================
+
+
+operation group: 8/253
+    nwell.2ab:L262187 = EXTE nwell -lt 1.27 -notch also -single_point
+========================================================================
+
+
+operation group: 9/253
+    tap_licon = AND tap licon1
+========================================================================
+
+
+operation group: 10/253
+    nwell.4:L262188 = SELECT -enclose nwell tap_licon -not
+========================================================================
+
+
+operation group: 11/253
+    nwell.5:nwell.5_b = NOT uhvi dnwell
+========================================================================
+
+
+operation group: 12/253
+    nwell.5:L262191 = ENC nwell.5:nwell.5_b nwell -lt 0.4
+========================================================================
+
+
+operation group: 13/253
+    nwell.5:nwell.5_a = INSIDE_CELL -not nwell "*_tech_CD_top"
+========================================================================
+
+
+operation group: 14/253
+    nwell.6:nwell.6_b = SELECT -outside nwell.5:nwell.5_a uhvi
+========================================================================
+
+
+operation group: 15/253
+    nwell.6:nwell.6_c = HOLES nwell.6:nwell.6_b
+========================================================================
+
+
+operation group: 16/253
+    nwell.6:L262195 = ENC nwell.6:nwell.6_c dnwell -lt 1.03
+========================================================================
+
+
+operation group: 17/253
+    hvtp.1:L262196 = INTE hvtp -lt 0.38 -single_point
+========================================================================
+
+
+operation group: 18/253
+    hvtp.2:L262197 = EXTE hvtp -lt 0.38 -single_point
+========================================================================
+
+
+operation group: 19/253
+    gate = AND poly diff
+========================================================================
+
+
+operation group: 20/253
+    pfet = AND gate nwell
+========================================================================
+
+
+operation group: 21/253
+    hvtp.3:L262198 = ENC pfet hvtp -lt 0.18
+========================================================================
+
+
+operation group: 22/253
+    hvtp.4:L262199 = EXTE pfet hvtp -lt 0.18 -single_point
+========================================================================
+
+
+operation group: 23/253
+    hvtp.5:L262200 = AREA hvtp -lt 0.265
+========================================================================
+
+
+operation group: 24/253
+    hvtp.6:hvtp.6_a = HOLES hvtp
+========================================================================
+
+
+operation group: 25/253
+    hvtp.6:L262202 = AREA hvtp.6:hvtp.6_a -lt 0.265
+========================================================================
+
+
+operation group: 26/253
+    lvtn.1a:L262203 = INTE lvtn -lt 0.38 -single_point
+========================================================================
+
+
+operation group: 27/253
+    lvtn.2:L262204 = EXTE lvtn -lt 0.38 -single_point
+========================================================================
+
+
+operation group: 28/253
+    lvtn.3a:lvtn.3a_exempt = NOT lvtn uhvi
+========================================================================
+
+
+operation group: 29/253
+    lvtn.3a:L262206 = EXTE lvtn.3a:lvtn.3a_exempt -lt 0.18 -single_point
+========================================================================
+
+
+operation group: 30/253
+    pdiff = AND diff nwell
+========================================================================
+
+
+operation group: 31/253
+    lvtn.3b:lvtn.3b_a = EDGE_BOOLEAN gate pdiff -coincident_only -outside
+========================================================================
+
+
+operation group: 32/253
+    lvtn.3b:L262208 = EXTE lvtn lvtn.3b:lvtn.3b_a -lt 0.235 -single_point
+========================================================================
+
+
+operation group: 33/253
+    lvtn.4b:L262210 = ENC gate lvtn -lt 0.18 -abut lt 90
+========================================================================
+
+
+operation group: 34/253
+    lvtn.9:L262211 = EXTE lvtn hvtp -lt 0.38 -overlap -single_point
+========================================================================
+
+
+operation group: 35/253
+    Var_channel_pvsTmp2 = AND poly tap
+========================================================================
+
+
+operation group: 36/253
+    Var_channel_pvsTmp1 = NOT nwell hvi
+========================================================================
+
+
+operation group: 37/253
+    Var_channel_pvsTmp3 = AND Var_channel_pvsTmp2 Var_channel_pvsTmp1
+========================================================================
+
+
+operation group: 38/253
+    Var_channel = NOT Var_channel_pvsTmp3 areaid.ce
+========================================================================
+
+
+operation group: 39/253
+    lvtn.10:lvtn.10_a = SELECT -cut nwell Var_channel -not
+========================================================================
+
+
+operation group: 40/253
+    lvtn.10:L262213 = ENC lvtn lvtn.10:lvtn.10_a -lt 0.38
+========================================================================
+
+
+operation group: 41/253
+    lvtn.12:lvtn.12_a = SELECT -inside nwell areaid.ce
+========================================================================
+
+
+operation group: 42/253
+    lvtn.12:L262215 = EXTE lvtn lvtn.12:lvtn.12_a -lt 0.38 -single_point
+========================================================================
+
+
+operation group: 43/253
+    lvtn.13:L262216 = AREA lvtn -lt 0.265
+========================================================================
+
+
+operation group: 44/253
+    lvtn.14:lvtn.14_a = HOLES lvtn
+========================================================================
+
+
+operation group: 45/253
+    lvtn.14:L262218 = AREA lvtn.14:lvtn.14_a -lt 0.265
+========================================================================
+
+
+operation group: 46/253
+    difftap.1:L262219 = INTE diff -lt 0.15
+========================================================================
+
+
+operation group: 47/253
+    difftap.1:L262220 = INTE tap -lt 0.15
+========================================================================
+
+
+operation group: 48/253
+    difftap.2:difftap.2_a = NOT gate areaid.sc
+========================================================================
+
+
+operation group: 49/253
+    difftap.2:difftap.2_b = NOT diff difftap.2:difftap.2_a
+========================================================================
+
+
+operation group: 50/253
+    difftap.2:difftap.2_c = EDGE_BOOLEAN difftap.2:difftap.2_a difftap.2:difftap.2_b -coincident_only -not
+========================================================================
+
+
+operation group: 51/253
+    difftap.2:L262224 = INTE difftap.2:difftap.2_c -lt 0.42
+========================================================================
+
+
+operation group: 52/253
+    difftap.2b:difftap.2b_a = AND gate areaid.sc
+========================================================================
+
+
+operation group: 53/253
+    difftap.2b:difftap.2b_b = NOT diff difftap.2b:difftap.2b_a
+========================================================================
+
+
+operation group: 54/253
+    difftap.2b:difftap.2b_c = EDGE_BOOLEAN difftap.2b:difftap.2b_a difftap.2b:difftap.2b_b -coincident_only -not
+========================================================================
+
+
+operation group: 55/253
+    difftap.2b:L262228 = INTE difftap.2b:difftap.2b_c -lt 0.36
+========================================================================
+
+
+operation group: 56/253
+    difftap.3:L262229 = EXTE diff -lt 0.27 -notch also
+    poly.10:poly.10_a = EXTE diff -lt 0.002 -abut lt 90 -output region
+========================================================================
+
+
+operation group: 57/253
+    difftap.3:L262230 = EXTE tap -lt 0.27 -notch also
+========================================================================
+
+
+operation group: 58/253
+    difftap.3:L262231 = EXTE diff tap -ltgt 0 0.27
+========================================================================
+
+
+operation group: 59/253
+    difftap.4:difftap.4_a = SELECT -touch tap diff -eq 1
+    difftap.5:difftap.5_a = SELECT -touch tap diff -eq 2
+========================================================================
+
+
+operation group: 60/253
+    difftap.4:L262233 = INTE difftap.4:difftap.4_a -lt 0.29
+========================================================================
+
+
+operation group: 61/253
+    difftap.5:L262235 = INTE difftap.5:difftap.5_a -lt 0.4
+========================================================================
+
+
+operation group: 62/253
+    difftap.6:difftap.6_a = EDGE_BOOLEAN diff tap -coincident_only
+========================================================================
+
+
+operation group: 63/253
+    difftap.6:difftap.6_b = EDGE_SELECT diff tap -coincident_only
+========================================================================
+
+
+operation group: 64/253
+    difftap.6:L262238 = EDGE_BOOLEAN difftap.6:difftap.6_a difftap.6:difftap.6_b -coincident_only -not
+========================================================================
+
+
+operation group: 65/253
+    difftap.7:L262240 = EXTE difftap.6:difftap.6_a tap -ltgt 0 0.13 -measure all
+========================================================================
+
+
+operation group: 66/253
+    difftap.7:difftap.7_b = EDGE_BOOLEAN tap diff -coincident_only
+========================================================================
+
+
+operation group: 67/253
+    difftap.7:L262242 = EXTE difftap.7:difftap.7_b diff -ltgt 0 0.13 -measure all
+========================================================================
+
+
+operation group: 68/253
+    difftap.8:difftap.8_a = NOT pdiff uhvi
+========================================================================
+
+
+operation group: 69/253
+    difftap.8:L262244 = ENC difftap.8:difftap.8_a nwell -lt 0.18
+========================================================================
+
+
+operation group: 70/253
+    ndiff = NOT diff nwell
+========================================================================
+
+
+operation group: 71/253
+    difftap.9:difftap.9_a = NOT ndiff uhvi
+========================================================================
+
+
+operation group: 72/253
+    difftap.9:L262246 = EXTE difftap.9:difftap.9_a nwell -lt 0.34
+========================================================================
+
+
+operation group: 73/253
+    ntap = AND tap nwell
+========================================================================
+
+
+operation group: 74/253
+    difftap.10:difftap.10_a = NOT ntap uhvi
+========================================================================
+
+
+operation group: 75/253
+    difftap.10:L262248 = ENC difftap.10:difftap.10_a nwell -lt 0.18
+========================================================================
+
+
+operation group: 76/253
+    ptap = NOT tap nwell
+========================================================================
+
+
+operation group: 77/253
+    difftap.11:difftap.11_a = NOT ptap uhvi
+========================================================================
+
+
+operation group: 78/253
+    difftap.11:L262250 = EXTE difftap.11:difftap.11_a nwell -lt 0.13
+========================================================================
+
+
+operation group: 79/253
+    poly.1a:L262251 = INTE poly -lt 0.15
+========================================================================
+
+
+operation group: 80/253
+    poly.1b:poly.1b_a = SELECT -cut pfet lvtn
+========================================================================
+
+
+operation group: 81/253
+    poly.1b:L262253 = INTE poly.1b:poly.1b_a -lt 0.35
+========================================================================
+
+
+operation group: 82/253
+    poly.2:L262254 = EXTE poly -lt 0.21 -single_point
+========================================================================
+
+
+operation group: 83/253
+    poly.4:poly.4_a = NOT poly diff
+========================================================================
+
+
+operation group: 84/253
+    poly.4:L262256 = EXTE poly.4:poly.4_a diff -lt 0.075 -para only
+========================================================================
+
+
+operation group: 85/253
+    poly.5:L262258 = EXTE poly.4:poly.4_a tap -lt 0.055 -single_point
+========================================================================
+
+
+operation group: 86/253
+    poly.6:poly.6_a = SELECT -touch tap diff
+========================================================================
+
+
+operation group: 87/253
+    poly.6:L262260 = EXTE gate poly.6:poly.6_a -lt 0.3
+========================================================================
+
+
+operation group: 88/253
+    poly.7:poly.7_a = ENC gate diff -lt 0.25
+========================================================================
+
+
+operation group: 89/253
+    poly.7:poly.7_b = NOT diff gate
+========================================================================
+
+
+operation group: 90/253
+    poly.7:poly.7_c = SELECT -touch poly.7:poly.7_b tap
+========================================================================
+
+
+operation group: 91/253
+    poly.7:poly.7_d = NOT poly.7:poly.7_b poly.7:poly.7_c
+========================================================================
+
+
+operation group: 92/253
+    poly.7:L262265 = EDGE_BOOLEAN poly.7:poly.7_a poly.7:poly.7_d -coincident_only
+========================================================================
+
+
+operation group: 93/253
+    poly.8:L262266 = ENC gate poly -lt 0.13
+========================================================================
+
+
+operation group: 94/253
+    poly.10:L262268 = AND poly poly.10:poly.10_a
+========================================================================
+
+
+operation group: 95/253
+    poly.11:L262269 = RECT_CHK gate -orthogonal_only -not
+========================================================================
+
+
+operation group: 96/253
+    poly.12:poly.12_b = NOT poly Var_channel_pvsTmp1
+========================================================================
+
+
+operation group: 97/253
+    poly.12:L262272 = AND poly.12:poly.12_b tap
+========================================================================
+
+
+operation group: 98/253
+    poly.15:L262273 = AND poly diff_res
+========================================================================
+
+
+operation group: 99/253
+    npc.1:L262274 = INTE npc -lt 0.27
+========================================================================
+
+
+operation group: 100/253
+    npc.2:L262275 = EXTE npc -lt 0.27 -single_point
+========================================================================
+
+
+operation group: 101/253
+    npc.4:L262276 = EXTE npc gate -lt 0.09 -single_point -overlap
+========================================================================
+
+
+operation group: 102/253
+    psd.1:L262277 = INTE nsdm -lt 0.38
+========================================================================
+
+
+operation group: 103/253
+    psd.1:L262278 = INTE psdm -lt 0.38
+========================================================================
+
+
+operation group: 104/253
+    psd.2:L262279 = EXTE nsdm -lt 0.38 -single_point
+========================================================================
+
+
+operation group: 105/253
+    psd.2:L262280 = EXTE psdm -lt 0.38 -single_point
+========================================================================
+
+
+operation group: 106/253
+    psd.5a:psd.5a_a = OR nsdm psdm
+========================================================================
+
+
+operation group: 107/253
+    psd.5a:L262282 = ENC diff psd.5a:psd.5a_a -lt 0.125
+========================================================================
+
+
+operation group: 108/253
+    psd.5b:L262284 = ENC tap psd.5a:psd.5a_a -lt 0.125
+========================================================================
+
+
+operation group: 109/253
+    psd.6:psd.6_b = EDGE_BOOLEAN nsdm psdm -coincident_only
+========================================================================
+
+
+operation group: 110/253
+    psd.6:L262287 = EDGE_SELECT difftap.6:difftap.6_a psd.6:psd.6_b -coincident_only -not
+========================================================================
+
+
+operation group: 111/253
+    psd.7:L262288 = EXTE nsdm pdiff -ltgt 0 0.13 -overlap
+========================================================================
+
+
+operation group: 112/253
+    psd.7:L262289 = EXTE nsdm ntap -ltgt 0 0.13 -overlap
+========================================================================
+
+
+operation group: 113/253
+    psd.7:L262290 = EXTE psdm ndiff -ltgt 0 0.13 -overlap
+========================================================================
+
+
+operation group: 114/253
+    psd.7:L262291 = EXTE psdm pdiff -ltgt 0 0.13 -overlap
+========================================================================
+
+
+operation group: 115/253
+    psd.9:L262293 = NOT diff psd.5a:psd.5a_a
+========================================================================
+
+
+operation group: 116/253
+    psd.9:L262294 = NOT tap psd.5a:psd.5a_a
+========================================================================
+
+
+operation group: 117/253
+    psd.10a:L262295 = AREA nsdm -lt 0.265
+========================================================================
+
+
+operation group: 118/253
+    psd.10b:L262296 = AREA psdm -lt 0.255
+========================================================================
+
+
+operation group: 119/253
+    psd.11:psd.11_a = HOLES nsdm
+========================================================================
+
+
+operation group: 120/253
+    psd.11:L262298 = AREA psd.11:psd.11_a -lt 0.265
+========================================================================
+
+
+operation group: 121/253
+    psd.11:psd.11_b = HOLES psdm
+========================================================================
+
+
+operation group: 122/253
+    psd.11:L262300 = AREA psd.11:psd.11_b -lt 0.265
+========================================================================
+
+
+operation group: 123/253
+    licon.1:L262301 = RECT_CHK licon1 -ne 0.17 -orthogonal_only
+========================================================================
+
+
+operation group: 124/253
+    licon.2:L262302 = EXTE licon1 -lt 0.17 -single_point
+========================================================================
+
+
+operation group: 125/253
+    licon.4:licon.4_a = OR poly diff tap
+========================================================================
+
+
+operation group: 126/253
+    licon.4:L262304 = SELECT -interact licon1 licon.4:licon.4_a -not
+========================================================================
+
+
+operation group: 127/253
+    licon.5a:L262305 = ENC licon1 diff -lt 0.04
+========================================================================
+
+
+operation group: 128/253
+    licon.5b:L262307 = EXTE tap_licon diff -lt 0.06
+========================================================================
+
+
+operation group: 129/253
+    licon.5c:L262308 = RECT_ENC licon1 diff -good 0.06 0 0.06 0
+========================================================================
+
+
+operation group: 130/253
+    licon.6:L262309 = SELECT -cut licon1 tap
+========================================================================
+
+
+operation group: 131/253
+    licon.7:L262310 = RECT_ENC licon1 tap -good 0.12 0 0.12 0
+========================================================================
+
+
+operation group: 132/253
+    licon.8:licon.8_a = AND poly licon1
+========================================================================
+
+
+operation group: 133/253
+    licon.8:L262312 = ENC licon.8:licon.8_a poly -lt 0.05
+========================================================================
+
+
+operation group: 134/253
+    licon.8a:L262314 = RECT_ENC licon.8:licon.8_a poly -good 0.08 0 0.08 0
+========================================================================
+
+
+operation group: 135/253
+    licon.9:L262316 = EXTE licon.8:licon.8_a psdm -lt 0.11 -overlap
+========================================================================
+
+
+operation group: 136/253
+    poly_licon1_pvsTmp1 = OR diff tap
+========================================================================
+
+
+operation group: 137/253
+    licon.11:licon.11_c = AND licon1 poly_licon1_pvsTmp1
+========================================================================
+
+
+operation group: 138/253
+    licon.11:L262320 = EXTE difftap.2:difftap.2_a licon.11:licon.11_c -lt 0.055
+========================================================================
+
+
+operation group: 139/253
+    licon.11a:licon.11a_d = AND difftap.2b:difftap.2b_a diff
+========================================================================
+
+
+operation group: 140/253
+    licon.11a:L262325 = EXTE licon.11:licon.11_c licon.11a:licon.11a_d -lt 0.05
+========================================================================
+
+
+operation group: 141/253
+    licon.12:licon.12_a = OR ndiff pdiff
+========================================================================
+
+
+operation group: 142/253
+    licon.12:licon.12_b = SIZE licon1 -by 5.7 -inside_of licon.12:licon.12_a -step 0.04
+========================================================================
+
+
+operation group: 143/253
+    licon.12:L262328 = NOT licon.12:licon.12_a licon.12:licon.12_b
+========================================================================
+
+
+operation group: 144/253
+    licon.13:L262331 = EXTE npc licon.11:licon.11_c -lt 0.09 -overlap
+========================================================================
+
+
+operation group: 145/253
+    licon.14:L262334 = EXTE licon.8:licon.8_a poly_licon1_pvsTmp1 -lt 0.19
+========================================================================
+
+
+operation group: 146/253
+    licon.15:L262336 = ENC licon.8:licon.8_a npc -lt 0.1
+========================================================================
+
+
+operation group: 147/253
+    licon.16:licon.16_a = SELECT -touch ndiff tap
+========================================================================
+
+
+operation group: 148/253
+    licon.16:licon.16_b = NOT ndiff licon.16:licon.16_a
+========================================================================
+
+
+operation group: 149/253
+    licon.16:poss_err1 = SELECT -enclose licon.16:licon.16_b licon1 -gt 0 -not
+========================================================================
+
+
+operation group: 150/253
+    licon.16:licon.16_c = SELECT -touch pdiff tap
+========================================================================
+
+
+operation group: 151/253
+    licon.16:licon.16_d = NOT pdiff licon.16:licon.16_c
+========================================================================
+
+
+operation group: 152/253
+    licon.16:poss_err2 = SELECT -enclose licon.16:licon.16_d licon1 -gt 0 -not
+========================================================================
+
+
+operation group: 153/253
+    licon.16:poss_err3 = SELECT -enclose tap licon1 -gt 0 -not
+========================================================================
+
+
+operation group: 154/253
+    licon.16:poss_err = OR licon.16:poss_err1 licon.16:poss_err2 licon.16:poss_err3
+========================================================================
+
+
+operation group: 155/253
+    licon.16:L262345 = NOT licon.16:poss_err uhvi
+========================================================================
+
+
+operation group: 156/253
+    licon.17:licon.17_a = SELECT -cut licon1 poly
+========================================================================
+
+
+operation group: 157/253
+    licon.17:L262348 = SELECT -cut licon.17:licon.17_a poly_licon1_pvsTmp1
+========================================================================
+
+
+operation group: 158/253
+    licon.18:L262350 = NOT licon.8:licon.8_a npc
+========================================================================
+
+
+operation group: 159/253
+    li.1:li.1_a = INSIDE_CELL -not li1 "s8rf2_xcmvpp_hd5_*"
+    li.1a:li.1a_a = INSIDE_CELL li1 "s8rf2_xcmvpp_hd5_*"
+========================================================================
+
+
+operation group: 160/253
+    li.1:L262352 = INTE li.1:li.1_a -lt 0.17
+========================================================================
+
+
+operation group: 161/253
+    li.1a:L262354 = INTE li.1a:li.1a_a -lt 0.14
+========================================================================
+
+
+operation group: 162/253
+    li.3:L262356 = EXTE li.1:li.1_a -lt 0.17 -single_point
+========================================================================
+
+
+operation group: 163/253
+    li.3a:L262358 = EXTE li.1a:li.1a_a -lt 0.14 -single_point
+========================================================================
+
+
+operation group: 164/253
+    li.5:L262359 = RECT_ENC licon1 li1 -good 0.08 0 0.08 0
+========================================================================
+
+
+operation group: 165/253
+    li.6:L262360 = AREA li1 -lt 0.056
+========================================================================
+
+
+operation group: 166/253
+    ct.1:L262361 = RECT_CHK mcon -ne 0.17 -orthogonal_only
+========================================================================
+
+
+operation group: 167/253
+    ct.2:L262362 = EXTE mcon -lt 0.19 -single_point
+========================================================================
+
+
+operation group: 168/253
+    m1.1:L262363 = INTE met1 -lt 0.14
+========================================================================
+
+
+operation group: 169/253
+    m1.2:L262364 = EXTE met1 -lt 0.14 -single_point
+========================================================================
+
+
+operation group: 170/253
+    huge_met1 = WITH_WIDTH met1 -gt 3
+========================================================================
+
+
+operation group: 171/253
+    m1.3b:L262365 = EXTE huge_met1 met1 -lt 0.28 -single_point
+========================================================================
+
+
+operation group: 172/253
+    m1.4:m1.4_a = INSIDE_CELL -not mcon s8cell_ee_plus_sseln_a s8cell_ee_plus_sseln_b s8cell_ee_plus_sselp_a s8cell_ee_plus_sselp_b s8fpls_pl8 s8fs_cmux4_fm
+    m1.4a:m1.4a_a = INSIDE_CELL mcon s8cell_ee_plus_sseln_a s8cell_ee_plus_sseln_b s8cell_ee_plus_sselp_a s8cell_ee_plus_sselp_b s8fpls_pl8 s8fs_cmux4_fm
+========================================================================
+
+
+operation group: 173/253
+    m1.4:L262367 = ENC m1.4:m1.4_a met1 -lt 0.03
+========================================================================
+
+
+operation group: 174/253
+    m1.4a:L262369 = ENC m1.4a:m1.4a_a met1 -lt 0.005
+========================================================================
+
+
+operation group: 175/253
+    m1.5:L262370 = RECT_ENC mcon met1 -good 0.06 0 0.06 0
+========================================================================
+
+
+operation group: 176/253
+    m1.6:L262371 = AREA met1 -lt 0.083
+========================================================================
+
+
+operation group: 177/253
+    m1.7:m1.7_a = HOLES met1
+========================================================================
+
+
+operation group: 178/253
+    m1.7:L262373 = AREA m1.7:m1.7_a -lt 0.14
+========================================================================
+
+
+operation group: 179/253
+    via.1a:via.1a_a = NOT via areaid.mt
+========================================================================
+
+
+operation group: 180/253
+    via.1a:L262375 = RECT_CHK via.1a:via.1a_a -eq 0.15 -not -orthogonal_only
+========================================================================
+
+
+operation group: 181/253
+    via.1b:via.1b_a = SELECT -inside via areaid.mt
+========================================================================
+
+
+operation group: 182/253
+    via.1b:via.1b_b = RECT_CHK via.1b:via.1b_a -eq 0.15 -not -orthogonal_only
+========================================================================
+
+
+operation group: 183/253
+    via.1b:via.1b_c = RECT_CHK via.1b:via.1b_b -eq 0.23 -not -orthogonal_only
+========================================================================
+
+
+operation group: 184/253
+    via.1b:L262379 = RECT_CHK via.1b:via.1b_c -eq 0.28 -not -orthogonal_only
+========================================================================
+
+
+operation group: 185/253
+    via.2:L262380 = EXTE via -lt 0.17 -single_point
+========================================================================
+
+
+operation group: 186/253
+    via.4a:via.4a_a = RECT_CHK via -eq 0.15 -orthogonal_only
+========================================================================
+
+
+operation group: 187/253
+    via.4a:L262382 = ENC via.4a:via.4a_a met1 -lt 0.055 -outside_also
+========================================================================
+
+
+operation group: 188/253
+    via.4b:via.4b_a = RECT_CHK via -eq 0.23 -orthogonal_only
+========================================================================
+
+
+operation group: 189/253
+    via.4b:L262384 = ENC via.4b:via.4b_a met1 -lt 0.03 -outside_also
+========================================================================
+
+
+operation group: 190/253
+    via.4c:via.4c_a = RECT_CHK via -eq 0.28 -orthogonal_only
+========================================================================
+
+
+operation group: 191/253
+    via.4c:L262386 = ENC via.4c:via.4c_a met1 -lt 0 -outside_also
+========================================================================
+
+
+operation group: 192/253
+    via.5a:L262388 = RECT_ENC via.4a:via.4a_a met1 -good 0.085 0 0.085 0
+========================================================================
+
+
+operation group: 193/253
+    via.5b:L262390 = RECT_ENC via.4b:via.4b_a met1 -good 0.06 0 0.06 0
+========================================================================
+
+
+operation group: 194/253
+    via.5c:L262392 = RECT_ENC via.4c:via.4c_a met1 -good 0 0 0 0
+========================================================================
+
+
+operation group: 195/253
+    m2.1:L262393 = INTE met2 -lt 0.14
+========================================================================
+
+
+operation group: 196/253
+    m2.2:L262394 = EXTE met2 -lt 0.14 -single_point
+========================================================================
+
+
+operation group: 197/253
+    huge_met2 = WITH_WIDTH met2 -gt 3
+========================================================================
+
+
+operation group: 198/253
+    m2.3b:L262395 = EXTE huge_met2 met2 -lt 0.28 -single_point
+========================================================================
+
+
+operation group: 199/253
+    m2.4:L262396 = ENC via met2 -lt 0.055
+========================================================================
+
+
+operation group: 200/253
+    m2.5:L262397 = RECT_ENC via met2 -good 0.085 0 0.085 0
+========================================================================
+
+
+operation group: 201/253
+    m2.6:L262398 = AREA met2 -lt 0.067
+========================================================================
+
+
+operation group: 202/253
+    m2.7:m2.7_a = HOLES met2
+========================================================================
+
+
+operation group: 203/253
+    m2.7:L262400 = AREA m2.7:m2.7_a -lt 0.14
+========================================================================
+
+
+operation group: 204/253
+    via2.1a:via2.1a_a = NOT via2 areaid.mt
+========================================================================
+
+
+operation group: 205/253
+    via2.1a:L262402 = RECT_CHK via2.1a:via2.1a_a -eq 0.2 -not -orthogonal_only
+========================================================================
+
+
+operation group: 206/253
+    via2.1b:via2.1b_a = SELECT -inside via2 areaid.mt
+========================================================================
+
+
+operation group: 207/253
+    via2.1b:via2.1b_b = RECT_CHK via2.1b:via2.1b_a -eq 0.28 -not -orthogonal_only
+========================================================================
+
+
+operation group: 208/253
+    via2.1b:via2.1b_c = RECT_CHK via2.1b:via2.1b_b -eq 1.2 -not -orthogonal_only
+========================================================================
+
+
+operation group: 209/253
+    via2.1b:L262406 = RECT_CHK via2.1b:via2.1b_c -eq 1.5 -not -orthogonal_only
+========================================================================
+
+
+operation group: 210/253
+    via2.1c:via2.1c_b = RECT_CHK via2.1b:via2.1b_a -eq 1.2 -not -orthogonal_only
+========================================================================
+
+
+operation group: 211/253
+    via2.1c:L262409 = RECT_CHK via2.1c:via2.1c_b -eq 1.5 -not -orthogonal_only
+========================================================================
+
+
+operation group: 212/253
+    via2.1d:via2.1d_b = RECT_CHK via2.1b:via2.1b_a -eq 0.2 -not -orthogonal_only
+========================================================================
+
+
+operation group: 213/253
+    via2.1d:via2.1d_c = RECT_CHK via2.1d:via2.1d_b -eq 0.28 -not -orthogonal_only
+========================================================================
+
+
+operation group: 214/253
+    via2.1d:via2.1d_d = RECT_CHK via2.1d:via2.1d_c -eq 1.299 -not -orthogonal_only
+========================================================================
+
+
+operation group: 215/253
+    via2.1d:L262414 = RECT_CHK via2.1d:via2.1d_d -eq 1.5 -not -orthogonal_only
+========================================================================
+
+
+operation group: 216/253
+    via2.1e:via2.1e_b = RECT_CHK via2.1b:via2.1b_a -eq 0.8 -not -orthogonal_only
+========================================================================
+
+
+operation group: 217/253
+    via2.1e:via2.1e_c = RECT_CHK via2.1e:via2.1e_b -eq 1.2 -not -orthogonal_only
+========================================================================
+
+
+operation group: 218/253
+    via2.1e:L262418 = RECT_CHK via2.1e:via2.1e_c -eq 1.5 -not -orthogonal_only
+========================================================================
+
+
+operation group: 219/253
+    via2.1f:L262421 = RECT_CHK via2.1e:via2.1e_b -eq 1.2 -not -orthogonal_only
+========================================================================
+
+
+operation group: 220/253
+    via2.2:L262422 = EXTE via2 -lt 0.2 -single_point
+========================================================================
+
+
+operation group: 221/253
+    via2.4:L262423 = ENC via2 met2 -lt 0.04 -outside_also
+========================================================================
+
+
+operation group: 222/253
+    via2.4a:via2.4b_a = RECT_CHK via2 -eq 1.5 -orthogonal_only
+========================================================================
+
+
+operation group: 223/253
+    via2.4a:L262425 = ENC via2.4a:via2.4b_a met2 -lt 0.14 -outside_also
+========================================================================
+
+
+operation group: 224/253
+    via2.5:L262426 = RECT_ENC via2 met2 -good 0.085 0 0.085 0
+========================================================================
+
+
+operation group: 225/253
+    m3.1:L262427 = INTE met3 -lt 0.3
+========================================================================
+
+
+operation group: 226/253
+    m3.2:L262428 = EXTE met3 -lt 0.3 -single_point
+========================================================================
+
+
+operation group: 227/253
+    huge_met3 = WITH_WIDTH met3 -gt 3
+========================================================================
+
+
+operation group: 228/253
+    m3.3d:L262429 = EXTE huge_met3 met3 -lt 0.4 -single_point
+========================================================================
+
+
+operation group: 229/253
+    m3.4:L262430 = ENC via2 met3 -lt 0.065
+========================================================================
+
+
+operation group: 230/253
+    m3.6:L262431 = AREA met3 -lt 0.24
+========================================================================
+
+
+operation group: 231/253
+    via3.1:via3.1_a = SELECT -inside via3 areaid.mt
+========================================================================
+
+
+operation group: 232/253
+    via3.1:L262433 = RECT_CHK via3.1:via3.1_a -eq 0.2 -not
+========================================================================
+
+
+operation group: 233/253
+    via3.1a:via3.1a_b = RECT_CHK via3.1:via3.1_a -eq 0.2 -not -orthogonal_only
+========================================================================
+
+
+operation group: 234/253
+    via3.1a:L262436 = RECT_CHK via3.1a:via3.1a_b -eq 0.8 -not -orthogonal_only
+========================================================================
+
+
+operation group: 235/253
+    via3.2:L262437 = EXTE via3 -lt 0.2 -single_point
+========================================================================
+
+
+operation group: 236/253
+    via3.4:L262438 = ENC via3 met3 -lt 0.06 -outside_also
+========================================================================
+
+
+operation group: 237/253
+    via3.5:L262439 = RECT_ENC via3 met3 -good 0.09 0 0.09 0
+========================================================================
+
+
+operation group: 238/253
+    m4.1:L262440 = INTE met4 -lt 0.3
+========================================================================
+
+
+operation group: 239/253
+    m4.2:L262441 = EXTE met4 -lt 0.3 -single_point
+========================================================================
+
+
+operation group: 240/253
+    m4.3:L262442 = ENC via3 met4 -lt 0.065
+========================================================================
+
+
+operation group: 241/253
+    m4.4a:L262443 = AREA met4 -lt 0.24
+========================================================================
+
+
+operation group: 242/253
+    huge_met4 = WITH_WIDTH met4 -gt 3
+========================================================================
+
+
+operation group: 243/253
+    m4.5b:L262444 = EXTE huge_met4 met4 -lt 0.4 -single_point
+========================================================================
+
+
+operation group: 244/253
+    via4.1:L262445 = RECT_CHK via4 -eq 0.8 -not
+========================================================================
+
+
+operation group: 245/253
+    via4.2:L262446 = EXTE via4 -lt 0.8 -single_point
+========================================================================
+
+
+operation group: 246/253
+    m5.1:L262447 = INTE met5 -lt 1.6
+========================================================================
+
+
+operation group: 247/253
+    m5.2:L262448 = EXTE met5 -lt 1.6 -single_point
+========================================================================
+
+
+operation group: 248/253
+    m5.3:L262449 = ENC via4 met5 -lt 0.31
+========================================================================
+
+
+operation group: 249/253
+    m5.4:L262450 = AREA met5 -lt 4
+========================================================================
+
+
+operation group: 250/253
+    pad.2:L262451 = EXTE pad -lt 1.27 -single_point
+========================================================================
+
+
+operation group: 251/253
+    hugePad = WITH_WIDTH pad -gt 100
+========================================================================
+
+
+operation group: 252/253
+    pad.3:pad.3a = NOT hugePad met5
+========================================================================
+
+
+operation group: 253/253
+    pad.3:L262453 = AREA pad.3:pad.3a -lt 30000
+========================================================================
+Completed execution after parsing the rules, as requested by the "-p" flag or "-get_rules" flag 
+
+
+Design rule check finished normally. Tue Oct 29 14:45:34 2024
+
+

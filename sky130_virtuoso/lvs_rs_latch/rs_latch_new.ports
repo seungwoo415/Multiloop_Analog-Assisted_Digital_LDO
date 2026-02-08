@@ -1,0 +1,8 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary rs_latch_new
+top_out_p 4 top_out_p 4230 2060 met1
+VSS 1 VSS 325 -2565 met1
+top_in_p 7 top_in_p 85 875 met1
+top_in_n 8 top_in_n 10380 1005 met1
+VDD 2 VDD 11490 4715 met1
+top_out_n 5 top_out_n 6440 1630 met1

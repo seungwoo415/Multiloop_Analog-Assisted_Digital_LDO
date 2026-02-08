@@ -1,0 +1,8 @@
+# XXXX: Instance Cross Reference (ixf) (File format 1)
+# XXXX: Layout Primary inverter
+# XXXX: End of header.
+% MN 4 MN 4
+% MP 4 MP 4
+% inverter 4 inverter 4
+0 X5/M0 0 M0  
+0 X6/M0 0 M1  

@@ -1,0 +1,5 @@
+cUiSetViewStatus {ptap_tile_x11_y2} {layout} {1}
+cUiSetViewStatus {ptap_tile_x11_y2} {logical} {0}
+cUiSetViewStatus {ptap_tile_x11_y2} {abstract.pin} {0}
+cUiSetViewStatus {ptap_tile_x11_y2} {abstract.ext} {0}
+cUiSetViewStatus {ptap_tile_x11_y2} {abstract} {0}

@@ -1,0 +1,5 @@
+cUiSetViewStatus {pass_transistors} {layout} {1}
+cUiSetViewStatus {pass_transistors} {logical} {0}
+cUiSetViewStatus {pass_transistors} {abstract.pin} {0}
+cUiSetViewStatus {pass_transistors} {abstract.ext} {0}
+cUiSetViewStatus {pass_transistors} {abstract} {0}
