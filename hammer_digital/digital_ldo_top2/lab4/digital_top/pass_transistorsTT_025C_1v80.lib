@@ -1,0 +1,370 @@
+library (pass_transistorsTT_025C_1v80) {
+  /* Models written by Liberate 19.1.2.294 from Cadence Design Systems, Inc. on Sun Nov  3 22:25:45 PST 2024 */
+  comment : "";
+  date : "$Date: Sun Nov  3 22:20:13 2024 $";
+  revision : "1.0";
+  delay_model : table_lookup;
+  capacitive_load_unit (1,pf);
+  current_unit : "1mA";
+  leakage_power_unit : "1nW";
+  pulling_resistance_unit : "1kohm";
+  time_unit : "1ns";
+  voltage_unit : "1V";
+  voltage_map (VDD, 1.8);
+  voltage_map (VPWR, 1.8);
+  voltage_map (VPB, 1.8);
+  voltage_map (VNB, 0);
+  voltage_map (VSS, 0);
+  voltage_map (GND, 0);
+  voltage_map (VGND, 0);
+  default_cell_leakage_power : 0;
+  default_fanout_load : 1;
+  default_max_transition : 2;
+  default_output_pin_cap : 0;
+  in_place_swap_mode : match_footprint;
+  input_threshold_pct_fall : 50;
+  input_threshold_pct_rise : 50;
+  nom_process : 1;
+  nom_temperature : 25;
+  nom_voltage : 1.8;
+  output_threshold_pct_fall : 50;
+  output_threshold_pct_rise : 50;
+  slew_derate_from_library : 1;
+  slew_lower_threshold_pct_fall : 10;
+  slew_lower_threshold_pct_rise : 10;
+  slew_upper_threshold_pct_fall : 90;
+  slew_upper_threshold_pct_rise : 90;
+  operating_conditions (PVT_1P8V_25C) {
+    process : 1;
+    temperature : 25;
+    voltage : 1.8;
+  }
+  default_operating_conditions : PVT_1P8V_25C;
+  lu_table_template (constraint_template_7x7) {
+    variable_1 : constrained_pin_transition;
+    variable_2 : related_pin_transition;
+    index_1 ("0.01, 0.025, 0.05, 0.1, 0.3, 0.8, 1.4");
+    index_2 ("0.01, 0.025, 0.05, 0.1, 0.3, 0.8, 1.4");
+  }
+  lu_table_template (delay_template_7x7) {
+    variable_1 : input_net_transition;
+    variable_2 : total_output_net_capacitance;
+    index_1 ("0.005, 0.01, 0.04, 0.08, 0.2, 0.65, 1.4");
+    index_2 ("0.001, 0.003, 0.0085, 0.015, 0.04, 0.1, 0.2");
+  }
+  lu_table_template (mpw_constraint_template_7x7) {
+    variable_1 : constrained_pin_transition;
+    index_1 ("0.01, 0.025, 0.05, 0.1, 0.3, 0.8, 1.4");
+  }
+  power_lut_template (passive_power_template_7x1) {
+    variable_1 : input_transition_time;
+    index_1 ("0.005, 0.01, 0.04, 0.08, 0.2, 0.65, 1.4");
+  }
+  power_lut_template (power_template_7x7) {
+    variable_1 : input_transition_time;
+    variable_2 : total_output_net_capacitance;
+    index_1 ("0.005, 0.01, 0.04, 0.08, 0.2, 0.65, 1.4");
+    index_2 ("0.001, 0.003, 0.0085, 0.015, 0.04, 0.1, 0.2");
+  }
+  cell (pass_transistors) {
+    area : 0;
+    cell_leakage_power : 0;
+    pg_pin (VDD) {
+      pg_type : primary_power;
+      voltage_name : "VDD";
+    }
+    pin (Vout) {
+      direction : output;
+      related_power_pin : VDD;
+      max_capacitance : 0.2;
+    }
+    pin (Vg_0) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00204201;
+      rise_capacitance : 0.00204201;
+      rise_capacitance_range (0.00204201, 0.00204201);
+      fall_capacitance : 0.00203832;
+      fall_capacitance_range (0.00203832, 0.00203832);
+    }
+    pin (Vg_1) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.0023507;
+      rise_capacitance : 0.00234632;
+      rise_capacitance_range (0.00234632, 0.00234632);
+      fall_capacitance : 0.0023507;
+      fall_capacitance_range (0.0023507, 0.0023507);
+    }
+    pin (Vg_2) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00260876;
+      rise_capacitance : 0.00260279;
+      rise_capacitance_range (0.00260279, 0.00260279);
+      fall_capacitance : 0.00260876;
+      fall_capacitance_range (0.00260876, 0.00260876);
+    }
+    pin (Vg_3) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00294067;
+      rise_capacitance : 0.00293355;
+      rise_capacitance_range (0.00293355, 0.00293355);
+      fall_capacitance : 0.00294067;
+      fall_capacitance_range (0.00294067, 0.00294067);
+    }
+    pin (Vg_4) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00325344;
+      rise_capacitance : 0.00324547;
+      rise_capacitance_range (0.00324547, 0.00324547);
+      fall_capacitance : 0.00325344;
+      fall_capacitance_range (0.00325344, 0.00325344);
+    }
+    pin (Vg_5) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00349987;
+      rise_capacitance : 0.00349124;
+      rise_capacitance_range (0.00349124, 0.00349124);
+      fall_capacitance : 0.00349987;
+      fall_capacitance_range (0.00349987, 0.00349987);
+    }
+    pin (Vg_6) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.0037072;
+      rise_capacitance : 0.00369802;
+      rise_capacitance_range (0.00369802, 0.00369802);
+      fall_capacitance : 0.0037072;
+      fall_capacitance_range (0.0037072, 0.0037072);
+    }
+    pin (Vg_7) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.0039554;
+      rise_capacitance : 0.00394553;
+      rise_capacitance_range (0.00394553, 0.00394553);
+      fall_capacitance : 0.0039554;
+      fall_capacitance_range (0.0039554, 0.0039554);
+    }
+    pin (Vg_8) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00414902;
+      rise_capacitance : 0.00413854;
+      rise_capacitance_range (0.00413854, 0.00413854);
+      fall_capacitance : 0.00414902;
+      fall_capacitance_range (0.00414902, 0.00414902);
+    }
+    pin (Vg_9) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00464912;
+      rise_capacitance : 0.00463697;
+      rise_capacitance_range (0.00463697, 0.00463697);
+      fall_capacitance : 0.00464912;
+      fall_capacitance_range (0.00464912, 0.00464912);
+    }
+    pin (Vg_10) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00491197;
+      rise_capacitance : 0.00489886;
+      rise_capacitance_range (0.00489886, 0.00489886);
+      fall_capacitance : 0.00491197;
+      fall_capacitance_range (0.00491197, 0.00491197);
+    }
+    pin (Vg_11) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00480698;
+      rise_capacitance : 0.0047943;
+      rise_capacitance_range (0.0047943, 0.0047943);
+      fall_capacitance : 0.00480698;
+      fall_capacitance_range (0.00480698, 0.00480698);
+    }
+    pin (Vg_12) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00492222;
+      rise_capacitance : 0.00490912;
+      rise_capacitance_range (0.00490912, 0.00490912);
+      fall_capacitance : 0.00492222;
+      fall_capacitance_range (0.00492222, 0.00492222);
+    }
+    pin (Vg_13) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00545292;
+      rise_capacitance : 0.00543769;
+      rise_capacitance_range (0.00543769, 0.00543769);
+      fall_capacitance : 0.00545292;
+      fall_capacitance_range (0.00545292, 0.00545292);
+    }
+    pin (Vg_14) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00620025;
+      rise_capacitance : 0.00618138;
+      rise_capacitance_range (0.00618138, 0.00618138);
+      fall_capacitance : 0.00620025;
+      fall_capacitance_range (0.00620025, 0.00620025);
+    }
+    pin (Vg_15) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00532631;
+      rise_capacitance : 0.00531163;
+      rise_capacitance_range (0.00531163, 0.00531163);
+      fall_capacitance : 0.00532631;
+      fall_capacitance_range (0.00532631, 0.00532631);
+    }
+    pin (Vg_16) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00203189;
+      rise_capacitance : 0.00203189;
+      rise_capacitance_range (0.00203189, 0.00203189);
+      fall_capacitance : 0.00202667;
+      fall_capacitance_range (0.00202667, 0.00202667);
+    }
+    pin (Vg_17) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00231399;
+      rise_capacitance : 0.0023094;
+      rise_capacitance_range (0.0023094, 0.0023094);
+      fall_capacitance : 0.00231399;
+      fall_capacitance_range (0.00231399, 0.00231399);
+    }
+    pin (Vg_18) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00263985;
+      rise_capacitance : 0.00263355;
+      rise_capacitance_range (0.00263355, 0.00263355);
+      fall_capacitance : 0.00263985;
+      fall_capacitance_range (0.00263985, 0.00263985);
+    }
+    pin (Vg_19) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00296106;
+      rise_capacitance : 0.0029538;
+      rise_capacitance_range (0.0029538, 0.0029538);
+      fall_capacitance : 0.00296106;
+      fall_capacitance_range (0.00296106, 0.00296106);
+    }
+    pin (Vg_20) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00323755;
+      rise_capacitance : 0.00322956;
+      rise_capacitance_range (0.00322956, 0.00322956);
+      fall_capacitance : 0.00323755;
+      fall_capacitance_range (0.00323755, 0.00323755);
+    }
+    pin (Vg_21) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00351639;
+      rise_capacitance : 0.00350766;
+      rise_capacitance_range (0.00350766, 0.00350766);
+      fall_capacitance : 0.00351639;
+      fall_capacitance_range (0.00351639, 0.00351639);
+    }
+    pin (Vg_22) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00374471;
+      rise_capacitance : 0.00373535;
+      rise_capacitance_range (0.00373535, 0.00373535);
+      fall_capacitance : 0.00374471;
+      fall_capacitance_range (0.00374471, 0.00374471);
+    }
+    pin (Vg_23) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00394411;
+      rise_capacitance : 0.00393418;
+      rise_capacitance_range (0.00393418, 0.00393418);
+      fall_capacitance : 0.00394411;
+      fall_capacitance_range (0.00394411, 0.00394411);
+    }
+    pin (Vg_24) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00412943;
+      rise_capacitance : 0.00411893;
+      rise_capacitance_range (0.00411893, 0.00411893);
+      fall_capacitance : 0.00412943;
+      fall_capacitance_range (0.00412943, 0.00412943);
+    }
+    pin (Vg_25) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00470583;
+      rise_capacitance : 0.00469339;
+      rise_capacitance_range (0.00469339, 0.00469339);
+      fall_capacitance : 0.00470583;
+      fall_capacitance_range (0.00470583, 0.00470583);
+    }
+    pin (Vg_26) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00497579;
+      rise_capacitance : 0.00496231;
+      rise_capacitance_range (0.00496231, 0.00496231);
+      fall_capacitance : 0.00497579;
+      fall_capacitance_range (0.00497579, 0.00497579);
+    }
+    pin (Vg_27) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00476992;
+      rise_capacitance : 0.00475726;
+      rise_capacitance_range (0.00475726, 0.00475726);
+      fall_capacitance : 0.00476992;
+      fall_capacitance_range (0.00476992, 0.00476992);
+    }
+    pin (Vg_28) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00502626;
+      rise_capacitance : 0.00501256;
+      rise_capacitance_range (0.00501256, 0.00501256);
+      fall_capacitance : 0.00502626;
+      fall_capacitance_range (0.00502626, 0.00502626);
+    }
+    pin (Vg_29) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00559827;
+      rise_capacitance : 0.00558213;
+      rise_capacitance_range (0.00558213, 0.00558213);
+      fall_capacitance : 0.00559827;
+      fall_capacitance_range (0.00559827, 0.00559827);
+    }
+    pin (Vg_30) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00617393;
+      rise_capacitance : 0.00615501;
+      rise_capacitance_range (0.00615501, 0.00615501);
+      fall_capacitance : 0.00617393;
+      fall_capacitance_range (0.00617393, 0.00617393);
+    }
+    pin (Vg_31) {
+      direction : input;
+      related_power_pin : VDD;
+      capacitance : 0.00569981;
+      rise_capacitance : 0.00568325;
+      rise_capacitance_range (0.00568325, 0.00568325);
+      fall_capacitance : 0.00569981;
+      fall_capacitance_range (0.00569981, 0.00569981);
+    }
+  }
+}

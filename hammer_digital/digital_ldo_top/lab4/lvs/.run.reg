@@ -1,0 +1,43 @@
+# This Pegasus GUI File Index Registry was created automatically
+# Do not attempt to modify this file as any change may lead
+# to Pegasus GUI Tools malfunction.
+# 
+"Pegasus Job Mode" internal none lvs
+"Rule File" input text /home/aa/users/cs199-apt/Downloads/sky130_release_0.0.4/Sky130_LVS/Sky130_rev_0.0_0.1.lvs.pvl
+"Comparison Report" output cls /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/lvs-rundir/digital_ldo_top.lvs_results.cls
+"Extraction Report" output erc /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/lvs-rundir/digital_ldo_top.lvs_results
+"Layout GDSII" input none /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/par-rundir/digital_ldo_top.gds
+"Mask SVDB Directory" internal none /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/lvs/.
+"QRC Top Cell" internal none digital_ldo_top
+"LVS Report Options" internal none S
+"Schematic Top Cell" internal none digital_ldo_top
+"Layout Top Cell" internal none digital_ldo_top
+"Find Shorts RDB" output rdb /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/lvs-rundir/digital_ldo_top.lvs_results.shorts
+"SCONNECT Info" output text /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/lvs/.digital_ldo_top.info.softchk
+"ERC Summary" output text /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/lvs-rundir/digital_ldo_top.erc_results
+"Extraction Result" internal none WARNINGS
+"ERC Result" internal none EMPTY
+"Run Directory" internal none /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/lvs/
+"UI Data" internal none ENABLED
+"Pegasus Mode Info" internal none GPABBDADOMEHPLENBIJEIAEDGHDBNKBB
+"Report MaxResults" internal none 1000
+"Pegasus Version" internal none 22.14-s007
+"Binary Name" internal none Pegasus
+"Pegasus Build Date" internal none "Tue Jan 31 16:35:56 PST 2023"
+"Pegasus Job Time" internal none 1738356402
+"Schematic Netlist" input text /home/ff/eecs151/fa24/pdk/sky130A/libs.ref/sky130_fd_io/spice/sky130_ef_io.spice
+"Schematic Netlist" input text /home/ff/eecs151/fa24/pdk/sky130A/libs.ref/sky130_fd_io/cdl/sky130_ef_io.cdl
+"Schematic Netlist" input text /home/ff/eecs151/fa24/pdk/sky130A/libs.ref/sky130_fd_io/spice/sky130_fd_io.spice
+"Schematic Netlist" input text /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/tech-sky130-cache/sky130_fd_sc_hd.cdl
+"Schematic Netlist" input text /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/par-rundir/digital_ldo_top.lvs.v
+"Schematic Netlist" input text /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/spice_files/DigitalLDOLogic/DigitalLDOLogic.lvs.v
+"Schematic Netlist" input text /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/spice_files/strong_arm/strong_arm.sp
+"Schematic Netlist" input text /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/spice_files/rs_latch/rs_latch.sp
+"Schematic Netlist" input text /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/spice_files/inverter/inverter.sp
+"Schematic Netlist" input text /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/spice_files/pass_transistors/pass_transistors.sp
+"Comparison Result" internal none MATCH
+"LVS Run Name" internal none digital_ldo_top.lvs_results
+"Pegasus Version" internal none 22.14-s007
+"Binary Name" internal none pegasusnvn
+"Pegasus Build Date" internal none "Tue Jan 31 16:35:56 PST 2023"
+"Pegasus Job Time" internal none 1738356413

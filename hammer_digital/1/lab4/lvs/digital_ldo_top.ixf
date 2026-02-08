@@ -1,0 +1,328 @@
+# XXXX: Instance Cross Reference (ixf) (File format 1)
+# XXXX: Layout Primary digital_ldo_top
+# XXXX: End of header.
+% MN 4 MN 4
+% MP 4 MP 4
+% sky130_fd_sc_hd__clkbuf_1 6 sky130_fd_sc_hd__clkbuf_1 6
+0 M3 0 MMIP0  
+0 M2 0 MMIP1 X
+0 M1 0 MMIN0  
+0 M0 0 MMIN1 X
+% sky130_fd_sc_hd__buf_8 6 sky130_fd_sc_hd__buf_8 6
+0 M11 0 MMIP1 X
+0 M12 0 MMIP1  
+0 M13 0 MMIP1 X
+0 M14 0 MMIP2  
+0 M15 0 MMIP2 X
+0 M16 0 MMIP2  
+0 M17 0 MMIP2 X
+0 M18 0 MMIP2  
+0 M19 0 MMIP2 X
+0 M20 0 MMIP2  
+0 M21 0 MMIP2 X
+0 M0 0 MMIN1 X
+0 M1 0 MMIN1  
+0 M2 0 MMIN1 X
+0 M3 0 MMIN2  
+0 M4 0 MMIN2 X
+0 M5 0 MMIN2  
+0 M6 0 MMIN2 X
+0 M7 0 MMIN2  
+0 M8 0 MMIN2 X
+0 M9 0 MMIN2  
+0 M10 0 MMIN2 X
+% sky130_fd_sc_hd__dlygate4sd2_1 6 sky130_fd_sc_hd__dlygate4sd2_1 6
+0 M6 0 MMIP1 X
+0 M7 0 MMIP2  
+0 M5 0 MI7  
+0 M4 0 MI8 X
+0 M2 0 MMIN1 X
+0 M3 0 MMIN2  
+0 M1 0 MI6  
+0 M0 0 MI9 X
+% sky130_fd_sc_hd__dfxtp_1 7 sky130_fd_sc_hd__dfxtp_1 7
+0 M16 0 MI659 X
+0 M22 0 MI650 X
+0 M20 0 MI644 X
+0 M18 0 MI639  
+0 M21 0 MI643 X
+0 M12 0 MI638 X
+0 M17 0 MI658 X
+0 M23 0 MI645  
+0 M15 0 MI651 X
+0 M14 0 MI655  
+0 M19 0 MI653 X
+0 M13 0 MI637  
+0 M4 0 MI657 X
+0 M5 0 MI656 X
+0 M11 0 MI646  
+0 M3 0 MI648 X
+0 M2 0 MI654  
+0 M8 0 MI642 X
+0 M9 0 MI641 X
+0 M7 0 MI652 X
+0 M10 0 MI649 X
+0 M0 0 MI635 X
+0 M1 0 MI636  
+0 M6 0 MI634  
+% sky130_fd_sc_hd__a221o_1 10 sky130_fd_sc_hd__a221o_1 10
+0 M9 0 MMPA0  
+0 M10 0 MMPA1 X
+0 M7 0 MMPB0 X
+0 M8 0 MMPB1  
+0 M6 0 MMPC0 X
+0 M11 0 MMIPX  
+0 M3 0 MMNA0 X
+0 M4 0 MMNA1 X
+0 M2 0 MMNB0  
+0 M1 0 MMNB1  
+0 M0 0 MMNC0 X
+0 M5 0 MMINX  
+% sky130_fd_sc_hd__a21o_1 8 sky130_fd_sc_hd__a21o_1 8
+0 M6 0 MMPA0 X
+0 M7 0 MMPA1  
+0 M5 0 MMPB0 X
+0 M4 0 MMIPX X
+0 M2 0 MMNA0 X
+0 M3 0 MMNA1 X
+0 M1 0 MMNB0  
+0 M0 0 MMINX X
+% sky130_fd_sc_hd__or3_1 8 sky130_fd_sc_hd__or3_1 8
+0 M6 0 MMP0  
+0 M5 0 MMP1  
+0 M4 0 MMP2  
+0 M7 0 MMIP3  
+0 M0 0 MMN0 X
+0 M1 0 MMN1  
+0 M2 0 MMN2 X
+0 M3 0 MMIN3  
+% sky130_fd_sc_hd__inv_2 6 sky130_fd_sc_hd__inv_2 6
+0 M2 0 MMIP1  
+0 M3 0 MMIP1 X
+0 M0 0 MMIN1  
+0 M1 0 MMIN1 X
+% DigitalLDOLogic 39 DigitalLDOLogic 35
+0 X101 0 g587__6260  
+0 X100 0 g525__2398  
+0 X99 0 g578__5107  
+0 X80 0 g556__6260  
+0 X75 0 g575__4319  
+0 X91 0 g557__8428  
+0 X95 0 g576__5526  
+0 X97 0 g577__6783  
+0 X79 0 g558__3680  
+0 X71 0 g574__1617  
+0 X76 0 g579__2802  
+0 X77 0 g559__1705  
+0 X90 0 g580__5122  
+0 X78 0 g581__8246  
+0 X98 0 g560__7098  
+0 X88 0 g582__6131  
+0 X72 0 g583__1881  
+0 X83 0 g565__5115  
+0 X73 0 g584__7482  
+0 X82 0 g585__4733  
+0 X85 0 g562__6161  
+0 X94 0 g586__9315  
+0 X92 0 g563__9945  
+0 X87 0 g564__2883  
+0 X86 0 g561__2346  
+0 X81 0 g566__1666  
+0 X84 0 g567__7410  
+0 X96 0 g573__6417  
+0 X89 0 g568__5477  
+0 X74 0 g571__2398  
+0 X93 0 g572__5107  
+0 X68 0 \pass_reg[30]  
+0 X51 0 \pass_reg[21]  
+0 X60 0 \pass_reg[14]  
+0 X41 0 \pass_reg[1]  
+0 X40 0 \pass_reg[18]  
+0 X48 0 \pass_reg[19]  
+0 X47 0 \pass_reg[20]  
+0 X55 0 \pass_reg[7]  
+0 X39 0 \pass_reg[17]  
+0 X49 0 \pass_reg[22]  
+0 X62 0 \pass_reg[10]  
+0 X56 0 \pass_reg[8]  
+0 X52 0 \pass_reg[23]  
+0 X53 0 \pass_reg[24]  
+0 X57 0 \pass_reg[25]  
+0 X61 0 \pass_reg[26]  
+0 X54 0 \pass_reg[6]  
+0 X45 0 \pass_reg[3]  
+0 X50 0 \pass_reg[5]  
+0 X69 0 \pass_reg[29]  
+0 X63 0 \pass_reg[11]  
+0 X59 0 \pass_reg[9]  
+0 X65 0 \pass_reg[27]  
+0 X64 0 \pass_reg[28]  
+0 X66 0 \pass_reg[12]  
+0 X67 0 \pass_reg[13]  
+0 X44 0 \pass_reg[4]  
+0 X58 0 \pass_reg[15]  
+0 X42 0 \pass_reg[16]  
+0 X46 0 \pass_reg[2]  
+0 X70 0 \pass_reg[31]  
+0 X43 0 \pass_reg[0]  
+0 X103 0 g604  
+0 X102 0 g588__4319  
+% inverter 4 inverter 4
+0 X6/M0 0 M1  
+0 X5/M0 0 M0  
+% pass_transistors 34 pass_transistors 34
+0 X138/M0 0 M1  
+0 X139/M0 0 M2  
+0 X140/M0 0 M3  
+0 X141/M0 0 M4  
+0 X142/M0 0 M5  
+0 X143/M0 0 M6  
+0 X144/M0 0 M7  
+0 X145/M0 0 M8  
+0 X146/M0 0 M9  
+0 X147/M0 0 M10  
+0 X148/M0 0 M11  
+0 X149/M0 0 M12  
+0 X150/M0 0 M13  
+0 X151/M0 0 M14  
+0 X152/M0 0 M15  
+0 X153/M0 0 M16  
+0 X154/M0 0 M17  
+0 X155/M0 0 M18  
+0 X156/M0 0 M19  
+0 X157/M0 0 M20  
+0 X158/M0 0 M21  
+0 X159/M0 0 M22  
+0 X160/M0 0 M23  
+0 X161/M0 0 M24  
+0 X162/M0 0 M25  
+0 X163/M0 0 M26  
+0 X164/M0 0 M27  
+0 X165/M0 0 M28  
+0 X166/M0 0 M29  
+0 X167/M0 0 M30  
+0 X168/M0 0 M31  
+0 X169/M0 0 M32  
+% rs_latch_new 6 rs_latch_new 6
+0 X14/M0 0 M2  
+0 X15/M0 0 M3  
+0 X17/M0 0 M0  
+0 X18/M0 0 M1  
+0 X20/M0 0 X0/M1  
+0 X16/M0 0 X0/M0  
+0 X21/M0 0 X1/M1  
+0 X19/M0 0 X1/M0  
+% strong_arm_half 10 strong_arm_half 9
+0 X4/M0 0 Xinst1/Minst0 X
+0 X3/M0 0 Xinst1/Minst1  
+0 X3/M1 0 Xinst2/Minst1 X
+0 X4/M1 0 Xinst2/Minst0  
+0 X6/M1 0 Xinst3/Minst1 X
+0 X6/M0 0 Xinst3/Minst0 X
+0 X7/M1 0 Xinst4/Minst0  
+0 X7/M0 0 Xinst4/Minst1  
+0 X5/M0 0 Xinst5/Minst1  
+0 X8/M1 0 Xinst8/Minst0  
+0 X8/M0 0 Xinst8/Minst1  
+0 X2/M0 0 Xinst0/Minst0  
+0 X2/M1 0 Xinst5/Minst0  
+0 X5/M1 0 Xinst0/Minst1  
+0 X9/M1 0 Xinst6/Minst1 X
+0 X9/M0 0 Xinst6/Minst0 X
+0 X10/M1 0 Xinst7/Minst1 X
+0 X10/M0 0 Xinst7/Minst0 X
+0 X12/M0 0 Xinst9/Minst1  
+0 X12/M1 0 Xinst9/Minst0  
+0 X13/M1 0 Xinst10/Minst1 X
+0 X13/M0 0 Xinst10/Minst0 X
+0 X17/M0 0 Xinst12/Minst0 X
+0 X17/M1 0 Xinst12/Minst1 X
+0 X19/M1 0 Xinst13/Minst0  
+0 X19/M0 0 Xinst13/Minst1  
+0 X16/M0 0 Xinst15/Minst1  
+0 X16/M1 0 Xinst15/Minst0  
+0 X18/M0 0 Xinst16/Minst0 X
+0 X18/M1 0 Xinst16/Minst1 X
+0 X15/M1 0 Xinst17/Minst1  
+0 X15/M0 0 Xinst11/Minst1  
+0 X14/M0 0 Xinst11/Minst0  
+0 X11/M1 0 Xinst14/Minst0  
+0 X14/M1 0 Xinst14/Minst1  
+0 X11/M0 0 Xinst17/Minst0  
+% strong_arm 7 strong_arm 7
+0 X0 0 Xinst0  
+0 X1 0 Xinst1  
+% sky130_fd_sc_hd__mux2_1 8 sky130_fd_sc_hd__mux2_1 8
+0 M7 0 MMPA00 X
+0 M8 0 MMPA01 X
+0 M10 0 MMPA10  
+0 M9 0 MMPA11  
+0 M11 0 MMIP1  
+0 M6 0 MMIP2 X
+0 M3 0 MMNA00 X
+0 M4 0 MMNA01 X
+0 M2 0 MMNA10  
+0 M1 0 MMNA11  
+0 M5 0 MMIN1  
+0 M0 0 MMIN2 X
+% sky130_fd_sc_hd__mux2_2 8 sky130_fd_sc_hd__mux2_2 8
+0 M12 0 MMPA00  
+0 M11 0 MMPA01  
+0 M9 0 MMPA10 X
+0 M10 0 MMPA11 X
+0 M13 0 MMIP1  
+0 M7 0 MMIP2  
+0 M8 0 MMIP2 X
+0 M3 0 MMNA00  
+0 M2 0 MMNA01  
+0 M4 0 MMNA10 X
+0 M5 0 MMNA11 X
+0 M6 0 MMIN1  
+0 M0 0 MMIN2  
+0 M1 0 MMIN2 X
+% digital_ldo_top 39 digital_ldo_top 39
+0 X7 0 DigitalLDOLogic  
+0 X6 0 FE_OFC0_ldotop_vout  
+0 X2 0 CTS_cpc_drv_buf_00022  
+0 X5 0 CTS_cpc_drv_buf_00021  
+0 X3 0 CTS_ccl_a_buf_00002  
+0 X1 0 CTS_ccl_a_buf_00001  
+0 X4 0 CTS_csf_buf_00004  
+0 X24 0 g691__2398  
+0 X15 0 g693__6260  
+0 X25 0 g694__4319  
+0 X18 0 g697__6783  
+0 X29 0 g698__3680  
+0 X32 0 g699__1617  
+0 X14 0 g700__2802  
+0 X17 0 g701__1705  
+0 X16 0 g702__5122  
+0 X34 0 g703__8246  
+0 X30 0 g704__7098  
+0 X19 0 g705__6131  
+0 X20 0 g707__5115  
+0 X21 0 g708__7482  
+0 X37 0 g709__4733  
+0 X33 0 g710__6161  
+0 X23 0 g712__9945  
+0 X36 0 g713__2883  
+0 X27 0 g715__1666  
+0 X31 0 g716__7410  
+0 X26 0 g717__6417  
+0 X22 0 g718__5477  
+0 X28 0 g720__5107  
+0 X35 0 g722__4319  
+0 X41 0 g692__5107  
+0 X43 0 g695__8428  
+0 X44 0 g696__5526  
+0 X40 0 g706__1881  
+0 X39 0 g711__9315  
+0 X45 0 g714__2346  
+0 X38 0 g719__2398  
+0 X42 0 g721__6260  
+0 X13 0 strong_arm  
+0 X8 0 inverter_clk  
+0 X9 0 inverter_fake  
+0 X10 0 inverter_real  
+0 X12 0 rs_latch_new  
+0 X11 0 pass_transistors  

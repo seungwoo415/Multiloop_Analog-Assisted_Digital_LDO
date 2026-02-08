@@ -1,0 +1,22 @@
+// --------------------------------------------------------------------------------
+// This script was written and developed by HAMMER at UC Berkeley; however, the
+// underlying commands and reports are copyrighted by Cadence. We thank Cadence for
+// granting permission to share our research to help promote and foster the next
+// generation of innovators.
+// --------------------------------------------------------------------------------
+schematic_path "/home/ff/eecs151/fa24/pdk/sky130A/libs.ref/sky130_fd_io/spice/sky130_ef_io.spice" spice;
+schematic_path "/home/ff/eecs151/fa24/pdk/sky130A/libs.ref/sky130_fd_io/cdl/sky130_ef_io.cdl" spice;
+schematic_path "/home/ff/eecs151/fa24/pdk/sky130A/libs.ref/sky130_fd_io/spice/sky130_fd_io.spice" spice;
+schematic_path "/home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/tech-sky130-cache/sky130_fd_sc_hd.cdl" spice;
+schematic_path "/home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/par-rundir/DigitalLDOLogic.lvs.v" verilog -keep_backslash -detect_buses -check_inconsistent_instances -ignore_instances_with_missing_cell_master;
+
+schematic_primary DigitalLDOLogic;
+layout_path "/home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/par-rundir/DigitalLDOLogic.gds";
+layout_primary DigitalLDOLogic;
+lvs_power_name VDD;
+lvs_ground_name VSS;
+lvs_find_shorts yes;
+lvs_report_opt S;
+results_db -erc "/home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/lvs-rundir/DigitalLDOLogic.erc_errors.ascii" -ascii;
+report_summary -erc "/home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/lvs-rundir/DigitalLDOLogic.erc_results" -replace;
+lvs_report_file "/home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/lvs-rundir/DigitalLDOLogic.lvs_results";

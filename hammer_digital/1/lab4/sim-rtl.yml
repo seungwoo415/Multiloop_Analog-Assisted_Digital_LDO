@@ -1,0 +1,16 @@
+# RTL Simulation Variables
+sim.inputs:
+  input_files:
+    - "src/fine_sr.v"
+  timescale: "1ns/10ps"
+  options:
+    - "-notice"
+    - "-line"
+    - "+lint=all,noVCDE"
+    - "+v2k"
+    - "-sverilog"
+    - "-debug"
+  top_module: "fine_sr"
+  tb_name: "fine_sr_tb"
+  defines: 
+    - "CLOCK_PERIOD=5.00"

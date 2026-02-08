@@ -1,0 +1,35 @@
+* Net aliases by cell for run: /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/lvs-rundir/digital_ldo_top.lvs_results
+* THIS FILE IS GENERATED. DO NOT EDIT.
+* ==== Bound cells ==============
+* ==== Unbound cells ==============
+nmos_tile_w1000_l150_nf2 { 
+  sd_2 ( sd_0 )
+}
+nmos_tile_w11000_l150_nf2 { 
+  sd_2 ( sd_0 )
+}
+nmos_tile_w6500_l150_nf2 { 
+  sd_2 ( b sd_0 )
+}
+pmos_tile_w1000_l150_nf2 { 
+  sd_2 ( b sd_0 )
+}
+pmos_tile_w420_l150_nf2 { 
+  sd_2 ( b sd_0 )
+}
+sky130_fd_sc_hd__buf_1 { 
+  VNB ( VGND )
+  VPWR ( VPB )
+}
+sky130_fd_sc_hd__buf_2 { 
+  VNB ( VGND )
+  VPWR ( VPB )
+}
+sky130_fd_sc_hd__clkinv_16 { 
+  VNB ( VGND )
+  VPWR ( VPB )
+}
+sky130_fd_sc_hd__clkinv_4 { 
+  VNB ( VGND )
+  VPWR ( VPB )
+}

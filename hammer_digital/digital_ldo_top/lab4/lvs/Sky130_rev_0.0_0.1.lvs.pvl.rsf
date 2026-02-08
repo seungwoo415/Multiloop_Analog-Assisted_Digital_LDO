@@ -1,0 +1,449 @@
+avCompareRules(
+commandLineOptions((-shorts))
+commandLineOptions((layout_format "GDSII" "-gds /dev/zero"))
+commandLineOptions((layout_path "/dev/zero" "-gds /dev/zero"))
+commandLineOptions((layout_primary "digital_ldo_top" "-tc digital_ldo_top"))
+( pvsLvsRules ( layout_format "gdsii" ))
+( pvsLvsRules ( layout_path "./sky130_fd_sc_ls__bufinv_16.gds" ))
+( pvsLvsRules ( layout_primary "sky130_fd_sc_ls__bufinv_16" ))
+( pvsLvsRules ( text_depth "-primary" ))
+( pvsLvsRules ( port "-text_layer" "met1_label" "met2_label" "met3_label" "met4_label" "met5_label" "li1_label" "nwell_label" "pwell_label" ))
+( pvsLvsRules ( device "MN" "(" "nfet_01v8" ")" "nfet_01v8_rec" "nfet" "(" "G" ")" "nSourceDrain" "(" "S" ")" "nSourceDrain" "(" "D" ")" "pwell" "(" "B" ")" ))
+( pvsLvsRules ( device "MP" "(" "pfet_01v8" ")" "pfet_01v8_rec" "pfet" "(" "G" ")" "pSourceDrain" "(" "S" ")" "pSourceDrain" "(" "D" ")" "nwell" "(" "B" ")" ))
+( pvsLvsRules ( device "MP" "(" "pfet_01v8_hvt" ")" "hvtpfet_01v8_rec" "hvtpfet" "(" "G" ")" "pSourceDrain" "(" "s" ")" "pSourceDrain" "(" "D" ")" "nwell" "(" "B" ")" ))
+( pvsLvsRules ( lvs_cdn_flow_options "-cdl_use_scale" ))
+( pvsLvsRules ( lvs_reduce "yes" "-parallel_mos" ))
+( pvsLvsRules ( lvs_reduce "yes" "-series_mos" ))
+( pvsLvsRules ( lvs_short_equivalent_nodes "yes" ))
+( pvsLvsRules ( lvs_check_property "MP" "L" "l" ))
+( pvsLvsRules ( lvs_check_property "MP" "W" "w" ))
+( pvsLvsRules ( lvs_check_property "MN" "L" "l" ))
+( pvsLvsRules ( lvs_check_property "MN" "W" "w" ))
+( pvsLvsRules ( lvs_report_file "digital_ldo_top.lvsrpt" ))
+runName("digital_ldo_top.lvsrpt")
+)
+avCompareRules(
+)
+avCompareRules(
+autoPinSwap(unboundPinsOnly 10000)
+builtinDevicePinSwap(t)
+breakAmbiguityThreshold(32)
+( pvsLvsRules ( lvs_reduce_split_gates "no" ))
+layout(swapPins(C nil))
+schematic(swapPins(C nil))
+layout(cdlGlobalMode(ignore))
+schematic(cdlGlobalMode(ignore))
+schematic(lvsIgnorePorts(nil))
+layout(   lvsIgnorePorts(nil))
+schematic(lvsCheckPortNames(nil))
+layout(   lvsCheckPortNames(nil))
+schematic(lvsGlobalsArePorts(t))
+layout(   lvsGlobalsArePorts(t))
+compareCase( nil )
+ignoreCaseWhenBinding( (cell t)(pin t)(instance t)(net t) )
+layout(spiceSlashIsSpace(t))
+schematic(spiceSlashIsSpace(t))
+layout(spiceConditionalLDD(nil))
+schematic(spiceConditionalLDD(nil))
+spiceRedefineParam(nil)
+spiceAllowUnquotedStrings(nil)
+spiceCalculateMosArea(nil)
+cullPrimitiveSubckts(nil)
+layout(genericDevice(emptySubckt))
+schematic(genericDevice(emptySubckt))
+verilogBusNameDiffIEEE(nil)
+verilogBusMapIEEE(nil)
+rootCell("digital_ldo_top")
+layout(netlist(cdl "digital_ldo_top.net"))
+lvsKeepData(no)
+schematic(ignoreCase(t))
+layout(ignoreCase(t))
+formGate(logic)
+sramReduce(t)
+dramReduce(nil)
+romReduce(nil)
+nameBinding((cell nil)(pin "^[0-9]+$")(net "^[0-9]+$")(instance nil))
+expandOnError((swap t)(reduce nil)(pins nil)(swapThres nil)(instCount t)(skipMatchOnReduceError t)(ambiguousPinAssignment nil)(parameter nil))
+abortOnUnboundDevices( nil )
+allowFloatingInstancePorts(t)
+compareParameter(MN percent("l" 0))
+compareParameter(MN percent("w" 0))
+compareParameter(MP percent("l" 0))
+compareParameter(MP percent("w" 0))
+layout(swapPins("nfet_01v8(MN)" "(p D S)"))
+layout(swapPins("pfet_01v8(MP)" "(p D S)"))
+layout(swapPins("pfet_01v8_hvt(MP)" "(p D S)"))
+mergeParallel(source("lvs_reduce") M merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeParallel(source("lvs_reduce") MP merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeParallel(source("lvs_reduce") MN merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeParallel(source("lvs_reduce") MD merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeParallel(source("lvs_reduce") ME merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeParallel(source("lvs_reduce") LDD merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeParallel(source("lvs_reduce") LDDP merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeParallel(source("lvs_reduce") LDDN merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeParallel(source("lvs_reduce") LDDD merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeParallel(source("lvs_reduce") LDDE merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+             )
+    )
+mergeSeries(M merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeSeries(MP merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeSeries(MN merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeSeries(MD merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeSeries(ME merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeSeries(LDD merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeSeries(LDDP merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeSeries(LDDN merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeSeries(LDDD merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeSeries(LDDE merge
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+             )
+    )
+mergeParallel( R merge
+    language("
+             effective R,W,L       \n
+             checkForZero = prod ( R )       \n
+             if(checkForZero != 0)       \n
+               R = 1/sum(1/R)        \n
+             else        \n
+               R = 0        \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             "
+            ))
+mergeSeries( R merge
+    language("
+             effective R,W,L       \n
+             R = sum(R)        \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+            ))
+mergeParallel( C merge
+    language("
+             effective C,A,P        \n
+             C = sum(C)        \n
+             A = sum(A)        \n
+             P = sum(P)        \n
+             "
+            ))
+mergeSeries( C merge
+    language("
+             effective C        \n
+             checkForZero = prod ( C )       \n
+             if(checkForZero != 0)       \n
+               C = 1/sum(1/C)        \n
+             else        \n
+               C = 0        \n
+             "
+            ))
+mergeParallel( Q merge
+    language("
+           effective A,W,L        \n
+           A = sum(A)        \n
+           P = sum(W*L)      \n
+           Q = sum(W/L)      \n
+           W = sqrt(P*Q)      \n
+           L = sqrt(P/Q) }     \n
+             "
+            ))
+mergeParallel( D merge
+    language("
+             effective A,P        \n
+             A = sum(A)        \n
+             P = sum(P)        \n
+             "
+            ))
+keepSeriesLoop()
+filterReduceStatistics((preExpand nil))
+saveCoordinates(t)
+spiceReverseWL(nil)
+strictSubTypes(nil)
+exactSubTypes(nil)
+preserveBoxPorts(nil)
+spiceStrictWL(nil)
+)
