@@ -1,0 +1,73 @@
+simulator lang=spectre
+
+global 0
+
+include "/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/models/sky130.lib.spice" section=tt
+
+
+simulator lang =spice
+
+*.include "/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/models/sky130.lib.spice" section=tt
+
+.param W = 0.5u
+.param VGS = 0 
+
+V1 vdd 0 DC 1.8 
+V2 vg 0 DC VGS
+V3 vo 0 DC 1.5
+*I1 vdd vd DC 7.5u 
+
+M1 vo 0 vdd vdd sky130_fd_pr__pfet_01v8 l=0.25u nf=1 w=0.48u 
+
+.dc W 2u 4u 0.05
+
+*.ac dec 100 1000 100M
+
+.probe ac v(vdd) i(I2) v(vs)
+
+simulator lang=spectre
+save *:oppoint sigtype=dev
+saveopts options save=all
+
+
+simulator lang=spice
+.measure dc i0.5 FIND i(M1) WHEN W=0.5u
+.measure dc i1 FIND i(M1) WHEN W=1u
+.measure dc i1.5 FIND i(M1) WHEN W=1.5u
+.measure dc i2 FIND i(M1) WHEN W=2u
+.measure dc i2.5 FIND i(M1) WHEN W=2.5u
+.measure dc i3 FIND i(M1) WHEN W=3u
+.measure dc i3.5 FIND i(M1) WHEN W=3.5u
+.measure dc i4 FIND i(M1) WHEN W=4u
+.measure dc i4.5 FIND i(M1) WHEN W=4.5u
+.measure dc i5 FIND i(M1) WHEN W=5u
+.measure dc i5.5 FIND i(M1) WHEN W=5.5u
+.measure dc i6 FIND i(M1) WHEN W=6u
+.measure dc i6.5 FIND i(M1) WHEN W=6.5u
+.measure dc i7 FIND i(M1) WHEN W=7u
+.measure dc i7.5 FIND i(M1) WHEN W=7.5u
+.measure dc i8 FIND i(M1) WHEN W=8u
+.measure dc i8.5 FIND i(M1) WHEN W=8.5u
+.measure dc i9 FIND i(M1) WHEN W=9u
+.measure dc i9.5 FIND i(M1) WHEN W=9.5u
+.measure dc i10 FIND i(M1) WHEN W=10u
+.measure dc i10.5 FIND i(M1) WHEN W=10.5u
+.measure dc i11 FIND i(M1) WHEN W=11u
+.measure dc i11.5 FIND i(M1) WHEN W=11.5u
+.measure dc i12 FIND i(M1) WHEN W=12u
+.measure dc i12.5 FIND i(M1) WHEN W=12.5u
+.measure dc i13 FIND i(M1) WHEN W=13u
+.measure dc i13.5 FIND i(M1) WHEN W=13.5u
+.measure dc i14 FIND i(M1) WHEN W=14u
+.measure dc i14.5 FIND i(M1) WHEN W=14.5u
+.measure dc i15 FIND i(M1) WHEN W=15u
+.measure dc i15.5 FIND i(M1) WHEN W=15.5u
+.measure dc i16 FIND i(M1) WHEN W=16u
+.measure dc i16.5 FIND i(M1) WHEN W=16.5u
+.measure dc i17 FIND i(M1) WHEN W=17u
+.measure dc i17.5 FIND i(M1) WHEN W=17.5u
+.measure dc i18 FIND i(M1) WHEN W=18u
+.measure dc i18.5 FIND i(M1) WHEN W=18.5u
+.measure dc i19 FIND i(M1) WHEN W=19u
+.measure dc i19.5 FIND i(M1) WHEN W=19.5u
+.measure dc i20 FIND i(M1) WHEN W=20u

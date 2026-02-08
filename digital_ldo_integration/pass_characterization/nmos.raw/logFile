@@ -1,0 +1,55 @@
+HEADER
+"PSFversion" "1.00"
+"Log Generator" "drlLog rev. 1.0"
+"Log Time Stamp" "Fri Jun 27 00:21:07 2025"
+"psfversion" ""
+"simulator" "spectre"
+"version" "19.1.0.455.isr11"
+"date" "12:21:07 AM, Fri Jun 27, 2025"
+"design" "(no title)"
+"signalNameType" "spectre"
+"simMode" "Spectre"
+"measdgt" 0
+"ingold" 2
+"sst2usecolon" 0
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING *
+)
+VALUE
+"opBegin-dc" "analysisInst" (
+"dc"
+"opBegin.dc"
+"PSF"
+""
+()
+"DC Analysis `opBegin'"
+) PROP(
+"data_type" "scalar"
+)
+
+"srcSweep-dc" "analysisInst" (
+"dc"
+"srcSweep.dc"
+"PSF"
+""
+()
+"DC Analysis `srcSweep'"
+) PROP(
+"data_type" "scalar"
+)
+
+"srcSweep-meas_dc" "analysisInst" (
+"meas_dc"
+"srcSweep.meas_dc"
+"PSF"
+""
+()
+"Measurement Results for srcSweep Analysis dc"
+)
+END

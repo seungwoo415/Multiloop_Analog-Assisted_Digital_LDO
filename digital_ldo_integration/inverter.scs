@@ -1,0 +1,36 @@
+simulator lang=spectre
+
+global 0
+
+include "/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/models/sky130.lib.spice" section=tt
+
+
+simulator lang=spice
+
+.SUBCKT inverter vdd vss din dout
+
+  Xinst0 dout din vss vss sky130_fd_pr__nfet_01v8 l=0.150u nf=1 w=1.000u
+  Xinst1 dout din vdd vdd sky130_fd_pr__pfet_01v8 l=0.150u nf=1 w=1.600u
+
+.ENDS inverter
+
+simulator lang=spectre
+
+xinst0 ( vdd 0 vin vout ) inverter 
+
+
+xinst1  ( vout 0 ) capacitor c=10pF
+xinst3 ( vdd 0 ) vsource dc=1.8 type=dc
+xinst6 ( vin 0) vsource type=pwl wave=[
++ 0u 1.8 9.995u 1.8
++ 10u 0.2 50u 0.2
++]
+
+
+
+settemp1 options temp=25.0
+save vin
+save vout
+saveopts options save=allpub
+
+analysis_0 tran stop=50u errpreset=conservative

@@ -1,0 +1,50 @@
+
+simulator lang=spectre
+
+// This is a generated file.
+// Be careful when editing manually: this file may be overwritten.
+
+global 0
+
+include "/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/models/sky130.lib.spice" section=tt
+
+simulator lang=spice 
+
+.include 'digital_ldo_top.sp'
+
+simulator lang=spectre
+
+parameters Vcm=1.5 Vdiff=0.02 frequency=100K
+
+xinst0 ( ldotop_vdd 0 ldotop_clk ldotop_rst ldotop_vref 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ldotop_vout ) digital_ldo_top 
+xinst1  ( ldotop_vout 0 ) capacitor c=10pF
+xinst2 ldotop_vout v1 0 0 sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=0.6u
+xinst7 ldotop_vout vsqu 0 0 sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=0.6u
+xinst8 ( vsqu 0 ) vsource type=pwl wave=[
++0u 0 49.99995u 0
++50u 1.5V 200u 1.5V
++]
+xinst3 ( ldotop_vdd 0 ) vsource dc=1.8 type=dc
+xinst9 ( v1 0 ) vsource dc=1.5 type=dc
+xinst4 ( ldotop_vref 0 ) vsource dc=1.5 type=dc
+xinst5 (ldotop_clk 0) vsource type=pulse val0=0 val1=1.8 period=1u rise=100p fall=100p width=500n delay=0
+xinst6 ( ldotop_rst 0) vsource type=pwl wave=[
++ 0u 1.8 9.995u 1.8
++ 10u 0 100u 0
++]
+
+settemp1 options temp=25.0
+save ldotop_vref
+save ldotop_clk
+save ldotop_rst
+save ldotop_vout
+save ldotop_vdd 
+save xinst0.ldotop_en
+saveopts options save=allpub
+
+analysis_0 tran stop=100u errpreset=conservative
+
+simulator lang=spice
+
+.probe i(xinst2)
+.probe i(xinst7)

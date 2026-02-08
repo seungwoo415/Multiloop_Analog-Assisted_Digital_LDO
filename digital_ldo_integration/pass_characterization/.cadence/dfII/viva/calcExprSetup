@@ -1,0 +1,4 @@
+artistResMgrCalcExprSetup("false" "plot" "E0" "deriv(I)")
+artistResMgrCalcExprSetup("false" "plot" "E1" "deriv(I)")
+artistResMgrCalcExprSetup("false" "plot" "E2" "deriv(i("M1:1" ?result "dcrun2-dc"))")
+artistResMgrCalcExprSetup("true" "plot" "E3" "getData("M1.msky130_fd_pr__nfet_01v8:gm" ?result "dcrun2-dc")/getData("M1.msky130_fd_pr__nfet_01v8:ids" ?result "dcrun2-dc")")

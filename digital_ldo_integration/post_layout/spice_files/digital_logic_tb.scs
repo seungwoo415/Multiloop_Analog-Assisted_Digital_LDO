@@ -1,0 +1,106 @@
+
+simulator lang=spectre
+
+// This is a generated file.
+// Be careful when editing manually: this file may be overwritten.
+
+global 0
+
+include "/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/models/sky130.lib.spice" section=tt
+
+simulator lang=spice 
+
+.include 'DigitalLDOLogiclvsv2.sp'
+.INCLUDE "/home/aa/users/cs199-apt/Downloads/sky130_fd_sc_hd.spice"
+.include "/home/ff/eecs251b/sky130/sky130_conv.spice"
+simulator lang=spectre
+
+parameters Vcm=1.5 Vdiff=0.02 frequency=100K
+
+xinst0 ( o0 o1 o2 o3 o4 o5 o6 o7 o8 o9 o10 o11 o12 o13 o14 o15 o16 o17 o18 o19 o20 o21 o22 o23 o24 o25 o26 o27 o28 o29 o30 o31 ldotop_clk comp_in ldotop_rst 0 VDD ) DigitalLDOLogic 
+*xinst1  ( ldotop_vout 0 ) capacitor c=10pF
+*xinst2 ldotop_vout v1 0 0 sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=0.6u
+*xinst7 ldotop_vout vsqu 0 0 sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=0.6u
+xinst8 ( comp_in 0 ) vsource type=pwl wave=[
++0u 0 9.99995u 0
++10u 1.8 19.9995u 1.8
++20u 0   39.9995u 0
++40u 1.8  49.9995u 1.8
++50u 0 59.9995u 0
++60u 1.8 69.9995u 1.8
++70u 0 71u 0
++]
+*xinst2 ( vinp 0 ) vsource dc=Vcm type=sine ampl=Vdiff freq=frequency
+*xinst4 ( ldotop_vref 0 ) vsource dc=Vcm type=sine ampl=-Vdiff freq=frequency
+xinst3 ( ldotop_vdd 0 ) vsource dc=1.8 type=dc
+*xinst9 ( v1 0 ) vsource dc=1.5 type=dc
+*xinst4 ( ldotop_vref 0 ) vsource dc=1.5 type=dc
+*xinst5 ( ldotop_clk 0 ) vsource delay=0 fall=100p period=5u rise=100p type=pulse val0=1.8 val1=0 width=2.5u
+*xinst5 (ldotop_clk 0) vsource type=pulse val0=0 val1=1.8 period=2.5u rise=100p fall=100p width=1.25u delay=0  
+xinst5 (ldotop_clk 0) vsource type=pulse val0=0 val1=1.8 period=1u rise=100p fall=100p width=500n delay=0
+xinst6 ( ldotop_rst 0) vsource type=pwl wave=[
++ 0u 1.8 9.995u 1.8
++ 10u 0 100u 0
++]
+
+settemp1 options temp=25.0
+*save ldotop_vref
+save ldotop_clk
+save ldotop_rst
+save o0
+save o1
+save o2
+save o3
+save o4
+save o5
+save o6
+save o7
+save o8
+save o9
+save o10
+save o11
+save o12
+save o13
+save o14
+save o15
+save o16
+save o17
+save o18
+save o19
+save o20
+save o21
+save o22
+save o23
+save o24
+save o25
+save o26
+save o27
+save o28
+save o29
+save o30
+save o31
+save comp_in
+save ldotop_vdd
+*save I(xinst2)
+saveopts options save=allpub
+
+
+*precharge_Vcm sweep param=Vcm start=1.3 stop=1.5 step=0.01 {
+*        analysis_0 tran stop=6u errpreset=conservative
+*}
+
+
+analysis_0 tran stop=72u errpreset=conservative
+
+simulator lang=spice
+
+*.probe i(xinst2)
+*.probe i(xinst7)
+*.meas tran maxvn max v(output_n)
+*.meas tran minvn min v(output_n)
+*.meas tran t1 param ='(maxvn-minvn) *0.5'
+*.meas tran clock_to_qn trig v(clk) val='1.8*0.5' rise=1 targ v(output_n) val=t1  fall=1
+*.meas tran maxvp max v(output_p)
+*.meas tran minvp min v(output_p)
+*.meas tran t2 param ='(maxvp-minvp) *0.5'
+*.meas tran clock_to_qp trig v(clk) val='1.8*0.5' rise=1 targ v(output_p) val=t1  fall=1

@@ -1,0 +1,19 @@
+//  v2lvs v2016.4_38.25    Tue Jan 3 14:53:59 PST 2017
+//
+//  Copyright (c) 1992, 1993 Regents of the University of California
+//         All rights reserved.
+//
+//        Copyright Mentor Graphics Corporation 1996-2017
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//
+Running /share/instsww/mgc/CALIBRE/pkgs/icv/pvt/v2lvs -i -tcl script.tcl
+
+Info: Creating Spice Library Database ...
+Warning: No BUSDELIMITER statement in /home/ff/eecs251b/sky130/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice spice file, it will be set to [
+Info: Creating Design Database ...
+Info: Converting Design ...

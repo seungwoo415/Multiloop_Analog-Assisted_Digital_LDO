@@ -1,0 +1,47 @@
+simulator lang=spectre
+
+global 0
+
+include "/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/models/sky130.lib.spice" section=tt
+
+
+simulator lang =spice
+
+*.include "/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/models/sky130.lib.spice" section=tt
+
+.param VGS = 1.8
+
+V1 vdd 0 DC 0.2
+V2 vg 0 DC VGS
+V3 vs 0 DC 1.5
+
+M1 vdd vg 0 0 sky130_fd_pr__nfet_01v8 l=0.5u nf=1 w=10u
+
+.op 
+.dc 
+
+simulator lang=spectre
+*save M1:MN:gm
+save *:oppoint sigtype=dev
+saveopts options save=all
+
+simulator lang=spice 
+.measure dc i0 FIND i(M1) WHEN VGS=0
+.measure dc i0.1 FIND i(M1) WHEN VGS=0.1
+.measure dc i0.2 FIND i(M1) WHEN VGS=0.2
+.measure dc i0.3 FIND i(M1) WHEN VGS=0.3
+.measure dc i0.4 FIND i(M1) WHEN VGS=0.4
+.measure dc i0.5 FIND i(M1) WHEN VGS=0.5
+.measure dc i0.6 FIND i(M1) WHEN VGS=0.6
+.measure dc i0.7 FIND i(M1) WHEN VGS=0.7
+.measure dc i0.8 FIND i(M1) WHEN VGS=0.8
+.measure dc i0.9 FIND i(M1) WHEN VGS=0.9
+.measure dc i1 FIND i(M1) WHEN VGS=1
+.measure dc i1.1 FIND i(M1) WHEN VGS=1.1
+.measure dc i1.2 FIND i(M1) WHEN VGS=1.2
+.measure dc i1.3 FIND i(M1) WHEN VGS=1.3
+.measure dc i1.4 FIND i(M1) WHEN VGS=1.4
+.measure dc i1.5 FIND i(M1) WHEN VGS=1.5
+.measure dc i1.6 FIND i(M1) WHEN VGS=1.6
+.measure dc i1.7 FIND i(M1) WHEN VGS=1.7
+.measure dc i1.8 FIND i(M1) WHEN VGS=1.8
