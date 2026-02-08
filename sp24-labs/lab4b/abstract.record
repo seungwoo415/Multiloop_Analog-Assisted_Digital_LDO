@@ -1,0 +1,5 @@
+absSkillMode()
+absDisableUpdate()
+absSelectBinFrom("Corner" "Corner")
+absEnableUpdate()
+absExit()

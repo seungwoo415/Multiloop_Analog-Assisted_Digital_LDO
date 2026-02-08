@@ -1,0 +1,14 @@
+Exported variables from results directory:  /home/aa/users/cs199-apt/cadence/lib_files/sp24-labs/lab4b/inverter_clk/altos.c111-11.EECS.Berkeley.EDU.T20241110022830099761S0234094.0/sim.raw/
+
+date               :  2:28:36 AM, Sun Nov 10, 2024
+design             :  **** Altos spice deck for characterization release 19.1.2.294
+simulator          :  spectre
+version            :  19.1.0.455.isr11
+
+
+Measurement Name   :  timeSweep
+Analysis Type      :  tran
+altosdevicecap00000004    =  -2.319705e-15 
+altosdevicecap00000008    =  -3.055082e-15 
+
+
