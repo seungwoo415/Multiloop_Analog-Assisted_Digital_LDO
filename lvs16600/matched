@@ -1,0 +1,35 @@
+##############################################################################################################
+#####  
+#####                                       Pegasus LVS COMPARISON
+#####  
+#####  Version                       :   22.14-s007
+#####  NVN Run Start                 :   Tue Aug  6 22:12:47 2024
+#####  ERC Summary File              :   result.sum
+#####  Extraction Report File        :   strong_arm.lvsrpt
+#####  Comparison Report File        :   strong_arm.lvsrpt.cls
+#####  Top Cell                      :   strong_arm  <vs>  strong_arm
+#####  
+#####  Run Result                    :   MATCH
+#####  
+#####  Run Summary                   :   [INFO]  ERC Results: Empty
+#####                                :   [INFO]  Extraction Clean
+#####  
+#####  Layout Design                 :   /home/aa/users/cs199-apt/cadence/sky130_virtuoso/16600layout.gds (GDSII)
+#####  Layout File                   :   strong_arm.net (cdl)
+#####  Schematic File                :   ../16600netlist.sp (cdl)
+#####  Rules File                    :   /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0001.lvs.pvl
+#####  Pin Swap File                 :   strong_arm.lvsrpt.cps
+#####  
+#####  Extraction CPU Time           :   0h 0m 1s - (1s)
+#####  Extraction Exec Time          :   0h 0m 6s - (6s)
+#####  Extraction Peak Memory Usage  :   133.00MB
+#####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
+#####  NVN Exec Time                 :   0h 0m 1s - (1s)                 
+#####  NVN Peak Memory Usage         :   301.78MB
+#####  LVS Total CPU Time            :   0h 0m 1s - (1s)                 
+#####  LVS Total Exec Time           :   0h 0m 7s - (7s)                 
+#####  LVS Total Peak Memory Usage   :   301.78MB
+#####  
+##############################################################################################################
+
+

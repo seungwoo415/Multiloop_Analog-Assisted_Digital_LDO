@@ -1,0 +1,6 @@
+cUiSelectCellP {inverter}
+cUiSetViewStatus {inverter} {layout} {1}
+cUiSetViewStatus {inverter} {logical} {0}
+cUiSetViewStatus {inverter} {abstract.pin} {0}
+cUiSetViewStatus {inverter} {abstract.ext} {0}
+cUiSetViewStatus {inverter} {abstract} {0}

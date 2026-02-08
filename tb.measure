@@ -1,0 +1,16 @@
+Exported variables from results directory:  ././tb.raw/
+
+date               :  4:40:45 PM, Sun Jul 14, 2024
+design             :  *
+simulator          :  spectre
+version            :  21.1.0.751.isr19
+
+
+Measurement Name   :  timeSweep
+Analysis Type      :  tran
+trise                 =  2.88346e-11 
+
+
+
+
+

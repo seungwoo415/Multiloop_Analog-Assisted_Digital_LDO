@@ -1,0 +1,77 @@
+********************************************************************************
+*** Pegasus ERC SUMMARY
+***
+Execute on Date/Time    : Sat Oct 12 15:10:10 2024
+Pegasus VERSION         : 22.14-s007 Tue Jan 31 16:35:56 PST 2023
+Rule Deck Path          : /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0001.lvs.pvl
+Rule Deck Title         :
+Layout System           : GDSII
+Layout Path             : /home/aa/users/cs199-apt/cadence/sky130_virtuoso/10500_layout.gds
+Current Directory       : /home/aa/users/cs199-apt/cadence/sky130_virtuoso/lvs10500
+User Name               : cs199-ap
+Maximum Results         : 1000
+Maximum Result Vertices : 4096
+Layout Depth            : ALL
+Text Depth              : 0
+Summary File            : /home/aa/users/cs199-apt/cadence/sky130_virtuoso/lvs10500/result.sum
+Geometry Flagging       : ACUTE = NO  ANGLED = NO  SKEW = NO  OFFGRID = NO
+                          NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Keep Empty Checks       : YES
+Excluded Cells          : 
+Layout Primary Cell     : strong_arm
+ASCII ERC Error Report  :
+ERC Results Database    :
+--------------------------------------------------------------------------------
+--- RUNNING TIME WARNINGS
+---
+--------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER diff ................................. Total Original Geometry:          4 (        36)
+LAYER tap .................................. Total Original Geometry:          2 (         4)
+LAYER nwell_in ............................. Total Original Geometry:          3 (        20)
+LAYER hvtp ................................. Total Original Geometry:          0 (         0)
+LAYER hvi .................................. Total Original Geometry:          0 (         0)
+LAYER poly ................................. Total Original Geometry:         16 (       144)
+LAYER licon1 ............................... Total Original Geometry:        207 (      1150)
+LAYER li1_in ............................... Total Original Geometry:        226 (       646)
+LAYER mcon ................................. Total Original Geometry:         28 (       108)
+LAYER met1_in .............................. Total Original Geometry:        102 (       294)
+LAYER via .................................. Total Original Geometry:         12 (        24)
+LAYER met2_in .............................. Total Original Geometry:        114 (       228)
+LAYER via2 ................................. Total Original Geometry:          0 (         0)
+LAYER met3_in .............................. Total Original Geometry:          0 (         0)
+LAYER via3 ................................. Total Original Geometry:          0 (         0)
+LAYER met4_in .............................. Total Original Geometry:          0 (         0)
+LAYER via4 ................................. Total Original Geometry:          0 (         0)
+LAYER met5_in .............................. Total Original Geometry:          0 (         0)
+LAYER areaid.sl ............................ Total Original Geometry:          0 (         0)
+LAYER li1_label ............................ Total Original Geometry:          0 (         0)
+LAYER met1_label ........................... Total Original Geometry:          0 (         0)
+LAYER met2_label ........................... Total Original Geometry:          0 (         0)
+LAYER met3_label ........................... Total Original Geometry:          0 (         0)
+LAYER met4_label ........................... Total Original Geometry:          0 (         0)
+LAYER met5_label ........................... Total Original Geometry:          0 (         0)
+LAYER pwell_label .......................... Total Original Geometry:          0 (         0)
+LAYER nwell_label .......................... Total Original Geometry:          0 (         0)
+LAYER li1_pin .............................. Total Original Geometry:         60 (       330)
+LAYER met1_pin ............................. Total Original Geometry:          0 (         0)
+LAYER met2_pin ............................. Total Original Geometry:          0 (         0)
+LAYER met3_pin ............................. Total Original Geometry:          0 (         0)
+LAYER met4_pin ............................. Total Original Geometry:          0 (         0)
+LAYER met5_pin ............................. Total Original Geometry:          0 (         0)
+LAYER nwell_pin ............................ Total Original Geometry:          4 (        36)
+--------------------------------------------------------------------------------
+--- WARNINGS FROM FLAG STATEMENT
+---
+--------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+--------------------------------------------------------------------------------
+--- SUMMARY
+---
+Total CPU Time                    : 2 + 1(s)
+Total Real Time (Init + Exec)     : 6(0 + 6)(s)
+Total Original Geometry           : 778 (3020)
+Total ERC RuleChecks              : 0
+Total ERC Results                 : 0 (0)

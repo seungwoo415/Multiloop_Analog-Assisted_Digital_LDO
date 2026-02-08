@@ -1,0 +1,43 @@
+# XXXX: Net Cross Reference (nxf) (File format 1)
+# XXXX: Layout Primary pass_transistors
+# XXXX: End of header.
+% MP 4 MP 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% pass_transistors 34 pass_transistors 34 
+0 Vg_0 0 Vg_0
+0 Vg_1 0 Vg_1
+0 Vg_2 0 Vg_2
+0 Vg_3 0 Vg_3
+0 Vg_4 0 Vg_4
+0 Vg_5 0 Vg_5
+0 Vg_6 0 Vg_6
+0 Vg_7 0 Vg_7
+0 Vg_8 0 Vg_8
+0 Vg_9 0 Vg_9
+0 Vg_10 0 Vg_10
+0 Vg_11 0 Vg_11
+0 Vg_12 0 Vg_12
+0 Vg_13 0 Vg_13
+0 Vg_14 0 Vg_14
+0 Vg_15 0 Vg_15
+0 Vg_16 0 Vg_16
+0 Vg_17 0 Vg_17
+0 Vg_18 0 Vg_18
+0 Vg_19 0 Vg_19
+0 Vg_20 0 Vg_20
+0 Vg_21 0 Vg_21
+0 Vg_22 0 Vg_22
+0 Vg_23 0 Vg_23
+0 Vg_24 0 Vg_24
+0 Vg_25 0 Vg_25
+0 Vg_26 0 Vg_26
+0 Vg_27 0 Vg_27
+0 Vg_28 0 Vg_28
+0 Vg_29 0 Vg_29
+0 Vg_30 0 Vg_30
+0 Vg_31 0 Vg_31
+0 Vout 0 Vout
+0 VDD 0 VDD

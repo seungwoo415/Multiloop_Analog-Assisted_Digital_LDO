@@ -1,0 +1,45 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary strong_arm
+% ptap_tile 1
+1 x
+% ntap_tile 1
+1 x
+% two_finger_mos_tile 4
+1 s
+2 d
+3 g
+4 b
+% two_finger_mos_tile_1 4
+1 s
+2 d
+3 g
+4 b
+% two_finger_mos_tile_2 4
+1 s
+2 d
+3 g
+4 b
+% two_finger_mos_tile_3 4
+1 s
+2 d
+3 g
+4 b
+% strong_arm_half 10
+1 top_io_output_n
+2 top_io_vdd
+3 top_io_vss
+4 top_io_clock
+5 top_io_output_p
+6 tail_d
+7 input_d_n
+8 top_io_input_p
+9 input_d_p
+10 top_io_input_n
+% strong_arm 7
+1 output_n
+2 vdd
+3 vss
+4 clock
+5 output_p
+8 input_p
+10 input_n

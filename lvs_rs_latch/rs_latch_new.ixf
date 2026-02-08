@@ -1,0 +1,14 @@
+# XXXX: Instance Cross Reference (ixf) (File format 1)
+# XXXX: Layout Primary rs_latch_new
+# XXXX: End of header.
+% MN 4 MN 4
+% MP 4 MP 4
+% rs_latch_new 6 rs_latch 6
+0 X16/M0 0 X0/M0  
+0 X20/M0 0 X0/M1  
+0 X19/M0 0 X1/M0  
+0 X21/M0 0 X1/M1  
+0 X17/M0 0 M0  
+0 X18/M0 0 M1  
+0 X14/M0 0 M2  
+0 X15/M0 0 M3  

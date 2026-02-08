@@ -1,0 +1,5 @@
+cUiSetViewStatus {strong_arm} {layout} {1}
+cUiSetViewStatus {strong_arm} {logical} {1}
+cUiSetViewStatus {strong_arm} {abstract.pin} {0}
+cUiSetViewStatus {strong_arm} {abstract.ext} {0}
+cUiSetViewStatus {strong_arm} {abstract} {0}

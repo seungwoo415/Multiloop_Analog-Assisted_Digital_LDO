@@ -1,0 +1,10 @@
+Pegasus 22.14-s007 YHq7WOyNq0hn3aUFJryqDw 2024-10-30 02:20:09 411375 c111-10.EECS.Berkeley.EDU
+Copyright 2023 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+INFO:    Command Line Options: -lvs -dp 12 -license_dp_continue -automatch -check_schematic -rc_data -ui_data -source_cdl ../rs_latch.sp -gds ../rs_latch_new.gds -source_top_cell rs_latch -layout_top_cell rs_latch_new /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0001.lvs.pvl
+INFO:    Launch host CPU: Model: 13th Gen Intel(R) Core(TM) i9-13900, OS: Red Hat Enterprise Linux release 8.10 (Ootpa), Logical cores: 32, Physical cores: 24, Cache: 36864 KB, CPU Speed: 2000 MHz
+         Launch host Memory: MemTotal: 63768 MB,  MemFree: 55833 MB,  SwapTotal: 4095 MB,  SwapFree: 4095 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 152 MB
+INFO:    Current path: /home/aa/users/cs199-apt/cadence/sky130_virtuoso/lvs_rs_latch
+INFO:    Run directory same as current path
+INFO:    Log directory: /home/aa/users/cs199-apt/cadence/sky130_virtuoso/lvs_rs_latch/pegasus-1730280009-c111-10.EECS.Berkeley.EDU-411375

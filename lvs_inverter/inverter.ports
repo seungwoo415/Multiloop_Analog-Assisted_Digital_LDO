@@ -1,0 +1,6 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary inverter
+dout 3 dout 3615 2865 met1
+VSS 1 VSS 570 130 met1
+din 4 din 1890 3595 met1
+VDD 2 VDD 4860 7450 met1

@@ -1,0 +1,17 @@
+Exported variables from results directory:  ./strong_arm1.raw/
+
+date               :  2:24:42 AM, Thur Jul 3, 2025
+design             :  // Substrate Spectre library
+simulator          :  spectre
+version            :  19.1.0.455.isr11
+
+
+Measurement Name   :  analysis_0
+Analysis Type      :  tran
+clock_to_qn           =  3.39745e-10 
+maxvn                 =  2.00842 
+minvn                 =  -0.0143535 
+pavg                  =  2.22236e-09 
+t1                    =  1.01139 
+
+

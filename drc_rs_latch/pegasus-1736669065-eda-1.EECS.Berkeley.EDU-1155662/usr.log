@@ -1,0 +1,19 @@
+Pegasus 22.14-s007 YHq7WOyNq0hn3aUFJryqDw 2025-01-12 00:04:25 1155662 eda-1.EECS.Berkeley.EDU
+Copyright 2023 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+INFO:    Command Line Options: -drc -dp 12 -license_dp_continue -gds ../custom_dff.gds -top_cell custom_dff -ui_data /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+INFO:    Launch host CPU: Model: AMD EPYC 9454 48-Core Processor, OS: Red Hat Enterprise Linux release 8.10 (Ootpa), Logical cores: 96, Physical cores: 48, Cache: 1024 KB, CPU Speed: 1500 MHz
+         Launch host Memory: MemTotal: 773217 MB,  MemFree: 753590 MB,  SwapTotal: 32767 MB,  SwapFree: 32767 MB,  VmallocTotal: 13421772799 MB,  VmallocUsed: 852 MB
+INFO:    Current path: /home/aa/users/cs199-apt/cadence/sky130_virtuoso/drc_rs_latch
+INFO:    Run directory same as current path
+INFO:    Log directory: /home/aa/users/cs199-apt/cadence/sky130_virtuoso/drc_rs_latch/pegasus-1736669065-eda-1.EECS.Berkeley.EDU-1155662
+ERROR:   Received external termination signal [2], shutting down...
+INFO:    Resource usage by worker at exit:
+                  CPU      Elapsed  Threads    CPU       Peak Total  Peak Active
+         Worker:  time[s]  time[s]  Allocated  usage[%]  Memory[MB]  Memory[MB]
+         Worker resource usage  summary: Total CPU[s]: 0  Run duration[s]: 0  Max peak memory[MB]: 0
+         Worker CPU utilization summary: 0 of 0 available CPU seconds (0.00%) with 0 average available CPUs
+INFO:    Run terminated by an external signal
+
+Pegasus finished abnormally with exit code 1 -- see above for earlier errors. 2025-01-12 00:04:25

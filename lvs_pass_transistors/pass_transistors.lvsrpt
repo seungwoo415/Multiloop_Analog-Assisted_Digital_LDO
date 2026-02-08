@@ -1,0 +1,24 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : pass_transistors.lvsrpt
+ERC Summary File         : /home/aa/users/cs199-apt/cadence/sky130_virtuoso/pass_transistors_lvs/result.sum
+LVS Comparison Report    : pass_transistors.lvsrpt.cls
+Layout Name              : /home/aa/users/cs199-apt/cadence/sky130_virtuoso/pass_transistors.gds ("pass_transistors")
+User Name                : cs199-ap
+Creation Time            : Thu Oct 24 23:04:16 2024
+Current directory        : /home/aa/users/cs199-apt/cadence/sky130_virtuoso/pass_transistors_lvs
+Pegasus Version          : 22.14-s007 Tue Jan 31 16:35:56 PST 2023
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+

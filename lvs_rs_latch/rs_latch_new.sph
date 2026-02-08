@@ -1,0 +1,14 @@
+# Placement Hierarchy File (sph)
+# 
+# 
+# 
+% inverter 4
+M0 MN 4
+M1 MP 4
+% rs_latch 6
+X0 inverter 4
+X1 inverter 4
+M0 MN 4
+M1 MN 4
+M2 MP 4
+M3 MP 4

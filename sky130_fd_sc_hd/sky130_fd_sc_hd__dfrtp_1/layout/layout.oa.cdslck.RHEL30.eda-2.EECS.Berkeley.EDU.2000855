@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      eecs251b
+HostName                       eda-2.EECS.Berkeley.EDU
+ProcessIdentifier              2000855
+ProcessCreationTime_UTC        1707030482
+ProcessCreationTime_Readable   Sat Feb  3 23:08:02 2024 PST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/ff/eecs251b/sky130_virtuoso/sky130_fd_sc_hd/sky130_fd_sc_hd__dfrtp_1/layout/layout.oa.cdslck
+TimeEditLocked                 Sun Feb  4 00:09:54 2024 PST

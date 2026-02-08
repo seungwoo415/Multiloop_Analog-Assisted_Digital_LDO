@@ -1,0 +1,111 @@
+\# Program start time:     UTC 2025.06.27 06:23:23.499
+\# Local time: PDT (UTC-07:00) 2025.06.26 23:23:23.499
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 01/30/2024 20:11 (cpgbld02) $
+\o Hierarchy:		/share/instsww/cadence/IC.06.18.350/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.35  (64-bit addresses)
+\# Command line:	/share/instsww/cadence/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost eda-3.EECS.Berkeley.EDU -beanport 11300 -beanbinlog  -beanLogFile /home/aa/users/cs199-apt/cadence/sky130_virtuoso/logs_cs199-apt/logs0/amps_Service1.log -mpssession virtuoso1693405 -mpshost eda-3.EECS.Berkeley.EDU -davinciService DaVinciService_1693405_1751005399 -axlSession fnxSession0 -axlServiceIdFlag 1 -uuid 7af71f1f-fa33-490d-9f29-0dc4cb678c36 -heartbeat /dev/shm/swift-heartbeat.IjWVdRbWuH -log /home/aa/users/cs199-apt/cadence/sky130_virtuoso/logs_cs199-apt/logs0/Service1.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D6EF78D1C9D76856034E0AF3EB9438F637294FC62CC28867866E3BF1FFC06BC4D66E38F1FFC06BC4D0EBDB7C6C4DFD41300001E6D -interactive -offlineExprEval -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	eda-3.EECS.Berkeley.EDU (x86_64)
+\# Operating system:	Linux 4.18.0-553.56.1.el8_10.x86_64 #1 SMP Mon Jun 2 12:33:13 EDT 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:3601 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        643 MB
+\# Available memory:	    557,781 MB
+\# System memory:	    805,986 MB
+\# Maximum memory size:	    805,462 MB
+\# Max mem available:	    557,900 MB
+\# Initial memory used:	        120 MB
+\#        process size:	      1,717 MB
+\# Thread usage limits (effective/default):	maxthreads 3092640/3092640 maxload 96.00/96.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		cs199-apt
+\o Working Directory:	eda-3.EECS.Berkeley.EDU:/home/aa/users/cs199-apt/cadence/sky130_virtuoso
+\# Process Id:		1697635
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pegasusui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\# Memory report: using         256 MB, process size 1,977 MB at UTC 2025.06.27 06:23:26.107
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso1693405, host=eda-3.EECS.Berkeley.EDU). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 1697635 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [23:23:23.218489] Configured Lic search path (22.01-s002): 5280@license-srv.eecs.berkeley.edu
+\w *WARNING* LIB sky130_fd_sc_hd from File /home/aa/users/cs199-apt/cadence/sky130_virtuoso/cds.lib Line 4 redefines
+\w LIB sky130_fd_sc_hd from the same file (defined earlier.)
+\w *WARNING* LIB DigitalLDOLogic from File /home/aa/users/cs199-apt/cadence/sky130_virtuoso/cds.lib Line 22 redefines
+\w LIB DigitalLDOLogic from the same file (defined earlier.)
+\w *WARNING* The directory: '/home/aa/users/cs199-apt/cadence/sky130_virtuoso/360tail' does not exist
+\w 	but was defined in libFile '/home/aa/users/cs199-apt/cadence/sky130_virtuoso/cds.lib' for Lib '360tail'.
+\p > 
+\w *WARNING* could not load font "-*-courier-medium-r-*-*-12-*", using font "fixed"
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\w *WARNING* (PerfDiag): The GDB command 'gdb' is not found or is invalid.
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 1697635' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\w *WARNING* (PerfDiag): The GDB-related functionality has been disabled. Use the 'gdbPath' environment variable to set a valid GDB path or set one of the SHELL environment variables CDS_DEBUGGER, DEBUGGER, or GDB, and restart Virtuoso.
+\i _axlRunServices()
+\# [23:23:28.441945] Periodic Lic check successful
+\# [23:23:28.441947] Feature usage summary:
+\o Loading simui.cxt 
+\o [2025-06-26 23:23:28.468 -0700] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"hostname": "eda-3.EECS.Berkeley.EDU", "processid": 1697635, "logfile": "/home/aa/users/cs199-apt/cadence/sky130_virtuoso/logs_cs199-apt/logs0/Service1.log"}
+\# Available memory:        557,618 MB at UTC 2025.06.27 06:23:36.517
+\# Memory report: Maximum memory size now 557,922 MB at UTC 2025.06.27 06:23:36.517
+\# Thread usage report: 102 active threads, active load 1.40 at UTC 2025.06.27 06:23:36.517
+\o Loading vdsil.cxt 
+\# Lic Summary:
+\# [23:28:09.250193] Cdslmd servers:5280@license-srv.eecs.berkeley.edu
+\# [23:28:09.250224] Feature usage summary:
+\# Memory report: on exit            304 MB, process size 2,098 MB at UTC 2025.06.27 06:28:09.774
+\# Memory report: peak usage         304 MB, process size 2,098 MB

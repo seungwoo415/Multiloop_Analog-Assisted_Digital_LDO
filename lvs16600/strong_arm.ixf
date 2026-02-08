@@ -1,0 +1,45 @@
+# XXXX: Instance Cross Reference (ixf) (File format 1)
+# XXXX: Layout Primary strong_arm
+# XXXX: End of header.
+% MN 4 MN 4
+% MP 4 MP 4
+% strong_arm_half 10 strong_arm_half 9
+0 X4/M1 0 Xinst1/Minst0  
+0 X6/M1 0 Xinst1/Minst1 X
+0 X6/M0 0 Xinst2/Minst1  
+0 X4/M0 0 Xinst2/Minst0 X
+0 X5/M0 0 Xinst3/Minst1  
+0 X5/M1 0 Xinst3/Minst0  
+0 X7/M0 0 Xinst4/Minst0 X
+0 X7/M1 0 Xinst4/Minst1 X
+0 X2/M1 0 Xinst5/Minst1  
+0 X3/M0 0 Xinst8/Minst0  
+0 X3/M1 0 Xinst8/Minst1  
+0 X8/M1 0 Xinst0/Minst1  
+0 X2/M0 0 Xinst0/Minst0  
+0 X8/M0 0 Xinst5/Minst0  
+0 X9/M1 0 Xinst6/Minst1 X
+0 X9/M0 0 Xinst6/Minst0 X
+0 X10/M1 0 Xinst7/Minst1 X
+0 X10/M0 0 Xinst7/Minst0 X
+0 X12/M0 0 Xinst9/Minst1  
+0 X12/M1 0 Xinst9/Minst0  
+0 X13/M1 0 Xinst10/Minst1 X
+0 X13/M0 0 Xinst10/Minst0 X
+0 X17/M0 0 Xinst12/Minst0 X
+0 X17/M1 0 Xinst12/Minst1 X
+0 X19/M1 0 Xinst13/Minst0  
+0 X19/M0 0 Xinst13/Minst1  
+0 X16/M0 0 Xinst15/Minst1  
+0 X16/M1 0 Xinst15/Minst0  
+0 X18/M0 0 Xinst16/Minst0 X
+0 X18/M1 0 Xinst16/Minst1 X
+0 X15/M1 0 Xinst17/Minst1  
+0 X15/M0 0 Xinst11/Minst1  
+0 X14/M0 0 Xinst11/Minst0  
+0 X11/M1 0 Xinst14/Minst0  
+0 X14/M1 0 Xinst14/Minst1  
+0 X11/M0 0 Xinst17/Minst0  
+% strong_arm 7 strong_arm 7
+0 X0 0 Xinst0  
+0 X1 0 Xinst1  

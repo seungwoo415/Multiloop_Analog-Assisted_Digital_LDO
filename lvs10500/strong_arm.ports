@@ -1,0 +1,16 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary strong_arm
+output_n 1 output_n 2150 -19980 li1
+output_n 1 output_n 7310 -19980 li1
+vdd 2 vdd 2150 270 li1
+vdd 2 vdd 7310 270 li1
+vss 3 vss 2150 -34830 li1
+vss 3 vss 7310 -34830 li1
+clock 4 clock 2150 -33210 li1
+clock 4 clock 7310 -33210 li1
+output_p 5 output_p 5590 -19980 li1
+output_p 5 output_p 3870 -19980 li1
+input_p 8 input_p 7310 -24570 li1
+input_p 8 input_p 2150 -24570 li1
+input_n 10 input_n 3870 -24570 li1
+input_n 10 input_n 5590 -24570 li1

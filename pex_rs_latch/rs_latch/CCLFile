@@ -1,0 +1,19 @@
+#
+# OPTION COMMAND FILE created byCadence Quantus Extraction Version 22.1.1-p041 from CCL
+#
+extract \
+	 -selection "all" \
+	 -type "rc_decoupled"
+input_db -type pegasus \
+	 -directory_name "/home/aa/users/cs199-apt/cadence/sky130_virtuoso/pex_rs_latch/../lvs_rs_latch" \
+	 -run_name "rs_latch"
+output_setup \
+	 -directory_name "/home/aa/users/cs199-apt/cadence/sky130_virtuoso/pex_rs_latch" \
+	 -file_name "rs_latch.post.sp" \
+	 -net_name_space "LAYOUT" \
+	 -temporary_directory_name "rs_latch"
+process_technology \
+	 -technology_directory \
+		"/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/quantus/extraction/typical"
+
+

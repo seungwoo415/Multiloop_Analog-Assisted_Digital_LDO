@@ -1,0 +1,17 @@
+
+/share/instsww/cadence/PEGASUS.22.14.000/tools.lnx86/Pegasus/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : rs_latch_new_1161373.db
+ECDB dir        : ./
+Top Cell        : rs_latch_new
+CDL netlist     : ./rs_latch_new.net
+Layer map file  : ./rs_latch_new.ecdbmap
+Text map file   : ./rs_latch_new.ports
+Dependency map  : rs_latch_new.lmap.perc
+Lvs file        : ./rs_latch_new.lvsfile
+Float net file  : .rs_latch_new.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : rs_latch_new_1161373

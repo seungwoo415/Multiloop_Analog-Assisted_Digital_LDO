@@ -1,0 +1,5 @@
+cUiSetViewStatus {nwellTap_CDNS_730309971731} {layout} {1}
+cUiSetViewStatus {nwellTap_CDNS_730309971731} {logical} {0}
+cUiSetViewStatus {nwellTap_CDNS_730309971731} {abstract.pin} {0}
+cUiSetViewStatus {nwellTap_CDNS_730309971731} {abstract.ext} {0}
+cUiSetViewStatus {nwellTap_CDNS_730309971731} {abstract} {0}

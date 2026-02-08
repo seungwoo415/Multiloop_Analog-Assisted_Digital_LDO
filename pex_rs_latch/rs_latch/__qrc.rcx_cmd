@@ -1,0 +1,21 @@
+avParameters(
+	?workingDirectory "/home/aa/users/cs199-apt/cadence/sky130_virtuoso/pex_rs_latch"
+
+)
+rcxParameters(
+	?pvsRunDir "/home/aa/users/cs199-apt/cadence/sky130_virtuoso/pex_rs_latch/../lvs_rs_latch"
+	?pvsPrimary "rs_latch"
+	?lvsSource "pvs"
+	?output "rs_latch.post.sp"
+	?outputNetNameSpace "layout"
+	?runName "rs_latch"
+	?tempdir "/home/aa/users/cs199-apt/cadence/sky130_virtuoso/pex_rs_latch/rs_latch/rcx_temp"
+	?rcxSetupDir ( "/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/quantus/extraction/typical" )
+	?type "full"
+	?extract "both"
+	?capExtractMode "decoupled"
+
+)
+(avRCX)
+
+

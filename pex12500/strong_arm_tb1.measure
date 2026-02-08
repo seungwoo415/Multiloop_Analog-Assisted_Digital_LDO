@@ -1,0 +1,20 @@
+Exported variables from results directory:  ./strong_arm_tb1.raw/
+
+date               :  3:56:09 PM, Sat Oct 12, 2024
+design             :  
+simulator          :  spectre
+version            :  19.1.0.455.isr11
+
+
+Measurement Name   :  analysis_0
+Analysis Type      :  tran
+clock_to_qn           =  5.39867e-10 
+clock_to_qp           =  NaN 
+maxvn                 =  1.82051 
+maxvp                 =  2.00311 
+minvn                 =  -0.0987253 
+minvp                 =  1.10372 
+t1                    =  0.959616 
+t2                    =  0.449695 
+
+

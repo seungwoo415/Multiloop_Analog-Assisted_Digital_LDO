@@ -1,0 +1,5 @@
+cUiSetViewStatus {polyConn_CDNS_729836244780} {layout} {1}
+cUiSetViewStatus {polyConn_CDNS_729836244780} {logical} {0}
+cUiSetViewStatus {polyConn_CDNS_729836244780} {abstract.pin} {0}
+cUiSetViewStatus {polyConn_CDNS_729836244780} {abstract.ext} {0}
+cUiSetViewStatus {polyConn_CDNS_729836244780} {abstract} {0}

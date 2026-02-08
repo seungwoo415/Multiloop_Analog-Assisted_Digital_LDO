@@ -1,0 +1,6 @@
+cUiSelectCellP {nfet_01v8_CDNS_730310354533}
+cUiSetViewStatus {nfet_01v8_CDNS_730310354533} {layout} {1}
+cUiSetViewStatus {nfet_01v8_CDNS_730310354533} {logical} {0}
+cUiSetViewStatus {nfet_01v8_CDNS_730310354533} {abstract.pin} {3}
+cUiSetViewStatus {nfet_01v8_CDNS_730310354533} {abstract.ext} {0}
+cUiSetViewStatus {nfet_01v8_CDNS_730310354533} {abstract} {0}

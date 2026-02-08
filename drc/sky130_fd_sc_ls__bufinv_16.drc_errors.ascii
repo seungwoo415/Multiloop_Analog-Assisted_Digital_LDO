@@ -1,0 +1,633 @@
+strong_arm 1000
+dnwell.7
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Dnwell can not straddle areaid:substratecut"
+dnwell.2
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min width of deep nwell >= 3.000 um"
+dnwell.3
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min spacing between deep nwells. Rule exempt inside UHVI. >= 6.300 um"
+dnwell.5
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+P+ Diff can not straddle dnwell"
+dnwell.4
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Dnwell can not overlap pnp"
+hvtp.2
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min space between hvtp to hvtp >= 0.380 um"
+hvtp.1
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min width of hvtp >= 0.380 um"
+nwell.5
+0 0 5 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Deep nwell must be enclosed by nwell by atleast >= 0.400 um"
+"Exempted inside UHVI or areaid.lw"
+"Nwells can merge over deep nwell if spacing too small (as in rule nwell.2)"
+"areaid.lw exemption not coded, areaid.lw not in drm"
+nwell.6
+0 0 3 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min enclosure of nwell hole by deep nwell outside UHVI >= 1.030 um"
+"shapes in cell "*_tech_CD_top" exempted"
+nwell.2ab
+0 0 3 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"2a - Spacing between two n-wells >= 1.270 um"
+"2b - Manual merge wells if less than minimum"
+nwell.1
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Width of nwell >= 0.840 um"
+lvtn.9
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min spacing, no overlap, between lvtn and hvtp >= 0.380 um"
+hvtp.5
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min area of hvtp >= 0.265 sq um"
+lvtn.1a
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min width of lvtm >= 0.380 um"
+lvtn.2
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min space lvtm to lvtm >= 0.380 um"
+lvtn.3a
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Mim spacing of lvtn to gate. Rule exempted inside UHVI >= 0.180 um"
+hvtp.6
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+_Min area of hvtp Holes >= 0.265"
+hvtp.3
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min enclosure of pfet by hvtp >= 0.180 um"
+lvtn.13
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min area of lvtn >= 0.265 sq um"
+lvtn.14
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min area of lvtn Holes >= 0.265 sq um"
+lvtn.12
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min spacing between lvtn and (nwell inside areaid.ce) >= 0.380 um"
+nwell.4
+0 0 4 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"All n-wells will contain metal-contacted tap"
+"(rule checks only for licon1 on tap)."
+"Rule exempted from high voltage cells inside UHVI"
+lvtn.10
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min enclosure of lvtn by (nwell not overlapping Var_channel) (exclude coincident edges) >= 0.380 um"
+difftap.1
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Width of diff or tap >= 0.150 um"
+difftap.4
+0 0 2 Jul 19 17:39:57 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min tap bound by one diffusion 0.290 um"
+difftap.6
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Diff and tap are not allowed to extend beyond their abutting edge"
+difftap.10
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Enclosure of (n+) tap by N-well. Rule exempted inside UHVI. >= 0.180 um"
+poly.1a
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Width of poly >= 0.150 um"
+poly.2
+0 0 3 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of poly to poly except for poly.c2 and poly.c3 >= 0.210 um"
+"Exempt cell: sr_bltd_eq where it is same as poly.c2"
+difftap.11
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of (p+) tap to N-well. Rule exempted inside UHVI >= 0.130 um"
+difftap.3
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of diff to diff, tap to tap, or non-abutting diff to tap 0.270 um"
+difftap.9
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of (n+) diffusion to N-well outside UHVI >= 0.340 um"
+poly.10
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Poly can’t overlap inner corners of diff"
+poly.15
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Poly must not overlap diff"
+npc.2
+0 0 3 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min spacing of NPC to NPC > 0.270 um"
+"Rule npc.3 Manual merge if less than minimum"
+poly.4
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of poly on field to diff (parallel edges only) >= 0.075 um"
+psd.2
+0 0 3 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of nsdm(psdm) to nsdm(psdm) >= 0.380 um"
+"psd.3 - Manual merge if less than minimum"
+psd.5a
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Enclosure of diff by nsdm(psdm), except for butting edge >= 0.125 um"
+psd.1
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"width of nsdm(psdm) >= 0.380 um"
+npc.1
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min width of NPC >= 0.270 um"
+psd.10b
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min area of Psdm >- 0.255 sq um"
+psd.10a
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min area of Nsdm >= 0.265 sq um"
+psd.11
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min area od n/psdm Holes >= 0.265 sq um"
+licon.5a
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Enclosure of licon by diff >= 0.040 um"
+licon.2
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of licon1 to licon1 >= 0.170 um"
+licon.1
+0 0 3 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min and max L and W of licon1 (exempt licons inside prec_resistor) == 0.170 um"
+"Filter for prec_resistor TBA"
+licon.4
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Licon1 must overlap li1 and (poly or diff or tap)"
+li.6
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min area of Li >= 0.056 sq um"
+licon.6
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"licon cannot straddle tap"
+ct.1
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min and max L and W of mcon >= 0.170 um"
+ct.2
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of mcon to mcon >= 0.190 um"
+li.1
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Width of LI (except for li.1a) >= 0.170 um"
+licon.8
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Enclosure of poly_licon by poly >= 0.050 um"
+licon.5c
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Enclosure of licon by diff on one of two adjacent sides >= 0.060 um"
+licon.7
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Enclosure of licon by one of two adjacent edges of isolated tap >= 0.120 um"
+li.5
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Enclosure of licon by one of two adjacent LI sides >= 0.080 um"
+m1.2
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of metal1 to metal1 >= 0.140 um"
+m1.1
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Width of metal1 >= 0.140 um"
+via.1b
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - Three sizes of square Vias allowed inside areaid.mt: 0.150um, 0.230um and 0.280um"
+m1.4
+0 0 3 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Mcon must be enclosed by Met1 by at least >= 0.030 um"
+"(Rule exempted for cell names documented in rule m1.4a)"
+m1.3b
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min. spacing of huge_met1 to metal1 excluding features checked by m1.3a >= 0.280 um"
+via.1a
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Al FLow - Min and max L and W of via outside areaid.mt == 0.150 um"
+m1.6
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min metal 1 area >= 0.083 sq um"
+m1.7
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min area of metal1 holes >= 0.140 sq um"
+via.2
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - Spacing of via to via >= 0.170 um"
+m1.5
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - Mcon must be enclosed by Met1 on one of two adjacent sides by at least >= 0.060 um" 
+m2.4
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow via must be enclosed by Met2 by at least >= 0.055 um"
+m2.2
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of metal2 to metal2 >= 0.140 um"
+m2.3b
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min. spacing of huge_met2 to metal2 excluding features checked by m2.3a >= 0.280 um"
+via.4b
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - Inside areaid.mt, 0.230 μm Via must be enclosed by met1 by at least >= 0.030 um"
+via.4c
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - Inside areaid.mt, 0.280 μm Via must be enclosed by met1 by at least >= 0.000 um"
+via.4a
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - 0.150 μm Via must be enclosed by Met1 by at least >= 0.055 um"
+m2.1
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Width of metal2 >= 0.140 um"
+via2.4
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - Via2 must be enclosed by Met2 by at least >= 0.040 um"
+via2.2
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - Spacing of via2 to via2 >= 0.200 um"
+via2.4a
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - Inside areaid.mt, 1.500 μm Via2 must be enclosed by met2 by at least >= 0.140 um"
+via2.1a
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Al FLow - Min and max L and W of via2 outside areaid.mt == 0.200 um"
+via2.1b
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - Three sizes of square Via2s allowed inside areaid.mt: 0.280, 1.200um and 1.500um"
+m2.6
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min metal 2 area >= 0.067 sq um"
+m2.7
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min area of metal2 holes >= 0.140 sq um"
+m3.3d
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min. spacing of huge_met3 to metal3 excluding features checked by m3.3c >= 0.400 um"
+m3.4
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow via2 must be enclosed by Met3 by at least >= 0.065 um"
+m3.6
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min metal 3 area >= 0.240 sq um"
+m3.2
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of metal3 to metal3 >= 0.300 um"
+m3.1
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Width of metal3 >= 0.300 um"
+via2.5
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - Via2 must be enclosed by Met2 on one of two adjacent sides by at least >= 0.085 um"
+via3.1
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min and max L and W of via3 (except for rule via3.1a) == 0.200 um"
+via3.4
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - Via3 must be enclosed by Met3 by at least >= 0.060 um"
+m4.4a
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min metal 4 area >= 0.240 sq um"
+m4.2
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of metal4 to metal4 >= 0.300 um"
+m4.3
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow via3 must be enclosed by Met4 by at least >= 0.065 um"
+via3.2
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - Spacing of via3 to via3 >= 0.200 um"
+m4.1
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Width of metal4 >= 0.300 um"
+via3.5
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - Via3 must be enclosed by Met3 on one of two adjacent sides by at least >= 0.090 um"
+m2.5
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - via must be enclosed by Met2 on one of two adjacent sides by at least >= 0.085 um" 
+m5.3
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow via4 must be enclosed by Met5 by at least >= 0.310 um"
+via4.1
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min and max L and W of via4 == 0.800 um"
+m5.4
+0 0 4 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min area of met5 >= 4.000 sq um"
+"(rule exempted for probe pads which are exactly 1.42um by 1.42um)"
+" NOT CODED with exception as it no longer applies"
+via4.2
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of via4 to via4 >= 0.800 um"
+m5.1
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Width of metal5 >= 1.600 um"
+pad.2
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of pad to pad >= 1.270 um"
+m5.2
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of metal5 to metal5 >= 1.600 um"
+m4.5b
+0 0 3 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min. spacing of huge_met4 to metal4 excluding features checked by m4.3c >= 0.400 um"
+"Exclusion TBA"
+pad.3
+0 0 3 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min area of hugePad NOT top_metal >= 30000 sq um"
+" Adjust top_metal based on final process type"
+difftap.2b
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Minimum channel width (Diff And Poly) for FETs inside areaid.sc >= 0.360"
+lvtn.4b
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min enclosure of gate by lvtn. Rule exempted inside UHVI >= 0.180 um"
+poly.11
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"No 90 deg turns of poly on diff"
+poly.8
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Extension of poly beyond diffusion (endcap) >= 0.130 um"
+poly.7
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Extension of diff beyond poly (min drain) >= 0.250 um"
+licon.5b
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min space between tap_licon and diff-abutting tap edge >= 0.060 um"
+poly.6
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of poly on diff to abutting tap (min source) >= 0.300 um"
+npc.4
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing (no overlap) of NPC to Gate >= 0.090 um"
+difftap.5
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min tap bound by two diffusions 0.400 um"
+hvtp.4
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min spacing between pfet and hvtp >= 0.180 um"
+poly.1b
+0 0 3 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min channel length (poly width) for pfet overlapping lvtn >= 0.350 um"
+"(exempt rule for dummy_poly in cells listed on Table H3)"
+difftap.2
+0 0 4 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Minimum channel width (Diff And Poly) except for FETs inside areaid.sc: >= 0.420 um"
+"Rule exempted in the SP8* flows only, for the cells listed in rule difftap.2a"
+"Exemption TBA"
+difftap.7
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of diff/tap abutting edge to a non-conciding diff or tap edge >= 0.130 um"
+psd.6
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Enclosure of diff/tap butting edge by nsdm (psdm) == 0.000 um"
+lvtn.3b
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Min spacing of lvtn to pfet along the S/D direction >= 0.235 um"
+li.3a
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of LI to LI inside cells with names s8rf2_xcmvpp_hd5_* >= 0.140 um"
+poly.12
+0 0 3 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"(Poly NOT (nwell NOT hvi)) may not overlap tap"
+"Rule exempted for cell name s8fgvr_n_fg2 and gated_npn and inside UHVI."
+psd.5b
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Enclosure of tap by nsdm(psdm), except for butting edge >= 0.125 um"
+poly.5
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of poly on field to tap >= 0.055 um"
+li.1a
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Width of LI inside of cells with name s8rf2_xcmvpp_hd5_* >= 0.140 um"
+li.3
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of LI to LI (except for li.3a) >= 0.170 um"
+psd.9
+0 0 7 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Diff and tap must be enclosed by their corresponding implant layers."
+"Rule exempted for"
+"diff inside “advSeal_6um* OR cuPillarAdvSeal_6um*” pcell for"
+"SKY130P*/SP8P*/SKY130DI-5R-CSMC flows"
+"diff rings around the die at min total L>1000 um and W=0.3 um"
+"gated_npm areaid.zer."
+licon.15
+0 0 2 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"poly_licon must be enclosed by npc by >= 0.100 um"
+m1.4a
+0 0 4 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Mcon must be enclosed by Met1 by at least >= 0.005"
+“(for cell names s8cell_ee_plus_sseln_a, s8cell_ee_plus_sseln_b, s8cell_ee_plus_sselp_a,"
+“s8cell_ee_plus_sselp_b, s8fpls_pl8, and s8fs_cmux4_fm)"
+licon.9
+0 0 5 Jul 19 17:39:58 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing, no overlap, between poly_licon and psdm >= 0.110 um"
+"In SKY130DIA/SKY130TMA/SKY130PIR-10 flows, the rule is checked only"
+"between (poly_licon outside rpm) and psdm"
+" Limitation TBA "
+licon.18
+0 0 2 Jul 19 17:39:59 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Npc must enclose poly_licon"
+via2.1e
+0 0 2 Jul 19 17:39:59 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - Three sizes of square Via2s allowed inside areaid.mt: 0.800um, 1.200um and 1.500um"
+via.5b
+0 0 2 Jul 19 17:39:59 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - Inside areaid.mt, 0.230 μm Via must be enclosed by met1 on one of two adjacent sides by at least >= 0.060 um"
+via.5c
+0 0 2 Jul 19 17:39:59 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - Inside areaid.mt, 0.280 μm Via must be enclosed by met1 on one of two adjacent sides by at least >= 0.000 um"
+via3.1a
+0 0 2 Jul 19 17:39:59 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Al FLow - Two sized of square via3 allowed inside areaid.mt: 0.200um and 0.800um"
+via2.1c
+0 0 2 Jul 19 17:39:59 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - Two sizes of square Via2s allowed inside areaid.mt: 1.200um and 1.500um"
+via2.1d
+0 0 2 Jul 19 17:39:59 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - Four sizes of square Via2s allowed inside areaid.mt: 0.200um, 0.280um, 1.200um and 1.500um"
+licon.16
+0 0 3 Jul 19 17:39:59 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Every source_diff and every tap must enclose at least one licon1,"
+"including the diff/tap straddling areaid:ce. Rule exempted inside UHVI"
+licon.12
+0 0 2 Jul 19 17:39:59 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Max SD width without licon <= 5.700 um"
+via2.1f
+0 0 2 Jul 19 17:39:59 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - Two sizes of square Via2s allowed inside areaid.mt: 0.800um and 1.200um"
+difftap.8
+0 0 2 Jul 19 17:39:59 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Enclosure of (p+) diffusion by N-well. Rule exempted inside UHVI. >= 0.180 um"
+licon.8a
+0 0 2 Jul 19 17:39:59 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Enclosure of poly_licon by poly on one of two adjacent sides >= 0.080 um"
+via.5a
+0 0 2 Jul 19 17:39:59 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"AL Flow - 0.150 μm Via must be enclosed by Met1 on one of two adjacent sides by at least >= 0.085 um"
+licon.11
+0 0 8 Jul 19 17:39:59 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of licon on diff or tap to poly on diff >= 0.055 um"
+"(except for all FETs inside areaid.sc"
+"and except s8spf-10r flow for 0.5um phv inside cell names s8fs_gwdlvx4,"
+"s8fs_gwdlvx8, s8fs_hvrsw_x4, s8fs_hvrsw8, s8fs_hvrsw264,"
+"and s8fs_hvrsw520 and for 0.15um nshort inside cell names s8fs_rdecdrv,"
+"s8fs_rdec8, s8fs_rdec32, s8fs_rdec264, s8fs_rdec520)"
+"Exceptions TPA  "A
+psd.7
+0 0 3 Jul 19 17:39:59 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of NSDM/PSDM to opposite implant diff or tap -lt 0.130"
+"(for non-abutting diff/tap edges)"
+licon.17
+0 0 2 Jul 19 17:39:59 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Licons may not overlap both poly and (diff or tap)"
+licon.11a
+0 0 4 Jul 19 17:39:59 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of licon on diff or tap to poly on diff >= 0.050 um"
+"(for all FETs inside areaid.sc except 0.15um phighvt)"
+" phighvt Exception  TBA "
+licon.14
+0 0 2 Jul 19 17:39:59 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing of poly_licon to diff or tap >= 0.190 um"
+licon.13
+0 0 2 Jul 19 17:39:59 2024
+Rule File Pathname: /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+"Spacing (no overlap) of NPC to licon on diff or tap >= 0.090 um"

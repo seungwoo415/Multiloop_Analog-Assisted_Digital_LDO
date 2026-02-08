@@ -1,0 +1,17 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary rs_latch_new
+% L1M1_C_CDNS_736669032860 1
+% M1M2_C_CDNS_736669032861 1
+% pfet_01v8_CDNS_730309971733 3
+% nfet_01v8_CDNS_730309971734 3
+% pfet_01v8_CDNS_730309971735 3
+% polyConn_CDNS_730309971730 1
+% nwellTap_CDNS_730309971731 1
+% subTap_CDNS_730309971732 1
+% rs_latch_new 6
+1 VSS
+2 VDD
+4 top_out_p
+5 top_out_n
+7 top_in_p
+8 top_in_n

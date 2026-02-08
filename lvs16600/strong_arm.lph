@@ -1,0 +1,38 @@
+# Placement Hierarchy File (lph)
+# 
+# 
+# 
+% two_finger_mos_tile_3 4
+M0 MP 4
+M1 MP 4
+% two_finger_mos_tile_2 4
+M0 MP 4
+M1 MP 4
+% two_finger_mos_tile_1 4
+M0 MN 4
+M1 MN 4
+% two_finger_mos_tile 4
+M0 MN 4
+M1 MN 4
+% strong_arm_half 10
+X2 two_finger_mos_tile 4
+X3 two_finger_mos_tile 4
+X4 two_finger_mos_tile 4
+X5 two_finger_mos_tile 4
+X6 two_finger_mos_tile 4
+X7 two_finger_mos_tile 4
+X8 two_finger_mos_tile_1 4
+X9 two_finger_mos_tile_1 4
+X10 two_finger_mos_tile_1 4
+X11 two_finger_mos_tile_2 4
+X12 two_finger_mos_tile_2 4
+X13 two_finger_mos_tile_2 4
+X14 two_finger_mos_tile_3 4
+X15 two_finger_mos_tile_3 4
+X16 two_finger_mos_tile_3 4
+X17 two_finger_mos_tile_3 4
+X18 two_finger_mos_tile_3 4
+X19 two_finger_mos_tile_3 4
+% strong_arm 7
+X0 strong_arm_half 10
+X1 strong_arm_half 10

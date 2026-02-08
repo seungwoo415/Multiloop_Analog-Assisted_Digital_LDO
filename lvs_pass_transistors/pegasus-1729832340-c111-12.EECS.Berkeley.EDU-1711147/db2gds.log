@@ -1,0 +1,100 @@
+********************************************************************************
+db2gds 22.14-s007 64 bit (Tue Jan 31 16:35:56 PST 2023)
+Build Ref No.: 031 Release Candidate (01-31-2023) [2214_pgs]
+
+Copyright 2023 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+Build O/S:       Linux x86_64 3.10.0-693.el7.x86_64
+Executed on:     c111-12.EECS.Berkeley.EDU (Linux x86_64 4.18.0-553.22.1.el8_10.x86_64)
+Process Id:      1712861
+Starting Time:   Thu Oct 24 21:59:09 2024 (Fri Oct 25 04:59:09 2024 GMT)
+With parameters: pass_transistors_1711147 ./pass_transistors.agf pass_transistors -lmap lmapUtPY4A -netmap ./pass_transistors.lnn -property_nqrc -gds_scale 1000 -vircolon 
+********************************************************************************
+
+Library name: pass_transistors_1711147
+GDSII file name: ./pass_transistors.agf
+Cells to be written out: pass_transistors
+Source Library: pass_transistors_1711147
+Layer mapping file(GDS <- DMC): lmapUtPY4A
+    9 (dt:0 tt:0) <- 9
+    23 (dt:0 tt:0) <- 23
+    25 (dt:0 tt:0) <- 25
+    26 (dt:0 tt:0) <- 26
+    27 (dt:0 tt:0) <- 27
+    28 (dt:0 tt:0) <- 28
+    29 (dt:0 tt:0) <- 29
+    8 (dt:0 tt:0) <- 8
+    10 (dt:0 tt:0) <- 10
+    13 (dt:0 tt:0) <- 13
+    16 (dt:0 tt:0) <- 16
+    17 (dt:0 tt:0) <- 17
+    20 (dt:0 tt:0) <- 20
+    22 (dt:0 tt:0) <- 22
+    30 (dt:0 tt:0) <- 30
+    1 (dt:0 tt:0) <- 1
+    4 (dt:0 tt:0) <- 4
+    11 (dt:0 tt:0) <- 11
+    14 (dt:0 tt:0) <- 14
+    15 (dt:0 tt:0) <- 15
+    18 (dt:0 tt:0) <- 18
+    19 (dt:0 tt:0) <- 19
+    35 (dt:0 tt:0) <- 35
+    2 (dt:0 tt:0) <- 2
+    31 (dt:0 tt:0) <- 31
+    32 (dt:0 tt:0) <- 32
+    33 (dt:0 tt:0) <- 33
+    34 (dt:0 tt:0) <- 34
+Cell name case: PRESERVE
+Option: output object property for new qrc flow
+
+
+                Object Statistics of Cells                            
+Cell Name         Box  Polygon     Path   Label Instance Array    Total
+----------------------------------------------------------------------
+pass_transistors      228        6        0       0   160      0       394
+polyConn_CDNS_729832330960        5        0        0       0     0      0         5
+M1M2_C_CDNS_729832330960        4        0        0       0     0      0         4
+L1M1_C_CDNS_729832330961        3        0        0       0     0      0         3
+nwellTap_CDNS_729832330961        9        0        0       0     0      0         9
+nwellTap_CDNS_729832330962        9        0        0       0     0      0         9
+pfet_01v8_CDNS_729832330963       16        0        0       0     0      0        16
+MASCO__A1           6        0        0       0     2      0         8
+----------------------------------------------------------------------
+
+Object Statistics of Layers
+Layer   Objects
+----------------
+   2           2
+   4           1
+   9          36
+  11           2
+  15           2
+  16           3
+  17         102
+  19           2
+  20         104
+  22          11
+  23          11
+  25           6
+  26           2
+  30           1
+  33           1
+----------------
+
+Object Summary
+------------------
+     Box       280
+ Polygon         6
+    Path         0
+   Label         0
+Instance       162
+   Array         0
+------------------
+   Total       448
+
+
+Output property: 448
+Total CPU Time          : 0(s)
+Total Real Time         : 0(s)
+Peak Memory Used        : 7(M)

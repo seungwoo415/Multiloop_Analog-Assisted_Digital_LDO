@@ -1,0 +1,37 @@
+# XXXX: Instance Cross Reference (ixf) (File format 1)
+# XXXX: Layout Primary pass_transistors
+# XXXX: End of header.
+% MP 4 MP 4
+% pass_transistors 34 pass_transistors 34
+0 X151/X0/M0 0 M1  
+0 X151/X1/M0 0 M2  
+0 X138/M0 0 M3  
+0 X139/M0 0 M4  
+0 X153/X0/M0 0 M5  
+0 X153/X1/M0 0 M6  
+0 X143/M0 0 M7  
+0 X144/M0 0 M8  
+0 X145/M0 0 M9  
+0 X155/X0/M0 0 M10  
+0 X155/X1/M0 0 M11  
+0 X157/X0/M0 0 M12  
+0 X157/X1/M0 0 M13  
+0 X159/X0/M0 0 M14  
+0 X159/X1/M0 0 M15  
+0 X149/M0 0 M16  
+0 X150/X0/M0 0 M17  
+0 X150/X1/M0 0 M18  
+0 X152/X0/M0 0 M19  
+0 X152/X1/M0 0 M20  
+0 X140/M0 0 M21  
+0 X141/M0 0 M22  
+0 X142/M0 0 M23  
+0 X154/X0/M0 0 M24  
+0 X154/X1/M0 0 M25  
+0 X146/M0 0 M26  
+0 X147/M0 0 M27  
+0 X156/X0/M0 0 M28  
+0 X156/X1/M0 0 M29  
+0 X158/X0/M0 0 M30  
+0 X158/X1/M0 0 M31  
+0 X148/M0 0 M32  

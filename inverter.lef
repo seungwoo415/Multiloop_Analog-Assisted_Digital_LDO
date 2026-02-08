@@ -1,0 +1,117 @@
+VERSION 5.8 ;
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+
+MACRO inverter
+  CLASS CORE ;
+  ORIGIN 0.915 0.215 ;
+  FOREIGN inverter -0.915 -0.215 ;
+  SIZE 7.72 BY 7.865 ;
+  SYMMETRY X Y ;
+  SITE unithd ;
+  PIN VDD
+    DIRECTION INOUT ;
+    USE POWER ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met2 ;
+        RECT -0.895 0.745 -0.33 7.63 ;
+      LAYER li1 ;
+        RECT 2.655 7.1 3.185 7.43 ;
+        RECT 2.58 4.555 2.75 6.855 ;
+      LAYER met1 ;
+        RECT -0.915 7.1 5.2 7.65 ;
+        RECT 2.55 6.545 2.78 7.65 ;
+        RECT -0.84 6.975 -0.58 7.65 ;
+      LAYER mcon ;
+        RECT 2.58 6.605 2.75 6.775 ;
+        RECT 2.655 7.18 2.825 7.35 ;
+        RECT 3.015 7.18 3.185 7.35 ;
+      LAYER via ;
+        RECT -0.785 7.38 -0.635 7.53 ;
+        RECT -0.785 7.06 -0.635 7.21 ;
+    END
+  END VDD
+  PIN VSS
+    DIRECTION INOUT ;
+    USE GROUND ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met2 ;
+        RECT 5.665 -0.18 6.09 6.72 ;
+        RECT 5.76 -0.215 6.02 6.72 ;
+      LAYER li1 ;
+        RECT 2.47 -0.035 3 0.295 ;
+        RECT 2.58 0.615 2.75 2.285 ;
+      LAYER met1 ;
+        RECT 0.16 -0.2 6.805 0.39 ;
+        RECT 5.76 -0.215 6.02 0.425 ;
+        RECT 2.55 -0.2 2.78 0.925 ;
+      LAYER mcon ;
+        RECT 2.47 0.045 2.64 0.215 ;
+        RECT 2.58 0.695 2.75 0.865 ;
+        RECT 2.83 0.045 3 0.215 ;
+      LAYER via ;
+        RECT 5.815 0.19 5.965 0.34 ;
+        RECT 5.815 -0.13 5.965 0.02 ;
+    END
+  END VSS
+  PIN din
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 2.185 3.395 2.355 3.725 ;
+      LAYER met1 ;
+        RECT 1.735 3.415 2.385 3.705 ;
+      LAYER mcon ;
+        RECT 2.185 3.475 2.355 3.645 ;
+    END
+  END din
+  PIN dout
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 3.01 1.285 3.18 6.155 ;
+      LAYER met1 ;
+        RECT 2.98 2.685 3.735 2.975 ;
+      LAYER mcon ;
+        RECT 3.01 2.745 3.18 2.915 ;
+    END
+  END dout
+END inverter
+
+MACRO nfet_01v8_CDNS_730310354533
+  CLASS CORE ;
+  ORIGIN 0.265 0.15 ;
+  FOREIGN nfet_01v8_CDNS_730310354533 -0.265 -0.15 ;
+  SIZE 0.68 BY 1.3 ;
+  SYMMETRY X Y ;
+  SITE unithd ;
+  OBS
+    LAYER li1 ;
+      RECT 0.205 0 0.375 1 ;
+      RECT -0.225 0 -0.055 1 ;
+  END
+END nfet_01v8_CDNS_730310354533
+
+MACRO nwellTap_CDNS_730310354531
+  CLASS CORE ;
+  ORIGIN 0.445 0.385 ;
+  FOREIGN nwellTap_CDNS_730310354531 -0.445 -0.385 ;
+  SIZE 0.89 BY 0.77 ;
+  SYMMETRY X Y ;
+  SITE unithd ;
+  OBS
+    LAYER mcon ;
+      RECT 0.095 -0.085 0.265 0.085 ;
+      RECT -0.265 -0.085 -0.095 0.085 ;
+    LAYER met1 ;
+      RECT -0.295 -0.145 0.295 0.145 ;
+    LAYER li1 ;
+      RECT -0.265 -0.165 0.265 0.165 ;
+  END
+END nwellTap_CDNS_730310354531
+
+END LIBRARY

@@ -1,0 +1,5 @@
+cUiSetViewStatus {sky130_fd_sc_hd__decap_6} {layout} {1}
+cUiSetViewStatus {sky130_fd_sc_hd__decap_6} {logical} {0}
+cUiSetViewStatus {sky130_fd_sc_hd__decap_6} {abstract.pin} {0}
+cUiSetViewStatus {sky130_fd_sc_hd__decap_6} {abstract.ext} {0}
+cUiSetViewStatus {sky130_fd_sc_hd__decap_6} {abstract} {0}

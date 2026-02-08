@@ -1,0 +1,11 @@
+extract -selection "all" -type "rc_decoupled"
+input_db -type pegasus \
+  -directory_name ../lvs_rs_latch \
+  -run_name "rs_latch_new"
+output_setup \
+  -file_name "rs_latch.post.sp" \
+  -net_name_space "LAYOUT" \
+  -temporary_directory_name "rs_latch"
+process_technology \
+  -technology_directory "/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/quantus/extraction/typical"
+

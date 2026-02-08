@@ -1,0 +1,17 @@
+
+/share/instsww/cadence/PEGASUS.22.14.000/tools.lnx86/Pegasus/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : inverter_1198569.db
+ECDB dir        : ./
+Top Cell        : inverter
+CDL netlist     : ./inverter.net
+Layer map file  : ./inverter.ecdbmap
+Text map file   : ./inverter.ports
+Dependency map  : inverter.lmap.perc
+Lvs file        : ./inverter.lvsfile
+Float net file  : .inverter.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : inverter_1198569

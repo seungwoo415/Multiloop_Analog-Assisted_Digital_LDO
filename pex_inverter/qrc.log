@@ -1,0 +1,162 @@
+
+
+  Cadence Quantus Extraction - 64-bit Parasitic Extractor - Version
+22.1.1-p041 Mon Apr 17 07:53:34 PDT 2023
+---------------------------------------------------------------------------------------------------------------
+                                  Copyright 2023 Cadence Design Systems,
+Inc.
+
+
+
+INFO (EXTQRCXLOG-128) : Quantus command line:
+ Started at: 2024-Nov-03 22:08:35 (2024-Nov-04 06:08:35 GMT)
+ Executable:
+/share/instsww/cadence/QUANTUS221/tools.lnx86/extraction/bin/64bit/quantus
+ Options:     -cmd quantus.ccl
+ Current working directory:
+/home/aa/users/cs199-apt/cadence/sky130_virtuoso/pex_inverter
+
+
+INFO (EXTQRCXLOG-103) : The Command File Options for the current Quantus run are as follows:
+
+distributed_processing \
+	 -multi_cpu 1
+extract \
+	 -selection "all" \
+	 -type "rc_decoupled"
+input_db -type pegasus \
+	 -directory_name "/home/aa/users/cs199-apt/cadence/sky130_virtuoso/pex_inverter/../lvs_inverter" \
+	 -run_name "inverter"
+output_setup \
+	 -directory_name "/tmp/qrc_266815" \
+	 -file_name "inverter.post.sp" \
+	 -net_name_space "LAYOUT" \
+	 -temporary_directory_name "inverter"
+process_technology \
+	 -technology_directory \
+		"/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/quantus/extraction/typical"
+
+
+
+-------------------------------------------------------------------------------------
+Sun Nov  3 22:08:36 2024: BEGIN INPUT stage
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+Sun Nov  3 22:08:36 2024: DONE INPUT stage
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+INPUT stage summary:
+-------------------------------------------------------------------------------------
+ Number of CPUs requested:		1
+ Techfile(s):
+    /home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/quantus/extraction/typical/qrcTechFile; process name: sky_typical
+
+ License(s) used:	QTS300 (x1)
+
+ Techgen compilation option(s):
+    -techdir /home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/quantus/extraction/typical -inc /tmp/qrc_266815/inverter/inverter.ilf -lvs /tmp/qrc_266815/inverter/inverter.xcn -p2lvs /home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/quantus/extraction/typical/qrcTechFile -reseqn -sw3d -cap_ground_layer pwell -p poly,allGates,diff -lvs_blocking nfet,nfet -lvs_blocking pfet,pfet -lvs_blocking hvtpfet,hvtpfet -lvs_blocking lvtpfet,lvtpfet -lvs_blocking lvtnfet,lvtnfet -lvs_blocking HV_FET_gate,HV_FET_gate -canonical_res_caps -length_units meters /tmp/qrc_266815/inverter
+
+ Input files:
+    /home/aa/users/cs199-apt/cadence/sky130_virtuoso/lvs_inverter/inverter.agf
+    /home/aa/users/cs199-apt/cadence/sky130_virtuoso/lvs_inverter/inverter.devtab
+    /home/aa/users/cs199-apt/cadence/sky130_virtuoso/lvs_inverter/inverter.gds.map
+    /home/aa/users/cs199-apt/cadence/sky130_virtuoso/lvs_inverter/inverter.ixf
+    /home/aa/users/cs199-apt/cadence/sky130_virtuoso/lvs_inverter/inverter.lph
+    /home/aa/users/cs199-apt/cadence/sky130_virtuoso/lvs_inverter/inverter.lvsfile
+    /home/aa/users/cs199-apt/cadence/sky130_virtuoso/lvs_inverter/inverter.nxf
+    /home/aa/users/cs199-apt/cadence/sky130_virtuoso/lvs_inverter/inverter.ports
+    /home/aa/users/cs199-apt/cadence/sky130_virtuoso/lvs_inverter/inverter.sph
+    /home/aa/users/cs199-apt/cadence/sky130_virtuoso/lvs_inverter/inverter_pin_xy.spi
+    /home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/quantus/extraction/typical/layer_setup
+
+ Design data:
+    global nets:                  0
+
+ Peak memory:	123 MB
+
+ Messages:
+    INFO (CAPGEN-41199): 
+    
+    
+    Techgen -trans results will be written to directory: /tmp/qrc_266815/inverter
+    
+    WARNING (CAPGEN-41474): Contact layer 'poly_0licon1' specified in the p2lvsfile is not found in the lvsfile.
+    
+    WARNING (CAPGEN-41824): -lvs_blocking layer lvtpfet is not a layer in lvs db, so lvs_blocking for lvtpfet is ignored.
+    
+    WARNING (CAPGEN-41824): -lvs_blocking layer lvtpfet is not a layer in lvs db, so lvs_blocking for lvtpfet is ignored.
+    
+    WARNING (CAPGEN-41824): -lvs_blocking layer lvtnfet is not a layer in lvs db, so lvs_blocking for lvtnfet is ignored.
+    
+    WARNING (CAPGEN-41824): -lvs_blocking layer lvtnfet is not a layer in lvs db, so lvs_blocking for lvtnfet is ignored.
+    
+    WARNING (CAPGEN-41824): -lvs_blocking layer HV_FET_gate is not a layer in lvs db, so lvs_blocking for HV_FET_gate is ignored.
+    
+    WARNING (CAPGEN-41824): -lvs_blocking layer HV_FET_gate is not a layer in lvs db, so lvs_blocking for HV_FET_gate is ignored.
+    
+    INFO (CAPGEN-41737): Lvs connect layers Hpoly hv_source_drain are not mapped in layer_setup file
+    
+    INFO (CAPGEN-41809):  Lvs connect via licon1 mcon via via2 via3 via4 are not mapped in layer_setup file.
+    
+    WARNING (LBRCXM-617): Unable to obtain 1 license(s) of QTS100 22.10
+    
+    WARNING (AGDSEXT-30124): The <design>.props file is not available. The CCL option "input_db calibre/pvs/pegasus -device_properties_file <filename>" can be used to specify the .props file. 
+    
+    INFO (AGDSEXT-30016): 
+    setting dbunit 1e-09 1 1e-09
+    
+-------------------------------------------------------------------------------------
+Sun Nov  3 22:08:36 2024: BEGIN EXTRACTION stage
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+Sun Nov  3 22:08:41 2024: DONE EXTRACTION stage
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+EXTRACTION stage summary:
+-------------------------------------------------------------------------------------
+ Design data:
+    LVS nets:                     4
+    signal nets:                  4
+    floating nets:                0
+    ground net name:              VSS
+
+ Peak memory:	383 MB
+
+-------------------------------------------------------------------------------------
+Sun Nov  3 22:08:41 2024: BEGIN OUTPUT stage
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+Sun Nov  3 22:08:41 2024: DONE OUTPUT stage
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+OUTPUT stage summary:
+-------------------------------------------------------------------------------------
+ Reduction statistics:
+    Dangling Rs removed:          6
+    Merged Parallel Rs:           0
+    Rs shorted by min_res option: 3
+    Merged Parallel Self Caps:    0
+    CCs filtered by minC option:  0
+    Shorted Incomplete Nets:      0
+ Output statistics:
+    R: 18
+    C: 11
+    L: 0
+
+ Peak memory:	383 MB
+
+-------------------------------------------------------------------------------------
+
+INFO (LBRCXM-920): Host name and peak memory report
+ Host Name:                    c111-9.EECS.Berkeley.EDU
+ Peak memory used:             383 MB (sampled at 15s intervals)
+
+INFO (LBRCXM-702): Run ended: Sun Nov  3 22:08:41 2024
+
+
+INFO (LBRCXM-805): Quantus run took:  3s user, 5s sys, 6s elapsed
+
+
+INFO (LBRCXM-708): *****  Quantus terminated normally  *****
+
+

@@ -1,0 +1,5 @@
+cUiSetViewStatus {ntap_tile} {layout} {1}
+cUiSetViewStatus {ntap_tile} {logical} {0}
+cUiSetViewStatus {ntap_tile} {abstract.pin} {0}
+cUiSetViewStatus {ntap_tile} {abstract.ext} {0}
+cUiSetViewStatus {ntap_tile} {abstract} {0}

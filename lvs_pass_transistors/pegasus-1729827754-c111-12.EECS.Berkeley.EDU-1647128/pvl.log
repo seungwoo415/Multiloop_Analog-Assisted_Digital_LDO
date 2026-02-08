@@ -1,0 +1,104 @@
+
+########################################################################
+Get environment info ...
+########################################################################
+ENV VAR: TCL_LIBRARY = /share/instsww/cadence/PEGASUS.22.14.000/share/lib/tcltk/08.64/tcl8.6
+ENV VAR: TCLX_LIBRARY = /share/instsww/cadence/PEGASUS.22.14.000/share/lib/tclx/08.40
+ENV VAR: TCLLIBPATH = /share/instsww/cadence/PEGASUS.22.14.000/share/lib/itcl/3.4.1 /share/instsww/cadence/PEGASUS.22.14.000/share/lib/tclxml/3.2 /share/instsww/cadence/PEGASUS.22.14.000/share/lib/tcllib/1.18 /share/instsww/cadence/PEGASUS.22.14.000/tools.lnx86/pegasus/bin/64bit/../../../../share/lib/itcl/3.4.1 /share/instsww/cadence/PEGASUS.22.14.000/tools.lnx86/pegasus/bin/64bit/../../../../share/lib/tclxml/3.2 /share/instsww/cadence/PEGASUS.22.14.000/tools.lnx86/pegasus/bin/64bit/../../../../share/lib/tcllib/1.18
+ENV VAR: PEGASUS_PVL_LIBRARY = /share/instsww/cadence/PEGASUS.22.14.000/tools.lnx86/pegasus/bin/64bit/../../../Pegasus/bin/64bit/etc/pvl/tcl
+ENV VAR: PEGASUS_TVL_LIBRARY = /share/instsww/cadence/PEGASUS.22.14.000/tools.lnx86/pegasus/bin/64bit/../../../Pegasus/bin/64bit/etc/preproc/tcl
+ENV VAR: PEGASUS_LVS_DEVICE_DFM_LIBRARY = /share/instsww/cadence/PEGASUS.22.14.000/tools.lnx86/pegasus/bin/64bit/../../../Pegasus/bin/64bit/etc/lvs_device_dfm/tcl
+
+[WARN] The option -license_dp_continue is not available in this product.
+Available Resource: 24 processors
+
+SIGINT accepted. Program is interrupted.
+********************************************************************************
+Pegasus 22.14-s007 64 bit (Tue Jan 31 16:35:56 PST 2023)
+Build Ref No.: 031 Release Candidate (01-31-2023) [2214_pgs]
+
+Copyright 2023 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+Build O/S:       Linux x86_64 3.10.0-693.el7.x86_64
+Executed on:     c111-12.EECS.Berkeley.EDU (Linux x86_64 4.18.0-553.22.1.el8_10.x86_64)
+Process Id:      1647470
+Starting Time:   Thu Oct 24 20:42:35 2024 (Fri Oct 25 03:42:35 2024 GMT)
+With parameters: -p -parserlog -interactive -log_dir /home/aa/users/cs199-apt/cadence/sky130_virtuoso/pass_transistors_lvs/pegasus-1729827754-c111-12.EECS.Berkeley.EDU-1647128 -ui_data -qrc_data -lvs -license_dp_continue -source_cdl ../pass_transistors.sp -automatch -check_schematic -layout_top_cell pass_transistors -gds /home/aa/users/cs199-apt/cadence/sky130_virtuoso/pass_transistors.gds -source_top_cell pass_transistors -run_dir /home/aa/users/cs199-apt/cadence/sky130_virtuoso/pass_transistors_lvs -dp 12 -x 0001AB27FA2B17BA40F5CA2B8A5E64CC2186A22FF23F7ECA2282EB3AF93E70D42087EA3EE37C36D43FD6FA7BB97661D42185B57EEF3634903FC0A03F9D297F8871DCA951E521339F20EFA267AD2363CB6981B631DF133DA47CD9A52BFA0635A471C3AB3FF2757F8B2283BC3DA7287F8865C3A951F420229E20EFA923F77A3C8D219EB46BB3327DDB7C90AF38E93167C32486A820DE0550FB309DA83DED3C50FB10B0A029EF3F318B299DB43DBC2362D53D81D15B997961FB2A85A83DED3C50FB10B0A83DED3C50FB10B0CF26FE97435077AB00005F56 /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0001.lvs.pvl 
+********************************************************************************
+
+
+########################################################################
+Get host info ...
+########################################################################
+CPU info:
+    model name      :  13th Gen Intel(R) Core(TM) i9-13900
+    cpu MHz         :  2000.000
+    cache size      :  36864 KB
+    physical cores  :  24
+    logical cores   :  32
+    hyper-threading on
+
+Memory info:
+    63768M physical memory installed.
+
+    MemTotal:       65298568 kB
+    MemFree:        49822908 kB
+    MemAvailable:   59580708 kB
+    Buffers:            3912 kB
+    Cached:         10964112 kB
+    SwapCached:            0 kB
+    Active:          7396112 kB
+    Inactive:        6380180 kB
+    Active(anon):      79652 kB
+    Inactive(anon):  3584880 kB
+    Active(file):    7316460 kB
+    Inactive(file):  2795300 kB
+    Unevictable:      498504 kB
+    Mlocked:               0 kB
+    SwapTotal:       4194300 kB
+    SwapFree:        4194300 kB
+    Dirty:               236 kB
+    Writeback:             0 kB
+    AnonPages:       3288408 kB
+    Mapped:          1248060 kB
+    Shmem:            856260 kB
+    KReclaimable:     376636 kB
+    Slab:             720632 kB
+    SReclaimable:     376636 kB
+    SUnreclaim:       343996 kB
+    KernelStack:       25072 kB
+    PageTables:        89876 kB
+    NFS_Unstable:          0 kB
+    Bounce:                0 kB
+    WritebackTmp:          0 kB
+    CommitLimit:    36843584 kB
+    Committed_AS:   13243492 kB
+    VmallocTotal:   34359738367 kB
+    VmallocUsed:      165372 kB
+    VmallocChunk:          0 kB
+    Percpu:            30208 kB
+    HardwareCorrupted:     0 kB
+    AnonHugePages:   2187264 kB
+    ShmemHugePages:   454656 kB
+    ShmemPmdMapped:        0 kB
+    FileHugePages:         0 kB
+    FilePmdMapped:         0 kB
+    HugePages_Total:       0
+    HugePages_Free:        0
+    HugePages_Rsvd:        0
+    HugePages_Surp:        0
+    Hugepagesize:       2048 kB
+    Hugetlb:               0 kB
+    DirectMap4k:      807916 kB
+    DirectMap2M:    19783680 kB
+    DirectMap1G:    47185920 kB
+
+Fatal error encountered
+
+Execution aborted.  Exiting with status 1.
+
+
+Netlist extraction finished abnormally. Thu Oct 24 20:42:35 2024
+
+

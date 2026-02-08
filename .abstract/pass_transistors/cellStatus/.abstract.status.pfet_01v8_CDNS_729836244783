@@ -1,0 +1,5 @@
+cUiSetViewStatus {pfet_01v8_CDNS_729836244783} {layout} {1}
+cUiSetViewStatus {pfet_01v8_CDNS_729836244783} {logical} {0}
+cUiSetViewStatus {pfet_01v8_CDNS_729836244783} {abstract.pin} {0}
+cUiSetViewStatus {pfet_01v8_CDNS_729836244783} {abstract.ext} {0}
+cUiSetViewStatus {pfet_01v8_CDNS_729836244783} {abstract} {0}

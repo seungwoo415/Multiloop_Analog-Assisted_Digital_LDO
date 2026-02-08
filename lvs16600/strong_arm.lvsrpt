@@ -1,0 +1,24 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : strong_arm.lvsrpt
+ERC Summary File         : /home/aa/users/cs199-apt/cadence/sky130_virtuoso/lvs16600/result.sum
+LVS Comparison Report    : strong_arm.lvsrpt.cls
+Layout Name              : /home/aa/users/cs199-apt/cadence/sky130_virtuoso/16600layout.gds ("strong_arm")
+User Name                : cs199-ap
+Creation Time            : Tue Aug  6 22:12:36 2024
+Current directory        : /home/aa/users/cs199-apt/cadence/sky130_virtuoso/lvs16600
+Pegasus Version          : 22.14-s007 Tue Jan 31 16:35:56 PST 2023
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+

@@ -1,0 +1,6 @@
+cUiSelectCellP {DigitalLDOLogic}
+cUiSetViewStatus {DigitalLDOLogic} {layout} {1}
+cUiSetViewStatus {DigitalLDOLogic} {logical} {1}
+cUiSetViewStatus {DigitalLDOLogic} {abstract.pin} {1}
+cUiSetViewStatus {DigitalLDOLogic} {abstract.ext} {1}
+cUiSetViewStatus {DigitalLDOLogic} {abstract} {1}

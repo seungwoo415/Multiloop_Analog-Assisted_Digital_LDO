@@ -1,0 +1,124 @@
+// Substrate Spectre library
+
+simulator lang=spectre
+
+// This is a generated file.
+// Be careful when editing manually: this file may be overwritten.
+
+global 0
+
+include "/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/models/sky130.lib.spice" section=tt
+
+parameters w=0.42u
+
+subckt nmos_tile_w1000_l150_nf2 ( sd_0 sd_1 sd_2 g_0 b )
+
+  xinst0 ( sd_0 g_0 sd_1 b ) sky130_fd_pr__nfet_01v8 l=0.150u nf=1 w=0.36u
+  xinst1 ( sd_1 g_0 sd_2 b ) sky130_fd_pr__nfet_01v8 l=0.150u nf=1 w=0.36u
+
+ends nmos_tile_w1000_l150_nf2
+
+subckt pmos_tile_w1000_l150_nf2 ( sd_0 sd_1 sd_2 g_0 b )
+
+  xinst0 ( sd_0 g_0 sd_1 b ) sky130_fd_pr__pfet_01v8 l=0.150u nf=1 w=0.48u
+  xinst1 ( sd_1 g_0 sd_2 b ) sky130_fd_pr__pfet_01v8 l=0.150u nf=1 w=0.48u
+
+ends pmos_tile_w1000_l150_nf2
+
+subckt nmos_tile_tail ( sd_0 sd_1 sd_2 g_0 b )
+
+  xinst0 ( sd_0 g_0 sd_1 b ) sky130_fd_pr__nfet_01v8 l=0.4u nf=1 w=2u
+  xinst1 ( sd_1 g_0 sd_2 b ) sky130_fd_pr__nfet_01v8 l=0.4u nf=1 w=2u
+
+ends nmos_tile_tail 
+
+subckt nmos_tile_input ( sd_0 sd_1 sd_2 g_0 b )
+
+  xinst0 ( sd_0 g_0 sd_1 b ) sky130_fd_pr__nfet_01v8 l=0.150u nf=1 w=1.96u
+  xinst1 ( sd_1 g_0 sd_2 b ) sky130_fd_pr__nfet_01v8 l=0.150u nf=1 w=1.96u
+
+ends nmos_tile_input
+
+subckt nmos_tile_cross_coupled ( sd_0 sd_1 sd_2 g_0 b )
+
+  xinst0 ( sd_0 g_0 sd_1 b ) sky130_fd_pr__nfet_01v8 l=0.150u nf=1 w=8.96u
+  xinst1 ( sd_1 g_0 sd_2 b ) sky130_fd_pr__nfet_01v8 l=0.150u nf=1 w=8.96u
+
+ends nmos_tile_cross_coupled
+
+subckt pmos_tile_cross_coupled ( sd_0 sd_1 sd_2 g_0 b )
+
+  xinst0 ( sd_0 g_0 sd_1 b ) sky130_fd_pr__pfet_01v8 l=0.150u nf=1 w=9u
+  xinst1 ( sd_1 g_0 sd_2 b ) sky130_fd_pr__pfet_01v8 l=0.150u nf=1 w=9u
+
+ends pmos_tile_cross_coupled
+
+subckt strong_arm_half ( top_io_input_p top_io_input_n top_io_output_p top_io_output_n top_io_clock top_io_vdd top_io_vss input_d_p input_d_n tail_d )
+
+  xinst0 ( top_io_vss top_io_vss top_io_vss top_io_vss top_io_vss ) nmos_tile_w1000_l150_nf2
+  xinst1 ( top_io_vss tail_d top_io_vss top_io_clock top_io_vss ) nmos_tile_tail
+  xinst2 ( top_io_vss tail_d top_io_vss top_io_clock top_io_vss ) nmos_tile_tail
+  xinst3 ( tail_d input_d_n tail_d top_io_input_p top_io_vss ) nmos_tile_input
+  xinst4 ( tail_d intp tail_d top_io_input_n top_io_vss ) nmos_tile_input
+  xinst5 ( top_io_vss top_io_vss top_io_vss top_io_vss top_io_vss ) nmos_tile_w1000_l150_nf2
+  xinst6 ( input_d_n top_io_output_n input_d_n top_io_output_p top_io_vss ) nmos_tile_cross_coupled
+  xinst7 ( intp top_io_output_p intp top_io_output_n top_io_vss ) nmos_tile_cross_coupled
+  xinst8 ( top_io_vss top_io_vss top_io_vss top_io_vss top_io_vss ) nmos_tile_w1000_l150_nf2
+  xinst9 ( top_io_vdd top_io_output_n top_io_vdd top_io_output_p top_io_vdd ) pmos_tile_cross_coupled
+  xinst10 ( top_io_vdd top_io_output_p top_io_vdd top_io_output_n top_io_vdd ) pmos_tile_cross_coupled
+  xinst11 ( top_io_vdd top_io_vdd top_io_vdd top_io_vdd top_io_vdd ) pmos_tile_w1000_l150_nf2
+  xinst12 ( top_io_vdd top_io_output_n top_io_vdd top_io_clock top_io_vdd ) pmos_tile_w1000_l150_nf2
+  xinst13 ( top_io_vdd top_io_output_p top_io_vdd top_io_clock top_io_vdd ) pmos_tile_w1000_l150_nf2
+  xinst14 ( top_io_vdd top_io_vdd top_io_vdd top_io_vdd top_io_vdd ) pmos_tile_w1000_l150_nf2
+  xinst15 ( top_io_vdd input_d_n top_io_vdd top_io_clock top_io_vdd ) pmos_tile_w1000_l150_nf2
+  xinst16 ( top_io_vdd intp top_io_vdd top_io_clock top_io_vdd ) pmos_tile_w1000_l150_nf2
+  xinst17 ( top_io_vdd top_io_vdd top_io_vdd top_io_vdd top_io_vdd ) pmos_tile_w1000_l150_nf2
+
+ends strong_arm_half
+
+subckt strong_arm ( input_p input_n output_p output_n clock vdd vss )
+
+  xinst0 ( input_p input_n output_p output_n clock vdd vss input_d_p input_d_n tail_d ) strong_arm_half
+  xinst1 ( input_p input_n output_p output_n clock vdd vss input_d_p input_d_n tail_d ) strong_arm_half
+
+ends strong_arm
+
+subckt dzone_comp (Vref Vdzp Vdzn Vou Up C_EN VDD VSS)
+
+sky130_fd_sc_hd__and2_1 A B VGND VNB VPB VPWR X
+sky130_fd_sc_hd__xnor2_1 A B VGND VNB VPB VPWR Y
+ends dzone_comp 
+
+
+
+parameters Vcm=1.5 Vdiff=0.02 frequency=100K
+
+xinst0 ( vinp vinn output_p output_n clk vdd 0 ) strong_arm
+xinst1 ( vinp 0 ) vsource dc=Vcm type=sine ampl=Vdiff freq=frequency
+xinst2 ( vinn 0 ) vsource dc=Vcm type=sine ampl=-Vdiff freq=frequency
+xinst3 ( vdd 0 ) vsource dc=1.8 type=dc
+xinst4 ( clk 0 ) vsource delay=0 fall=1p period=5u rise=1p type=pulse val0=1.8 val1=0 width=2.5u
+xinst5 (output_p 0) capacitor c=2pF
+xinst6 (output_n 0) capacitor c=2pF
+
+settemp1 options temp=25.0
+save output_p
+save vinp
+save output_n
+save vinn
+save clk
+
+analysis_0 tran stop=6u errpreset=conservative
+
+*precharge_w sweep param=w start=0.36u stop=7u step=0.2u {
+*        analysis_0 tran stop=6u errpreset=conservative
+*}
+
+simulator lang=spice
+.probe ISUB(xinst3) I(xinst3)
+.meas tran pavg max i(xinst3) from=0u to=6u
+.meas tran maxvn max v(output_n)
+.meas tran minvn min v(output_n)
+.meas tran t1 param ='(maxvn-minvn) *0.5'
+.meas tran clock_to_qn trig v(clk) val='1.8*0.5' rise=1 targ v(output_n) val=t1  fall=1
+

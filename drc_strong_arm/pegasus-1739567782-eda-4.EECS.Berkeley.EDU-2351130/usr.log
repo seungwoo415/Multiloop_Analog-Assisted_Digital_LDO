@@ -1,0 +1,10 @@
+Pegasus 22.14-s007 YHq7WOyNq0hn3aUFJryqDw 2025-02-14 13:16:22 2351130 eda-4.EECS.Berkeley.EDU
+Copyright 2023 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+INFO:    Command Line Options: -drc -dp 12 -license_dp_continue -gds ../strong_arm.gds -top_cell strong_arm -ui_data /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0006.drc.pvl
+INFO:    Launch host CPU: Model: AMD EPYC 9454 48-Core Processor, OS: Red Hat Enterprise Linux release 8.10 (Ootpa), Logical cores: 96, Physical cores: 48, Cache: 1024 KB, CPU Speed: 1500 MHz
+         Launch host Memory: MemTotal: 773217 MB,  MemFree: 301558 MB,  SwapTotal: 32767 MB,  SwapFree: 30873 MB,  VmallocTotal: 13421772799 MB,  VmallocUsed: 938 MB
+INFO:    Current path: /home/aa/users/cs199-apt/cadence/sky130_virtuoso/drc_strong_arm
+INFO:    Run directory same as current path
+INFO:    Log directory: /home/aa/users/cs199-apt/cadence/sky130_virtuoso/drc_strong_arm/pegasus-1739567782-eda-4.EECS.Berkeley.EDU-2351130
