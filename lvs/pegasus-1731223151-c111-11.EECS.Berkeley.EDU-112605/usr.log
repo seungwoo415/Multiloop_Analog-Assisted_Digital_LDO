@@ -1,0 +1,20 @@
+Pegasus 22.14-s007 YHq7WOyNq0hn3aUFJryqDw 2024-11-09 23:19:11 112605 c111-11.EECS.Berkeley.EDU
+Copyright 2023 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+INFO:    Command Line Options: -lvs -dp 12 -license_dp_continue -automatch -check_schematic -rc_data -ui_data -source_cdl ../custom_dff.spice -gds ../custom_dff.gds -source_top_cell custom_dff -layout_top_cell custom_dff /home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0001.lvs.pvl
+INFO:    Launch host CPU: Model: 13th Gen Intel(R) Core(TM) i9-13900, OS: Red Hat Enterprise Linux release 8.10 (Ootpa), Logical cores: 32, Physical cores: 24, Cache: 36864 KB, CPU Speed: 2000 MHz
+         Launch host Memory: MemTotal: 63768 MB,  MemFree: 49838 MB,  SwapTotal: 4095 MB,  SwapFree: 4095 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 161 MB
+INFO:    Current path: /home/aa/users/cs199-apt/cadence/digital_ldo_integration/lvs
+INFO:    Run directory same as current path
+INFO:    Log directory: /home/aa/users/cs199-apt/cadence/digital_ldo_integration/lvs/pegasus-1731223151-c111-11.EECS.Berkeley.EDU-112605
+ERROR:   Received external termination signal [2], shutting down...
+INFO:    Resource usage by worker at exit:
+                  CPU      Elapsed  Threads    CPU       Peak Total  Peak Active
+         Worker:  time[s]  time[s]  Allocated  usage[%]  Memory[MB]  Memory[MB]
+         Worker resource usage  summary: Total CPU[s]: 0  Run duration[s]: 0  Max peak memory[MB]: 0
+         Worker CPU utilization summary: 0 of 0 available CPU seconds (0.00%) with 0 average available CPUs
+INFO:    Checking in all SoftShare licenses.
+INFO:    Run terminated by an external signal
+
+Pegasus finished abnormally with exit code 1 -- see above for earlier errors. 2024-11-09 23:19:12

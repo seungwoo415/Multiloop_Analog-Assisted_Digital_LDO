@@ -1,0 +1,17 @@
+Exported variables from results directory:  ./digital_ldo_quiesent_current.raw/
+
+date               :  2:40:10 PM, Mon Jun 9, 2025
+design             :  
+simulator          :  spectre
+version            :  19.1.0.455.isr11
+
+
+Measurement Name   :  analysis_0
+Analysis Type      :  tran
+qc                    =  0.000548077 
+sa1                   =  1.99763e-07 
+sa2                   =  2.89241e-07 
+sa3                   =  2.03103e-07 
+sa4                   =  2.93017e-07 
+
+

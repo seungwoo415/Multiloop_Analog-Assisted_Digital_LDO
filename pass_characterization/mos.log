@@ -1,0 +1,60 @@
+
+Spectre (R) Circuit Simulator
+Version 19.1.0.455.isr11 64bit -- 10 Sep 2020
+Copyright (C) 1989-2020 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: cs199-apt   Host: eda-3.EECS.Berkeley.EDU   HostID: 2080922A   PID: 2315993
+Memory  available: 506.8756 GB  physical: 810.7774 GB
+Linux   : Red Hat Enterprise Linux release 8.10 (Ootpa)
+CPU Type: AMD EPYC 9454 48-Core Processor
+        Socket: Processors [Frequency] (Hyperthreaded Processor)
+        0:       0 [1753.7] (),  1 [2036.6] (),  2 [1500.0] (),  3 [1500.0] (),  4 [1500.0] ()
+                 5 [1500.0] (),  6 [1500.0] (),  7 [1500.0] (),  8 [1500.0] (),  9 [1500.0] ()
+                10 [1500.0] (), 11 [1500.0] (), 12 [2100.0] (), 13 [1500.0] (), 14 [1500.0] ()
+                15 [1500.0] (), 16 [1500.0] (), 17 [1500.0] (), 18 [1500.0] (), 19 [1500.0] ()
+                20 [1500.0] (), 21 [1500.0] (), 22 [1500.0] (), 23 [2100.0] (), 24 [1500.0] ()
+                25 [1500.0] (), 26 [1500.0] (), 27 [1500.0] (), 28 [1500.0] (), 29 [1500.0] ()
+                30 [1500.0] (), 31 [1500.0] (), 32 [1500.0] (), 33 [1500.0] (), 34 [3800.0] ()
+                35 [1500.0] (), 36 [1500.0] (), 37 [1500.0] (), 38 [1500.0] (), 39 [1500.0] ()
+                40 [1500.0] (), 41 [1500.0] (), 42 [1500.0] (), 43 [1500.0] (), 44 [1500.0] ()
+                45 [1500.0] (), 46 [1500.0] (), 47 [1500.0] (), 48 [1500.0] (), 49 [1500.0] ()
+                50 [1500.0] (), 51 [1500.0] (), 52 [1500.0] (), 53 [1500.0] (), 54 [1500.0] ()
+                55 [1500.0] (), 56 [1500.0] (), 57 [1500.0] (), 58 [1500.0] (), 59 [1500.0] ()
+                60 [1500.0] (), 61 [1500.0] (), 62 [1500.0] (), 63 [1500.0] (), 64 [1500.0] ()
+                65 [1500.0] (), 66 [1500.0] (), 67 [1500.0] (), 68 [1500.0] (), 69 [1500.0] ()
+                70 [1500.0] (), 71 [1500.0] (), 72 [1500.0] (), 73 [1500.0] (), 74 [2100.0] ()
+                75 [1500.0] (), 76 [1500.0] (), 77 [1500.0] (), 78 [2100.0] (), 79 [1500.0] ()
+                80 [1500.0] (), 81 [1500.0] (), 82 [1500.0] (), 83 [1500.0] (), 84 [1500.0] ()
+                85 [1500.0] (), 86 [1500.0] (), 87 [1500.0] (), 88 [1500.0] (), 89 [1500.0] ()
+                90 [1500.0] (), 91 [1500.0] (), 92 [1500.0] (), 93 [1500.0] (), 94 [1500.0] ()
+                95 [1500.0] ()
+        
+System load averages (1min, 5min, 15min) : 0.3 %, 0.4 %, 0.3 %
+Hyperthreading is enabled
+
+
+Simulating `mos.scs' on eda-3.EECS.Berkeley.EDU at 12:02:35 AM, Sun Jun 8, 2025 (process id: 2315993).
+Current working directory: /home/aa/users/cs199-apt/cadence/digital_ldo_integration/pass_characterization
+Command line:
+    /share/instsww/cadence/LIBERATE/tools.lnx86/bin/spectre -64 mos.scs
+
+Loading /share/instsww/cadence/LIBERATE/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /share/instsww/cadence/LIBERATE/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
+Loading /share/instsww/cadence/LIBERATE/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /share/instsww/cadence/LIBERATE/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /share/instsww/cadence/LIBERATE/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+
+Error found by spectre.
+    ERROR (CMI-2011): Unable to open the input file `mos.scs'.
+         Ensure that the specified file or directory exists.
+
+
+Aggregate audit (12:02:35 AM, Sun Jun 8, 2025):
+Time used: CPU = 136 ms, elapsed = 250 ms, util. = 54.4%.
+Time spent in licensing: elapsed = 34.8 ms, percentage of total = 13.9%.
+Peak memory used = 83.7 Mbytes.
+Simulation started at: 12:02:35 AM, Sun Jun 8, 2025, ended at: 12:02:35 AM, Sun Jun 8, 2025, with elapsed time (wall clock): 250 ms.
+spectre completes with 1 error, 0 warnings, and 0 notices.
+spectre terminated prematurely due to fatal error.

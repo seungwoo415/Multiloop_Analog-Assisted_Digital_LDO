@@ -1,0 +1,24 @@
+simulator lang=spectre
+
+global 0
+
+include "/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/models/sky130.lib.spice" section=tt
+
+
+simulator lang =spice
+
+*.include "/home/ff/eecs251b/sky130/sky130_cds/sky130_release_0.0.1/models/sky130.lib.spice" section=tt
+
+.param VGS = 2.28456
+
+V1 vdd 0 DC 1.8
+V2 vg 0 DC VGS 
+V3 vs 0 DC 1.5
+
+M1 vdd vg vs 0 sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=95u
+
+.op 
+
+simulator lang=spectre
+save *:oppoint sigtype=dev
+saveopts options save=all

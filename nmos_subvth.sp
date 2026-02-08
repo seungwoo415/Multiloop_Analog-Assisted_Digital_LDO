@@ -1,0 +1,70 @@
+
+.SUBCKT nmos_subvth vg vd vs gnd   
+ 
+   Xinst1 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst2 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst3 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst4 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst5 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst6 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst7 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst8 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst9 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst10 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst11 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst12 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst13 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst14 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst15 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst16 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst17 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst18 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst19 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst20 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst21 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst22 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst23 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst24 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst25 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst26 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst27 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst28 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst29 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst30 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst31 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst32 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst33 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst34 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst35 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst36 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst37 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst38 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst39 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst40 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst41 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst42 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst43 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst44 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst45 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst46 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst47 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst48 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst49 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst50 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst51 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst52 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst53 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst54 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst55 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst56 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst57 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst58 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst59 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst60 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst61 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst62 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst63 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+   Xinst64 vd vg vs gnd sky130_fd_pr__nfet_01v8 l=0.15u nf=1 w=4.26u
+
+
+.ENDS nmos_subvth

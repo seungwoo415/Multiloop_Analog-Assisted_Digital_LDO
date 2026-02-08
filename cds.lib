@@ -1,0 +1,4 @@
+SOFTINCLUDE /share/instsww/cadence/IC.06.18.350/share/cdssetup/cds.lib
+DEFINE DigitalLDOLogic /home/aa/users/cs199-apt/cadence/digital_ldo_integration/DigitalLDOLogic
+DEFINE tutorial_layout /home/aa/users/cs199-apt/cadence/digital_ldo_integration/tutorial_layout
+DEFINE analogLib $(inst_root_with:tools/dfII/bin/virtuoso)/tools/dfII/etc/cdslib/artist/analogLib
