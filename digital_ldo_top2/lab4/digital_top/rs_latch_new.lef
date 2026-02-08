@@ -1,0 +1,141 @@
+VERSION 5.8 ;
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+
+MACRO rs_latch_new
+  CLASS BLOCK ;
+  ORIGIN 2.095 2.97 ;
+  FOREIGN rs_latch_new -2.095 -2.97 ;
+  SIZE 15.825 BY 7.985 ;
+  SYMMETRY X Y ;
+  PIN VDD
+    DIRECTION INOUT ;
+    USE POWER ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met2 ;
+        RECT -2.095 -2.385 -1.645 4.875 ;
+        RECT -2.075 -2.385 -1.815 4.915 ;
+      LAYER li1 ;
+        RECT 8.755 1.825 8.925 4.125 ;
+        RECT 7.755 2.58 7.925 3.27 ;
+        RECT 6.345 2.425 6.515 4.24 ;
+        RECT 3.35 2.425 3.52 4.215 ;
+        RECT 2.375 2.58 2.545 3.27 ;
+        RECT 0.95 1.825 1.12 4.125 ;
+      LAYER met1 ;
+        RECT -2.085 4.37 11.86 5.015 ;
+        RECT 8.725 3.815 8.955 5.015 ;
+        RECT 7.725 2.6 7.955 5.015 ;
+        RECT 6.315 3.93 6.545 5.015 ;
+        RECT 3.32 3.905 3.55 5.015 ;
+        RECT 2.345 2.6 2.575 5.015 ;
+        RECT 0.92 3.815 1.15 5.015 ;
+        RECT -2.075 4.275 -1.815 5.015 ;
+      LAYER mcon ;
+        RECT 0.95 3.875 1.12 4.045 ;
+        RECT 2.375 3.02 2.545 3.19 ;
+        RECT 2.375 2.66 2.545 2.83 ;
+        RECT 3.35 3.965 3.52 4.135 ;
+        RECT 6.345 3.99 6.515 4.16 ;
+        RECT 7.755 3.02 7.925 3.19 ;
+        RECT 7.755 2.66 7.925 2.83 ;
+        RECT 8.755 3.875 8.925 4.045 ;
+      LAYER via ;
+        RECT -2.02 4.68 -1.87 4.83 ;
+        RECT -2.02 4.36 -1.87 4.51 ;
+    END
+  END VDD
+  PIN VSS
+    DIRECTION INOUT ;
+    USE GROUND ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER met2 ;
+        RECT 13.23 -2.93 13.71 3.99 ;
+        RECT 13.375 -2.935 13.635 3.99 ;
+      LAYER li1 ;
+        RECT 8.755 -2.115 8.925 -0.445 ;
+        RECT 7.795 -1.315 7.965 -0.625 ;
+        RECT 6.345 -2.175 6.515 -0.455 ;
+        RECT 3.35 -2.165 3.52 -0.455 ;
+        RECT 2.395 -1.3 2.565 -0.61 ;
+        RECT 0.95 -2.115 1.12 -0.445 ;
+      LAYER met1 ;
+        RECT 0.085 -2.97 13.73 -2.34 ;
+        RECT 13.375 -2.97 13.635 -2.295 ;
+        RECT 8.725 -2.97 8.955 -1.805 ;
+        RECT 7.765 -2.97 7.995 -0.645 ;
+        RECT 6.315 -2.97 6.545 -1.865 ;
+        RECT 3.32 -2.97 3.55 -1.855 ;
+        RECT 2.365 -2.97 2.595 -0.63 ;
+        RECT 0.92 -2.97 1.15 -1.805 ;
+      LAYER mcon ;
+        RECT 0.95 -2.035 1.12 -1.865 ;
+        RECT 2.395 -0.86 2.565 -0.69 ;
+        RECT 2.395 -1.22 2.565 -1.05 ;
+        RECT 3.35 -2.085 3.52 -1.915 ;
+        RECT 6.345 -2.095 6.515 -1.925 ;
+        RECT 7.795 -0.875 7.965 -0.705 ;
+        RECT 7.795 -1.235 7.965 -1.065 ;
+        RECT 8.755 -2.035 8.925 -1.865 ;
+      LAYER via ;
+        RECT 13.43 -2.53 13.58 -2.38 ;
+        RECT 13.43 -2.85 13.58 -2.7 ;
+    END
+  END VSS
+  PIN top_in_n
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 9.94 0.815 10.11 1.145 ;
+      LAYER met1 ;
+        RECT 9.91 0.835 10.51 1.125 ;
+      LAYER mcon ;
+        RECT 9.94 0.895 10.11 1.065 ;
+    END
+  END top_in_n
+  PIN top_in_p
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 0.555 0.665 0.725 0.995 ;
+      LAYER met1 ;
+        RECT -0.05 0.685 0.755 0.975 ;
+      LAYER mcon ;
+        RECT 0.555 0.745 0.725 0.915 ;
+    END
+  END top_in_p
+  PIN top_out_n
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 6.775 -1.455 6.945 3.425 ;
+        RECT 4.21 1.43 4.38 1.76 ;
+      LAYER met1 ;
+        RECT 4.18 1.45 6.975 1.74 ;
+      LAYER mcon ;
+        RECT 4.21 1.51 4.38 1.68 ;
+        RECT 6.775 1.51 6.945 1.68 ;
+    END
+  END top_out_n
+  PIN top_out_p
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 6.105 1.88 6.275 2.21 ;
+        RECT 3.78 -1.455 3.95 3.425 ;
+      LAYER met1 ;
+        RECT 3.75 1.9 6.305 2.19 ;
+      LAYER mcon ;
+        RECT 3.78 1.96 3.95 2.13 ;
+        RECT 6.105 1.96 6.275 2.13 ;
+    END
+  END top_out_p
+END rs_latch_new
+
+END LIBRARY

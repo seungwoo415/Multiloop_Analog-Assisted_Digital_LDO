@@ -1,0 +1,31 @@
+#!/usr/bin/env python3
+#
+# NOTE: this ExampleDriver works for asap7 and nangate45. the custom hooks are
+# only used for asap7 though.
+
+import os
+
+import hammer.vlsi as hammer_vlsi
+
+from hammer.vlsi import CLIDriver, HammerTool, HammerToolHookAction, HammerDriver, HierarchicalMode
+
+from typing import Dict, Callable, Optional, List
+
+
+
+def pg_pin_add(x: hammer_vlsi.HammerTool) -> bool:
+    x.append(f"connect_global_net VSS -netlist_override -pin_base_name VNB -type pg_pin -verbose") 
+    x.append(f"connect_global_net VDD -netlist_override -pin_base_name VPB -type pg_pin -verbose")
+    return True
+
+class DigitalLDODriver(CLIDriver): 
+
+    def get_extra_par_hooks(self) -> List[HammerToolHookAction]:
+
+        hooks = [HammerTool.make_pre_insertion_hook("write_design", pg_pin_add)]
+        
+        return hooks
+   
+
+if __name__ == '__main__':
+     DigitalLDODriver().main() 

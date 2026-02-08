@@ -1,0 +1,37 @@
+Device_Table 1000
+0 0 1 Wed Jan 29 01:01:39 2025
+2
+Device Entry 0
+0 0 15 Wed Jan 29 01:01:39 2025
+nfet_01v8_rec
+MOS
+MN
+nfet_01v8
+(null)
+(null)
+4
+G nfet 0
+S nSourceDrain 1
+D nSourceDrain 1
+B pwell 0
+0
+2
+W
+L
+Device Entry 1
+0 0 15 Wed Jan 29 01:01:39 2025
+hvtpfet_01v8_rec
+MOS
+MP
+pfet_01v8_hvt
+(null)
+(null)
+4
+G hvtpfet 0
+s pSourceDrain 1
+D pSourceDrain 1
+B nwell 0
+0
+2
+W
+L

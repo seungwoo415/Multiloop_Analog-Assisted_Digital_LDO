@@ -1,0 +1,37 @@
+# Specify Global Variables
+gcd.clockPeriod: &CLK_PERIOD "5ns"
+gcd.verilogSrc: &VERILOG_SRC
+  - "src/fine_sr.v"
+  - "src/coarse_sr.v" 
+  - "src/top_level_sr.v" 
+
+# Specify clock signals
+vlsi.inputs.clocks: [
+  {name: "clk", period: *CLK_PERIOD, uncertainty: "0.1ns"}
+]
+
+# Synthesis Constraints
+synthesis.inputs:
+  top_module: "top_level_sr"
+  input_files: *VERILOG_SRC
+
+# Placement Constraints
+vlsi.inputs.placement_constraints:
+  - path: "top_level_sr"
+    type: "toplevel"
+    x: 0
+    y: 0
+    width: 600
+    height: 600
+    margins:
+      left: 10
+      right: 10
+      top: 10
+      bottom: 10
+
+# Pin placement constraints
+vlsi.inputs.pin_mode: generated
+vlsi.inputs.pin.generate_mode: semi_auto
+vlsi.inputs.pin.assignments: [
+  {pins: "*", layers: ["met2", "met4"], side: "bottom"}
+]

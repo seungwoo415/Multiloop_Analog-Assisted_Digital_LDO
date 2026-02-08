@@ -1,0 +1,44 @@
+##############################################################################################################
+#####  
+#####                                       Pegasus LVS COMPARISON
+#####  
+#####  Version                       :   22.14-s007
+#####  NVN Run Start                 :   Sat Feb 15 00:41:16 2025
+#####  ERC Summary File              :   digital_ldo_top.erc_results
+#####  Extraction Report File        :   digital_ldo_top.lvs_results
+#####  Comparison Report File        :   /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/lvs-rundir/digital_ldo_top.lvs_results.cls
+#####  Top Cell                      :   digital_ldo_top  <vs>  digital_ldo_top
+#####  
+#####  Run Result                    :   MATCH
+#####  
+#####  Run Summary                   :   [WARN]  Extraction Warnings (refer to Extraction Report File)
+#####                                :   [INFO]  ERC Results: Empty
+#####  
+#####  Layout Design                 :   /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/par-rundir/digital_ldo_top.gds (gdsii)
+#####  Layout File                   :   digital_ldo_top.net (cdl)
+#####  Schematic File                :   /home/ff/eecs151/fa24/pdk/sky130A/libs.ref/sky130_fd_io/spice/sky130_ef_io.spice (cdl)
+#####  Schematic File                :   /home/ff/eecs151/fa24/pdk/sky130A/libs.ref/sky130_fd_io/cdl/sky130_ef_io.cdl (cdl)
+#####  Schematic File                :   /home/ff/eecs151/fa24/pdk/sky130A/libs.ref/sky130_fd_io/spice/sky130_fd_io.spice (cdl)
+#####  Schematic File                :   /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/tech-sky130-cache/sky130_fd_sc_hd.cdl (cdl)
+#####  Schematic File                :   /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/par-rundir/digital_ldo_top.lvs.v (verilog)
+#####  Schematic File                :   /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/spice_files/DigitalLDOLogic/DigitalLDOLogic.lvs.v (verilog)
+#####  Schematic File                :   /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/spice_files/strong_arm/strong_arm.sp (cdl)
+#####  Schematic File                :   /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/spice_files/rs_latch/rs_latch.sp (cdl)
+#####  Schematic File                :   /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/spice_files/inverter/inverter.sp (cdl)
+#####  Schematic File                :   /home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/spice_files/pass_transistors/pass_transistors.sp (cdl)
+#####  Rules File                    :   /home/aa/users/cs199-apt/Downloads/sky130_release_0.0.4/Sky130_LVS/Sky130_rev_0.0_0.1.lvs.pvl
+#####  Pin Swap File                 :   digital_ldo_top.lvs_results.cps
+#####  
+#####  Extraction CPU Time           :   0h 0m 1s - (1s)
+#####  Extraction Exec Time          :   0h 0m 7s - (7s)
+#####  Extraction Peak Memory Usage  :   72.00MB
+#####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
+#####  NVN Exec Time                 :   0h 0m 1s - (1s)                 
+#####  NVN Peak Memory Usage         :   572.71MB
+#####  LVS Total CPU Time            :   0h 0m 1s - (1s)                 
+#####  LVS Total Exec Time           :   0h 0m 8s - (8s)                 
+#####  LVS Total Peak Memory Usage   :   572.71MB
+#####  
+##############################################################################################################
+
+

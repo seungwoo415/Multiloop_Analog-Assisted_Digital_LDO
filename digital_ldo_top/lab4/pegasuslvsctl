@@ -1,0 +1,27 @@
+// --------------------------------------------------------------------------------
+// This script was written and developed by HAMMER at UC Berkeley; however, the
+// underlying commands and reports are copyrighted by Cadence. We thank Cadence for
+// granting permission to share our research to help promote and foster the next
+// generation of innovators.
+// --------------------------------------------------------------------------------
+schematic_path "/home/ff/eecs151/fa24/pdk/sky130A/libs.ref/sky130_fd_io/spice/sky130_ef_io.spice" spice;
+schematic_path "/home/ff/eecs151/fa24/pdk/sky130A/libs.ref/sky130_fd_io/cdl/sky130_ef_io.cdl" spice;
+schematic_path "/home/ff/eecs151/fa24/pdk/sky130A/libs.ref/sky130_fd_io/spice/sky130_fd_io.spice" spice;
+schematic_path "/home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/tech-sky130-cache/sky130_fd_sc_hd.cdl" spice;
+schematic_path "/home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/par-rundir/digital_ldo_top.lvs.v" verilog  -detect_buses -check_inconsistent_instances -ignore_instances_with_missing_cell_master;
+schematic_path "/home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/spice_files/DigitalLDOLogic/DigitalLDOLogic.lvs.v" verilog -keep_backslash -detect_buses -check_inconsistent_instances -ignore_instances_with_missing_cell_master;
+schematic_path "/home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/spice_files/strong_arm/strong_arm.sp" spice;
+schematic_path "/home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/spice_files/rs_latch/rs_latch.sp" spice;
+schematic_path "/home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/spice_files/inverter/inverter.sp" spice;
+schematic_path "/home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/spice_files/pass_transistors/pass_transistors.sp" spice;
+
+schematic_primary digital_ldo_top;
+layout_path "/home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/par-rundir/digital_ldo_top.gds";
+layout_primary digital_ldo_top;
+lvs_power_name VDD;
+lvs_ground_name VSS;
+lvs_find_shorts yes;
+lvs_report_opt S;
+results_db -erc "/home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/lvs-rundir/digital_ldo_top.erc_errors.ascii" -ascii;
+report_summary -erc "/home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/lvs-rundir/digital_ldo_top.erc_results" -replace;
+lvs_report_file "/home/aa/users/cs199-apt/cadence/hammer1/asic-labs-fa24/lab4/build/lvs-rundir/digital_ldo_top.lvs_results";

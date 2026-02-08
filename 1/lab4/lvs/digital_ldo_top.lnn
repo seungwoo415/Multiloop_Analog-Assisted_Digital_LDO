@@ -1,0 +1,439 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary digital_ldo_top
+% sky130_fd_sc_hd__diode_2 5
+1 DIODE
+2 VPWR
+3 VGND
+4 VNB
+5 VPB
+% sky130_fd_sc_hd__clkbuf_1 6
+1 VPWR
+2 X
+3 VGND
+4 A
+5 VNB
+6 VPB
+% sky130_fd_sc_hd__buf_8 7
+1 VPWR
+2 X
+3 VGND
+4 A
+5 VNB
+7 VPB
+% sky130_fd_sc_hd__dlygate4sd2_1 6
+1 VPWR
+2 X
+3 VGND
+4 A
+5 VNB
+6 VPB
+% sky130_fd_sc_hd__clkbuf_2 6
+1 VPWR
+2 X
+3 VGND
+4 A
+5 VNB
+6 VPB
+% sky130_fd_sc_hd__clkbuf_1_DigitalLDOLogic_gds 6
+1 X
+2 VPWR
+3 VGND
+4 A
+5 VNB
+6 VPB
+% sky130_fd_sc_hd__buf_8_DigitalLDOLogic_gds 6
+1 VPWR
+2 X
+3 VGND
+4 A
+5 VNB
+6 VPB
+% sky130_fd_sc_hd__dfxtp_1 7
+1 VPWR
+2 Q
+3 VGND
+4 CLK
+5 D
+6 VNB
+7 VPB
+% sky130_fd_sc_hd__a221o_1 10
+1 X
+2 VPWR
+3 VGND
+4 C1
+5 B2
+6 B1
+7 A1
+8 A2
+9 VNB
+10 VPB
+% sky130_fd_sc_hd__a21o_1 8
+1 X
+2 VPWR
+3 VGND
+4 B1
+5 A1
+6 A2
+7 VNB
+8 VPB
+% sky130_fd_sc_hd__or3_1 8
+1 VPWR
+2 X
+3 VGND
+4 C
+5 B
+6 A
+7 VNB
+8 VPB
+% sky130_fd_sc_hd__inv_2 6
+1 VPWR
+2 Y
+3 VGND
+4 A
+5 VNB
+6 VPB
+% sky130_fd_sc_hd__tap_1_DigitalLDOLogic_gds 4
+1 VPB
+2 VNB
+3 VGND
+4 VPWR
+% sky130_fd_sc_hd__tapvpwrvgnd_1_DigitalLDOLogic_gds 2
+1 VPWR
+2 VGND
+% sky130_fd_sc_hd__decap_6_DigitalLDOLogic_gds 4
+1 VPWR
+2 VGND
+3 VNB
+4 VPB
+% sky130_fd_sc_hd__decap_3_DigitalLDOLogic_gds 4
+1 VPWR
+2 VGND
+3 VNB
+4 VPB
+% sky130_fd_sc_hd__decap_12_DigitalLDOLogic_gds 4
+1 VPWR
+2 VGND
+3 VNB
+4 VPB
+% sky130_fd_sc_hd__decap_4_DigitalLDOLogic_gds 4
+1 VPWR
+2 VGND
+3 VNB
+4 VPB
+% sky130_fd_sc_hd__decap_8_DigitalLDOLogic_gds 4
+1 VPWR
+2 VGND
+3 VNB
+4 VPB
+% sky130_fd_sc_hd__fill_1_DigitalLDOLogic_gds 4
+1 VPWR
+2 VGND
+3 VNB
+4 VPB
+% sky130_fd_sc_hd__fill_2_DigitalLDOLogic_gds 4
+1 VPWR
+2 VGND
+3 VNB
+4 VPB
+% L1M1_PR_DigitalLDOLogic_gds 1
+% M1M2_PR_M 1
+% M1M2_PR_DigitalLDOLogic_gds 1
+% M2M3_PR_DigitalLDOLogic_gds 1
+% M3M4_PR_DigitalLDOLogic_gds 1
+% DigitalLDOLogic_VIA0 1
+% DigitalLDOLogic_VIA1 1
+% DigitalLDOLogic_VIA2 1
+% DigitalLDOLogic_VIA3 1
+% DigitalLDOLogic_VIA4 1
+% MASCO__Y3 2
+% MASCO__B94 2
+% MASCO__B97 2
+% MASCO__B101 2
+% DigitalLDOLogic 75
+1 VDD:
+2 VSS:
+3 out[0]
+4 out[15]
+5 out[16]
+6 out[1]
+7 out[17]
+8 out[2]
+9 out[18]
+11 out[19]
+12 out[3]
+13 out[20]
+14 clk
+15 out[4]
+16 out[21]
+17 out[5]
+19 out[22]
+20 out[23]
+21 out[6]
+22 out[24]
+23 out[7]
+24 out[25]
+25 out[8]
+26 out[26]
+27 out[27]
+28 out[9]
+29 comp_in
+30 out[28]
+31 out[10]
+32 out[29]
+33 out[11]
+34 out[30]
+35 out[31]
+36 out[12]
+37 rst
+38 out[13]
+39 out[14]
+% L1M1_C_CDNS_736670542250 1
+% M1M2_C_CDNS_736670542251 1
+% nfet_01v8_CDNS_730310354533 3
+% pfet_01v8_CDNS_730310354534 3
+% nwellTap_CDNS_730310354531 1
+% subTap_CDNS_730310354532 1
+% inverter 4
+1 din
+2 VDD
+3 VSS
+4 dout
+% polyConn_CDNS_729836244780 1
+% M1M2_C_CDNS_729836244780 1
+% L1M1_C_CDNS_729836244781 1
+% nwellTap_CDNS_729836244781 1
+% nwellTap_CDNS_729836244782 1
+% pfet_01v8_CDNS_729836244783 3
+% pass_transistors 35
+1 Vg_16
+2 Vg_0
+3 Vg_17
+4 Vg_1
+5 Vg_18
+6 Vg_2
+7 Vg_19
+8 Vg_3
+9 Vg_20
+10 Vg_4
+11 Vg_21
+12 Vg_5
+13 Vg_22
+14 Vg_6
+15 Vg_23
+16 Vg_7
+17 Vg_24
+18 Vg_8
+19 Vg_25
+20 Vg_9
+21 Vg_26
+22 Vg_10
+23 Vg_27
+24 Vg_11
+25 Vg_28
+26 Vg_12
+27 Vg_29
+28 Vg_13
+29 Vg_30
+30 Vg_14
+31 Vg_31
+32 Vg_15
+33 VDD
+34 Vout
+% L1M1_C_CDNS_736669032860 1
+% M1M2_C_CDNS_736669032861 1
+% pfet_01v8_CDNS_730309971733 3
+% nfet_01v8_CDNS_730309971734 3
+% pfet_01v8_CDNS_730309971735 3
+% polyConn_CDNS_730309971730 1
+% nwellTap_CDNS_730309971731 1
+% subTap_CDNS_730309971732 1
+% rs_latch_new 6
+1 top_in_p
+2 top_out_n
+3 top_out_p
+4 top_in_n
+5 VDD
+6 VSS
+% ptap_tile 1
+1 x
+% ntap_tile 1
+1 x
+% two_finger_mos_tile 4
+1 s
+2 d
+3 g
+4 b
+% two_finger_mos_tile_1 4
+1 s
+2 d
+3 g
+4 b
+% two_finger_mos_tile_2 4
+1 s
+2 d
+3 g
+4 b
+% two_finger_mos_tile_3 4
+1 s
+2 d
+3 g
+4 b
+% two_finger_mos_tile_4 4
+1 s
+2 d
+3 g
+4 b
+% strong_arm_half 10
+1 top_io_output_n
+2 top_io_output_p
+3 top_io_vss
+4 top_io_vdd
+5 top_io_clock
+6 tail_d
+7 input_d_n
+8 top_io_input_p
+9 input_d_p
+10 top_io_input_n
+% strong_arm 7
+1 vss
+2 vdd
+3 input_p
+4 output_p
+5 input_n
+6 output_n
+7 clock
+% sky130_fd_sc_hd__mux2_1 8
+1 X
+2 VPWR
+3 VGND
+4 S
+5 A1
+6 A0
+7 VNB
+8 VPB
+% sky130_fd_sc_hd__mux2_2 8
+1 X
+2 VPWR
+3 VGND
+4 A0
+5 A1
+6 S
+7 VNB
+8 VPB
+% sky130_fd_sc_hd__tap_1 4
+1 VPB
+2 VNB
+3 VPWR
+4 VGND
+% sky130_fd_sc_hd__tapvpwrvgnd_1 2
+1 VPWR
+2 VGND
+% sky130_fd_sc_hd__decap_6 4
+1 VPWR
+2 VGND
+3 VNB
+4 VPB
+% sky130_fd_sc_hd__decap_3 4
+1 VPWR
+2 VGND
+3 VNB
+4 VPB
+% sky130_fd_sc_hd__decap_12 4
+1 VPWR
+2 VGND
+3 VNB
+4 VPB
+% sky130_fd_sc_hd__decap_4 4
+1 VPWR
+2 VGND
+3 VNB
+4 VPB
+% sky130_fd_sc_hd__decap_8 4
+1 VPWR
+2 VGND
+3 VNB
+4 VPB
+% sky130_fd_sc_hd__fill_2 4
+1 VPWR
+2 VGND
+3 VNB
+4 VPB
+% sky130_fd_sc_hd__fill_1 4
+1 VPWR
+2 VGND
+3 VNB
+4 VPB
+% M2M3_PR 1
+% M1M2_PR 1
+% L1M1_PR 1
+% M3M4_PR 1
+% digital_ldo_top_VIA0 1
+% digital_ldo_top_VIA1 1
+% digital_ldo_top_VIA2 1
+% digital_ldo_top_VIA3 1
+% digital_ldo_top_VIA4 1
+% digital_ldo_top_VIA5 1
+% digital_ldo_top_VIA7 1
+% digital_ldo_top_VIA8 1
+% digital_ldo_top_VIA9 1
+% digital_ldo_top_VIA10 1
+% digital_ldo_top_VIA11 1
+% digital_ldo_top_VIA12 1
+% digital_ldo_top_VIA13 1
+% digital_ldo_top_VIA15 1
+% digital_ldo_top_VIA16 1
+% digital_ldo_top_VIA18 1
+% MASCO__Y1 1
+% MASCO__Y2 1
+% MASCO__B31 2
+% MASCO__B32 2
+% MASCO__B33 2
+% MASCO__B35 2
+% MASCO__B37 2
+% MASCO__B39 2
+% MASCO__B40 2
+% MASCO__B63 2
+% MASCO__B64 2
+% MASCO__B65 2
+% MASCO__B66 2
+% MASCO__B67 2
+% digital_ldo_top 39
+2 VDD
+3 VSS
+8 clk
+10 ldotop_vout
+45 ldotop_rst
+122 ldotop_vref
+123 ldotop_en
+124 ldotop_test_in[19]
+125 ldotop_test_in[4]
+126 ldotop_test_in[20]
+127 ldotop_test_in[21]
+128 ldotop_test_in[22]
+129 ldotop_test_in[5]
+130 ldotop_test_in[23]
+131 ldotop_test_in[6]
+132 ldotop_test_in[24]
+133 ldotop_test_in[25]
+134 ldotop_test_in[26]
+135 ldotop_test_in[27]
+136 ldotop_test_in[7]
+137 ldotop_test_in[28]
+138 ldotop_test_in[8]
+139 ldotop_test_in[29]
+140 ldotop_test_in[30]
+141 ldotop_test_in[14]
+142 ldotop_test_in[9]
+143 ldotop_test_in[31]
+144 ldotop_test_in[10]
+145 ldotop_test_in[11]
+146 ldotop_test_in[13]
+147 ldotop_test_in[12]
+148 ldotop_test_in[15]
+149 ldotop_test_in[1]
+150 ldotop_test_in[0]
+151 ldotop_test_in[2]
+152 ldotop_test_in[16]
+153 ldotop_test_in[17]
+154 ldotop_test_in[18]
+155 ldotop_test_in[3]

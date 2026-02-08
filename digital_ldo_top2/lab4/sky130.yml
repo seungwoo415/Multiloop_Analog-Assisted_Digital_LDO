@@ -1,0 +1,147 @@
+# Technology Setup
+# Technology used is Sky130
+vlsi.core.technology: hammer.technology.sky130
+technology.sky130:
+  sky130A: "/home/ff/eecs151/fa24/pdk/sky130A"  
+  #sram22_sky130_macros: "/home/ff/eecs151/fa24/sky130_srams/sram22_sky130_macros"  
+  sky130_cds:    "/home/ff/eecs151/fa24/pdk/sky130_release_0.0.4"
+  #sky130_cds: "/tmp/sky130_release_0.0.4"
+  #sky130_scl: "/home/ff/eecs151/fa24/pdk/sky130_scl_9T_0.0.5"
+  #stdcell_library: "sky130_scl"
+  
+# for sky130_scl
+#technology.core.stackup: "sky130_scl"
+technology.core.stackup: "sky130_fd_sc_hd"
+#vlsi.technology.placement_site: "CoreSite"
+vlsi.technology.routing_layers: [2, 5] 
+
+vlsi.core.max_threads: 8
+
+# General Hammer Inputs
+
+vlsi.inputs.supplies.VDD: "1.8 V"
+
+# Hammer will auto-generate a CPF for simple power designs; see hammer/src/hammer-vlsi/defaults.yml for more info
+vlsi.inputs.power_spec_mode: "auto"
+vlsi.inputs.power_spec_type: "cpf"
+
+vlsi.inputs.supplies.power: [
+  {name: "VDD", voltage: "1.8" , pins: ["vdd", "VDD"]}
+]
+vlsi.inputs.supplies.ground: [
+  {name: "VSS", pins: ["vss", "VSS"]}
+]
+
+# Specify the setup and hold corners for Sky130
+vlsi.inputs.mmmc_corners: [
+  {name: "ss_100C_1v60", type: "setup", voltage: "1.60 V", temp: "100 C"},
+  {name: "ff_n40C_1v95", type: "hold", voltage: "1.95 V", temp: "-40 C"}
+]
+
+special_cells.cell_type: "endcap"
+special_cells.name: "sky130_fd_sc_hd__tapvpwrvgnd_1" 
+
+# SRAM Compiler compiler options
+#vlsi.core.sram_generator_tool: "hammer.technology.sky130.sram_compiler"
+# Specify this since we are not using macrocompiler
+#vlsi.inputs.sram_parameters: "/home/ff/eecs151/fa24/hammer/hammer/technology/sky130/sram-cache.json"  
+#vlsi.inputs.sram_parameters_meta: ["transclude", "json2list"]
+
+# Tool options. Replace with your tool plugin of choice.
+# Genus options
+vlsi.core.synthesis_tool: "hammer.synthesis.genus"
+synthesis.genus.version: "211"
+synthesis.genus.genus_bin: "/share/instsww/cadence/DDI221/GENUS221/bin/genus"
+
+# Innovus options
+vlsi.core.par_tool: "hammer.par.innovus"
+par.innovus.version: "221"
+par.innovus.innovus_bin: "/share/instsww/cadence/DDI221/INNOVUS221/bin/innovus"
+par.innovus.design_flow_effort: "standard"
+par.inputs.gds_merge: true
+
+# Calibre options
+vlsi.core.drc_tool: "hammer.drc.pegasus"
+vlsi.core.lvs_tool: "hammer.lvs.pegasus"
+lvs.pegasus.pegasus_bin: "${cadence.cadence_home}/PEGASUS221/bin/pegasus" 
+drc.pegasus.pegasus_bin: "${cadence.cadence_home}/PEGASUS221/bin/pegasus"
+#lvs_decks.path: "/home/ff/eecs151/fa23/pdk_final/sky130_cds/sky130_prelim_release_091123/pegasus/sky130_rev0001.lvs.pvl"
+#drc.calibre.calibre_drc_bin: "/share/instsww/mgc/CALIBRE/bin/calibre"
+#drc.calibre.calibredrv_bin: "/share/instsww/mgc/CALIBRE/bin/calibredrv"
+#drc.calibre.MGC_HOME: "/shared/instsww/mgc"
+#lvs.calibre.calibre_lvs_bin: "/share/instsww/mgc/CALIBRE/bin/calibre"
+#lvs.calibre.calibredrv_bin: "/share/instsww/mgc/CALIBRE/bin/calibredrv"
+#lvs.calibre.v2lvs_bin: "/share/instsww/mgc/CALIBRE/bin/v2lvs"
+#lvs.calibre.MGC_HOME: "/shared/instsww/mgc"
+
+# VCS options
+vlsi.core.sim_tool: "hammer.sim.vcs"
+sim.vcs.version: "P-2019.06"
+
+# Voltus options
+vlsi.core.power_tool: "hammer.power.voltus"
+power.voltus.version: "221"
+power.voltus.voltus_bin: "/share/instsww/cadence/SSV221/bin/voltus"
+
+# Generate Make include to aid in flow 
+vlsi.core.build_system: make 
+
+# Power Straps
+par.power_straps_mode: generate
+par.power_straps_script_contents: >
+  set_db add_stripes_stacked_via_bottom_layer met1
+  set_db add_stripes_stacked_via_top_layer met1
+  set_db add_stripes_spacing_from_block 2.000
+  add_stripes -pin_layer met1 -layer met1 -over_pins 1 -master "sky130_fd_sc_hd__tapvpwrvgnd_1" -block_ring_bottom_layer_limit met1 -block_ring_top_layer_limit met1 -pad_core_ring_bottom_layer_limit met1 -pad_core_ring_top_layer_limit met1 -direction horizontal -width pin_width -nets { VSS VDD }
+
+  set_db add_stripes_stacked_via_top_layer met2
+  set_db add_stripes_stacked_via_bottom_layer met1
+  set_db add_stripes_trim_antenna_back_to_shape {stripe}
+  set_db add_stripes_spacing_from_block 6.000
+  add_stripes -create_pins 0 -block_ring_bottom_layer_limit met2 -block_ring_top_layer_limit met1 -direction vertical -layer met2 -nets {VSS VDD} -pad_core_ring_bottom_layer_limit met1 -set_to_set_distance 3.68 -spacing 0.88 -switch_layer_over_obs 0 -width 0.50 -area [get_db designs .core_bbox] -start [expr [lindex [lindex [get_db designs .core_bbox] 0] 0] + 0.90]
+
+  set_db add_stripes_stacked_via_top_layer met3
+  set_db add_stripes_stacked_via_bottom_layer met2
+  set_db add_stripes_trim_antenna_back_to_shape {stripe}
+  set_db add_stripes_spacing_from_block 2.000
+  add_stripes -create_pins 0 -block_ring_bottom_layer_limit met3 -block_ring_top_layer_limit met2 -direction horizontal -layer met3 -nets {VSS VDD} -pad_core_ring_bottom_layer_limit met2 -set_to_set_distance 4.08 -spacing 0.90 -switch_layer_over_obs 0 -width 0.46 -area [get_db designs .core_bbox] -start [expr [lindex [lindex [get_db designs .core_bbox] 0] 1] + 1.47]
+
+  set_db add_stripes_stacked_via_top_layer met4
+  set_db add_stripes_stacked_via_bottom_layer met3
+  set_db add_stripes_trim_antenna_back_to_shape {stripe}
+  set_db add_stripes_spacing_from_block 2.000
+  add_stripes -create_pins 0 -block_ring_bottom_layer_limit met4 -block_ring_top_layer_limit met3 -direction vertical -layer met4 -nets {VSS VDD} -pad_core_ring_bottom_layer_limit met3 -set_to_set_distance 5.52 -spacing 0.90 -switch_layer_over_obs 0 -width 0.94 -area [get_db designs .core_bbox] -start [expr [lindex [lindex [get_db designs .core_bbox] 0] 0] + 1.83]
+
+  set_db add_stripes_stacked_via_top_layer met5
+  set_db add_stripes_stacked_via_bottom_layer met4
+  set_db add_stripes_trim_antenna_back_to_shape {stripe}
+  set_db add_stripes_spacing_from_block 2.000
+  add_stripes -block_ring_bottom_layer_limit met5 -block_ring_top_layer_limit met4 -direction horizontal -extend_to design_boundary -layer met5 -nets {VSS VDD} -pad_core_ring_bottom_layer_limit met4 -set_to_set_distance 20.4 -spacing 4.8 -switch_layer_over_obs 0 -width 2.0 -start [expr [lindex [lindex [get_db designs .core_bbox] 0] 1] + 7.5]
+
+par.generate_power_straps_method: by_tracks
+par.blockage_spacing: 2.0
+par.blockage_spacing_top_layer: met3
+par.generate_power_straps_options:
+  by_tracks:
+    strap_layers:      
+      - met2
+      - met3
+      - met4
+      - met5
+    blockage_spacing_met2: 6.0
+    blockage_spacing_met4: 2.0 
+    track_width: 1
+    track_width_met1: 1
+    track_width_met5: 1
+    track_spacing: 1
+    track_spacing_met1: 1
+    track_spacing_met2: 2
+    track_start: 1
+    track_start_met5: 1
+    power_utilization: 0.5
+    power_utilization_met1: 0.5
+    power_utilization_met2: 0.5
+    power_utilization_met3: 0.5 
+    power_utilization_met4: 0.5
+    power_utilization_met5: 0.5
+
